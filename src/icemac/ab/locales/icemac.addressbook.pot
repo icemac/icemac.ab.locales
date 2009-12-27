@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Development/Unknown\n"
-"POT-Creation-Date: Wed Dec 23 08:28:07 2009\n"
+"POT-Creation-Date: Sun Dec 27 15:08:30 2009\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
@@ -22,6 +22,118 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: zope/app/locales/extract.py\n"
+
+#: icemac/ab/importer/browser/importer.py:13
+msgid "No import files uploaded, yet."
+msgstr ""
+
+#: icemac/ab/importer/browser/importer.py:22
+msgid "MIME type"
+msgstr ""
+
+#: icemac/ab/importer/browser/importer.py:25
+msgid "Notes"
+msgstr ""
+
+#: icemac/ab/importer/browser/importer.py:35
+msgid "Import"
+msgstr ""
+
+#: icemac/ab/importer/browser/wizard/base.py:20
+msgid "Import Wizard"
+msgstr ""
+
+#: icemac/ab/importer/browser/wizard/complete.py:13
+msgid "Complete"
+msgstr ""
+
+#: icemac/ab/importer/browser/wizard/edit.py:14
+msgid "Edit import file"
+msgstr ""
+
+#: icemac/ab/importer/browser/wizard/map.py:212
+#: icemac/ab/importer/browser/wizard/map.py:223
+#: icemac/ab/importer/browser/wizard/map.py:263
+msgid "Value %s not allowed. Allowed values: %s"
+msgstr ""
+
+#: icemac/ab/importer/browser/wizard/map.py:221
+msgid "%s resp. %s"
+msgstr ""
+
+#: icemac/ab/importer/browser/wizard/map.py:232
+msgid "%s is no valid date."
+msgstr ""
+
+#: icemac/ab/importer/browser/wizard/map.py:239
+msgid "%s is no valid datetime. Must match to format string %r."
+msgstr ""
+
+#: icemac/ab/importer/browser/wizard/map.py:247
+msgid "%s is not a valid integer number."
+msgstr ""
+
+#: icemac/ab/importer/browser/wizard/map.py:255
+msgid "%s is not a valid decimal number."
+msgstr ""
+
+#: icemac/ab/importer/browser/wizard/map.py:271
+msgid "%s is not a valid e-mail address."
+msgstr ""
+
+#: icemac/ab/importer/browser/wizard/map.py:277
+msgid "Not enough data fields in row."
+msgstr ""
+
+#: icemac/ab/importer/browser/wizard/map.py:483
+msgid "Map fields"
+msgstr ""
+
+#: icemac/ab/importer/browser/wizard/map.py:498
+#: icemac/ab/importer/browser/wizard/review.py:122
+msgid "main"
+msgstr ""
+
+#: icemac/ab/importer/browser/wizard/map.py:503
+#: icemac/ab/importer/browser/wizard/review.py:131
+msgid "other"
+msgstr ""
+
+#: icemac/ab/importer/browser/wizard/reader.py:16
+msgid "Import file reader"
+msgstr ""
+
+#: icemac/ab/importer/browser/wizard/reader.py:20
+msgid "Number of e.g. phone numbers per person"
+msgstr ""
+
+#: icemac/ab/importer/browser/wizard/reader.py:28
+msgid "Reader settings"
+msgstr ""
+
+#: icemac/ab/importer/browser/wizard/review.py:100
+msgid "Keep imported data?"
+msgstr ""
+
+#: icemac/ab/importer/browser/wizard/review.py:109
+msgid "There was nothing to import in the import file."
+msgstr ""
+
+#: icemac/ab/importer/browser/wizard/review.py:171
+msgid "Errors:"
+msgstr ""
+
+#: icemac/ab/importer/browser/wizard/review.py:196
+msgid "Review imported data"
+msgstr ""
+
+#: icemac/ab/importer/reader/csv/csv.py:47
+msgid "CSV file (comma separated fields, ISO-dates, UTF-8 encoded)"
+msgstr ""
+
+#: icemac/ab/importxls/xls.py:17
+msgid "Microsoft Excel file"
+msgstr ""
 
 #: icemac/addressbook/address.py:112
 msgid "phone number"
@@ -49,10 +161,6 @@ msgstr ""
 
 #: icemac/addressbook/addressbook.py:47
 msgid "address book"
-msgstr ""
-
-#: icemac/addressbook/base.zcml:23
-msgid "Site Manager"
 msgstr ""
 
 #: icemac/addressbook/browser/addressbook/add.py:14
@@ -365,18 +473,6 @@ msgstr ""
 msgid "Address book - Export"
 msgstr ""
 
-#: icemac/addressbook/file/configure.zcml:14
-msgid "ViewFile"
-msgstr ""
-
-#: icemac/addressbook/file/configure.zcml:4
-msgid "AddFile"
-msgstr ""
-
-#: icemac/addressbook/file/configure.zcml:9
-msgid "EditFile"
-msgstr ""
-
 #: icemac/addressbook/file/interfaces.py:14
 msgid "Name of the file."
 msgstr ""
@@ -479,79 +575,6 @@ msgstr ""
 msgid "This keyword already exists."
 msgstr ""
 
-#: icemac/addressbook/permissions.zcml:11
-msgid "EditAddressBook"
-msgstr ""
-
-#: icemac/addressbook/permissions.zcml:16
-msgid "EditAddressBookContents"
-msgstr ""
-
-#: icemac/addressbook/permissions.zcml:21
-msgid "ViewAddressBook"
-msgstr ""
-
-#: icemac/addressbook/permissions.zcml:27
-#: icemac/addressbook/permissions.zcml:37
-#: icemac/addressbook/permissions.zcml:42
-#: icemac/addressbook/permissions.zcml:48
-#: icemac/addressbook/permissions.zcml:53
-#: icemac/addressbook/permissions.zcml:58
-#: icemac/addressbook/permissions.zcml:64
-#: icemac/addressbook/permissions.zcml:69
-#: icemac/addressbook/permissions.zcml:74
-#: icemac/addressbook/permissions.zcml:80
-#: icemac/addressbook/permissions.zcml:85
-#: icemac/addressbook/permissions.zcml:90
-#: icemac/addressbook/permissions.zcml:96
-#: icemac/addressbook/permissions.zcml:101
-#: icemac/addressbook/permissions.zcml:106
-#: icemac/addressbook/permissions.zcml:112
-#: icemac/addressbook/permissions.zcml:117
-#: icemac/addressbook/permissions.zcml:122
-#: icemac/addressbook/permissions.zcml:128
-#: icemac/addressbook/permissions.zcml:133
-#: icemac/addressbook/permissions.zcml:138
-#: icemac/addressbook/permissions.zcml:144
-msgid "XXX"
-msgstr ""
-
-#: icemac/addressbook/permissions.zcml:32
-msgid "Edit person contents"
-msgstr ""
-
-#: icemac/addressbook/permissions.zcml:6
-msgid "AddAddressBook"
-msgstr ""
-
-#: icemac/addressbook/principals/configure.zcml:14
-msgid "AddPrincipal"
-msgstr ""
-
-#: icemac/addressbook/principals/configure.zcml:19
-msgid "EditPrincipal"
-msgstr ""
-
-#: icemac/addressbook/principals/configure.zcml:24
-msgid "EditPrincipalRoles"
-msgstr ""
-
-#: icemac/addressbook/principals/configure.zcml:29
-msgid "EditPrincipalPassword"
-msgstr ""
-
-#: icemac/addressbook/principals/configure.zcml:34
-msgid "ViewPrincipal"
-msgstr ""
-
-#: icemac/addressbook/principals/configure.zcml:4
-msgid "ViewSomePrincipals"
-msgstr ""
-
-#: icemac/addressbook/principals/configure.zcml:9
-msgid "EditAllPrincipals"
-msgstr ""
-
 #: icemac/addressbook/principals/interfaces.py:18
 msgid "password"
 msgstr ""
@@ -586,30 +609,6 @@ msgstr ""
 
 #: icemac/addressbook/principals/principals.py:135
 msgid "<no person>"
-msgstr ""
-
-#: icemac/addressbook/roles.zcml:155
-msgid "Visitor"
-msgstr ""
-
-#: icemac/addressbook/roles.zcml:155
-msgid "Role which allows global visiting of data"
-msgstr ""
-
-#: icemac/addressbook/roles.zcml:221
-msgid "Administrator for the Addressbook"
-msgstr ""
-
-#: icemac/addressbook/roles.zcml:221
-msgid "Administrator"
-msgstr ""
-
-#: icemac/addressbook/roles.zcml:4
-msgid "Editor"
-msgstr ""
-
-#: icemac/addressbook/roles.zcml:4
-msgid "Role which allows global editing of data"
 msgstr ""
 
 #: icemac/addressbook/sources.py:30
