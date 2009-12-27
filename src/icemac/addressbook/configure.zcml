@@ -1,0 +1,124 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="icemac.addressbook">
+
+  <exclude package="zope.app.authentication.browser" file="session.zcml" />
+  <exclude package="zope.app.authentication.browser" file="httpplugins.zcml" />
+  <exclude package="zope.app.authentication.browser" file="principalfolder.zcml" />
+  <exclude package="zope.app.authentication.browser" file="groupfolder.zcml" />
+  <exclude package="zope.app.authentication.browser" />
+  <exclude package="zc.catalog.browser" />
+  <exclude package="zope.dublincore.browser" />
+  <exclude package="z3c.form" file="file.zcml" />
+
+
+  <include package="zope.security" file="meta.zcml" />
+  <include package="zope.component" file="meta.zcml" />
+  <include package="zope.app.pagetemplate" file="meta.zcml" />
+  <include package="zope.app.publication" file="meta.zcml" />
+  <include package="zope.principalregistry" file="meta.zcml" />
+  <include package="zope.i18n" file="meta.zcml" />
+  <include package="zope.browserpage" file="meta.zcml" />
+  <include package="zope.browserresource" file="meta.zcml" />
+  <include package="zope.publisher" file="meta.zcml" />
+
+  <include package="zope.app.generations" file="subscriber.zcml" />
+
+  <include package="zope.app.appsetup" />
+  <include package="zope.security" />
+  <include package="zope.site" />
+  <include package="zope.error" />
+  <include package="zope.dublincore" />
+  <include package="zope.publisher" />
+  <include package="zope.traversing" />
+  <include package="zope.traversing.browser" />
+  <include package="zope.session" />
+  <include package="zope.keyreference" />
+  <include package="zope.intid" />
+  <include package="zope.catalog" />
+  <include package="zope.principalregistry" />
+  <include package="zope.container" />
+  <include package="zope.app.publication" />
+  <include package="zope.i18n" />
+  <include package="zope.app.principalannotation" file="bootstrap.zcml"/>
+  <include package="zope.location" />
+  <include package="zope.component" />
+  <include package="zope.app.authentication" />
+
+  <!-- own component registrations -->
+
+  <include package="zope.securitypolicy" file="meta.zcml" />
+  <include package="zope.viewlet" file="meta.zcml" />
+  <include package="z3c.form" file="meta.zcml" />
+ <include package="z3c.macro" file="meta.zcml" />
+  <include package="z3c.template" file="meta.zcml" />
+  <include package="z3c.pagelet" file="meta.zcml" />
+  <include package="gocept.pagelet" file="meta.zcml" />
+  <include package="zope.mimetype" file="meta.zcml" />
+  <include package="z3c.menu.ready2go" file="meta.zcml"/>
+
+  <include package="z3c.layer.pagelet" />
+  <include package="z3c.authviewlet" />
+  <include package="z3c.locales" />
+  <include package="gocept.country"/>
+  <include package="gocept.reference"/>
+  <include package="z3c.form" />
+  <include package="z3c.formui" />
+  <include package="z3c.macro" />
+  <include package="z3c.menu.ready2go"/>
+  <include package="z3c.pagelet" />
+  <include package="z3c.table" />
+  <include package="zc.catalog"/>
+  <include package="zc.sourcefactory" />
+  <include package="zope.contentprovider" />
+  <include package="zope.securitypolicy" />
+  <include package="z3c.pt" />
+  <include package="zope.mimetype" />
+
+  <include package=".browser" />
+  <include package=".export" />
+  <include package=".file" />
+  <include package=".generations" />
+  <include package=".principals" />
+  <include package=".namechooser" />
+
+  <include file="permissions.zcml" />
+  <include file="classes.zcml" />
+
+  <subscriber handler=".addressbook.create_address_book_infrastructure" />
+  <subscriber handler=".person.person_created" />
+  <subscriber handler=".keyword.changed" />
+  <adapter factory=".person.Keywords" />
+  <adapter factory=".person.title" />
+  <adapter factory=".keyword.title" />
+  <subscriber
+      for="icemac.addressbook.interfaces.IKeyword
+           zope.lifecycleevent.IObjectModifiedEvent"
+      handler=".keyword.uniqueTitles" />
+  <subscriber
+      for="icemac.addressbook.interfaces.IKeyword
+           zope.container.interfaces.IObjectAddedEvent"
+      handler=".keyword.uniqueTitles" />
+
+  <adapter factory=".adapter.gocept_country_title"
+           for="gocept.country.interfaces.ICountry"/>
+  <adapter factory=".adapter.gocept_country_title"
+           for="gocept.country.db.Subdivision"/>
+  <adapter factory=".adapter.title_for_choice_value" />
+  <adapter factory=".adapter.default_title" />
+  <adapter factory=".adapter.principal_root" />
+
+  <adapter factory=".address.postal_address_title" />
+  <adapter factory=".address.email_address_title" />
+  <adapter factory=".address.home_page_address_title" />
+  <adapter factory=".address.phone_number_title" />
+
+  <utility factory=".entities.Entities" />
+  <adapter factory=".entities.field_storage" />
+
+  <i18n:registerTranslations directory="locales" />
+
+  <includeOverrides file="overrides.zcml" />
+
+</configure>
