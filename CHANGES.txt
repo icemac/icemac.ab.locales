@@ -2,7 +2,7 @@
 Change log
 ==========
 
-0.1 (unreleased)
+0.1 (2009-12-29)
 ================
 
 - Split out from `icemac.addressbook`.
