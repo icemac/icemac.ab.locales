@@ -1,0 +1,151 @@
+##############################################################################
+#
+# Copyright (c) 2003-2004 Zope Corporation and Contributors.
+# All Rights Reserved.
+#
+# This software is subject to the provisions of the Zope Public License,
+# Version 2.1 (ZPL).  A copy of the ZPL should accompany this distribution.
+# THIS SOFTWARE IS PROVIDED "AS IS" AND ANY AND ALL EXPRESS OR IMPLIED
+# WARRANTIES ARE DISCLAIMED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+# WARRANTIES OF TITLE, MERCHANTABILITY, AGAINST INFRINGEMENT, AND FITNESS
+# FOR A PARTICULAR PURPOSE.
+#
+##############################################################################
+msgid ""
+msgstr ""
+"Project-Id-Version: Development/Unknown\n"
+"POT-Creation-Date: Tue Dec 29 15:23:35 2009\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: zope/app/locales/extract.py\n"
+
+#: zope/mimetype/interfaces.py:147
+msgid "MIME types"
+msgstr ""
+
+#: zope/mimetype/interfaces.py:148
+msgid "List of MIME types represented by this interface; the first should be considered the preferred MIME type."
+msgstr ""
+
+#: zope/mimetype/interfaces.py:158
+msgid "Extensions"
+msgstr ""
+
+#: zope/mimetype/interfaces.py:159
+msgid "Filename extensions commonly associated with this type of file."
+msgstr ""
+
+#: zope/mimetype/interfaces.py:181
+msgid "Effective MIME type"
+msgstr ""
+
+#: zope/mimetype/interfaces.py:182
+msgid "MIME type that should be reported when downloading the document this `IContentInfo` object is for."
+msgstr ""
+
+#: zope/mimetype/interfaces.py:190
+msgid "Effective parameters"
+msgstr ""
+
+#: zope/mimetype/interfaces.py:191
+msgid "Content-Type parameters that should be reported  when downloading the document this `IContentInfo` object is for."
+msgstr ""
+
+#: zope/mimetype/interfaces.py:200
+msgid "Content type"
+msgstr ""
+
+#: zope/mimetype/interfaces.py:201
+msgid "The value of the Content-Type header, including both the MIME type and any parameters."
+msgstr ""
+
+#: zope/mimetype/interfaces.py:262
+#: zope/mimetype/interfaces.py:292
+#: zope/mimetype/zcml.py:96
+#: zope/mimetype/zcml.py:118
+msgid "Name"
+msgstr ""
+
+#: zope/mimetype/interfaces.py:263
+#: zope/mimetype/zcml.py:97
+#: zope/mimetype/zcml.py:119
+msgid "The name of the Python codec."
+msgstr ""
+
+#: zope/mimetype/interfaces.py:268
+#: zope/mimetype/zcml.py:102
+msgid "Title"
+msgstr ""
+
+#: zope/mimetype/interfaces.py:269
+msgid "The human-readable name of this codec."
+msgstr ""
+
+#: zope/mimetype/interfaces.py:293
+msgid "The charset name. This is what is used for the 'charset' parameter in content-type headers."
+msgstr ""
+
+#: zope/mimetype/interfaces.py:301
+msgid "Encoding"
+msgstr ""
+
+#: zope/mimetype/interfaces.py:302
+msgid "The id of the encoding used for this charset."
+msgstr ""
+
+#: zope/mimetype/interfaces.py:318
+msgid "Preferred Charset"
+msgstr ""
+
+#: zope/mimetype/interfaces.py:319
+msgid "Charset that should be used to represent the codec"
+msgstr ""
+
+#: zope/mimetype/interfaces.py:70
+msgid "Mime Type Parameters"
+msgstr ""
+
+#: zope/mimetype/interfaces.py:71
+msgid "The MIME type parameters (such as charset)."
+msgstr ""
+
+#: zope/mimetype/interfaces.py:77
+msgid "Mime Type"
+msgstr ""
+
+#: zope/mimetype/interfaces.py:78
+msgid "The mime type explicitly specified for the object that this MIME information describes, if any.  May be None, or an ASCII MIME type string of the form major/minor."
+msgstr ""
+
+#: zope/mimetype/zcml.py:103
+msgid "The human-readable name for this codec."
+msgstr ""
+
+#: zope/mimetype/zcml.py:124
+msgid "Preferred"
+msgstr ""
+
+#: zope/mimetype/zcml.py:125
+msgid "Is this is the preferred charset for the encoding."
+msgstr ""
+
+#: zope/mimetype/zcml.py:40
+msgid "File"
+msgstr ""
+
+#: zope/mimetype/zcml.py:41
+msgid "Path of the CSV file to load registrations from."
+msgstr ""
+
+#: zope/mimetype/zcml.py:46
+msgid "Module"
+msgstr ""
+
+#: zope/mimetype/zcml.py:47
+msgid "Module which contains the interfaces referenced from the CSV file."
+msgstr ""
+

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: icemac.addressbook\n"
-"POT-Creation-Date: Mon Dec 28 20:34:31 2009\n"
+"POT-Creation-Date: Tue Dec 29 14:41:47 2009\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Michael Howitz <mh@gocept.com>\n"
 "Language-Team: Michael Howitz <icemac@gmx.net>\n"
@@ -17,6 +17,15 @@ msgstr ""
 msgid "Import data"
 msgstr "Daten importieren"
 
+#: icemac/ab/importer/browser/importer.pt:2
+msgid "Files for import"
+msgstr "Importdokumente"
+
+#: icemac/ab/importer/browser/importer.pt:5
+#: icemac/ab/importer/browser/readers.pt:2
+msgid "Registered import file readers"
+msgstr "Benutzbare Leseeinheiten für Importdokumente"
+
 #: icemac/ab/importer/browser/importer.py:13
 msgid "No import files uploaded, yet."
 msgstr "Es wurden noch keine Importdokumente hochgeladen."
@@ -27,72 +36,93 @@ msgstr "Dokumentart"
 
 #: icemac/ab/importer/browser/importer.py:25
 msgid "Notes"
-msgstr "Notes"
+msgstr "Anmerkungen"
 
 #: icemac/ab/importer/browser/importer.py:35
 #: icemac/ab/importer/configure.zcml:4
 msgid "Import"
-msgstr "Import"
+msgstr "Importieren"
+
+#: icemac/ab/importer/browser/readers.pt:8
+msgid "Go back"
+msgstr "Zurück"
 
 #: icemac/ab/importer/browser/wizard/base.py:20
 msgid "Import Wizard"
 msgstr "Importassistent"
 
+#: icemac/ab/importer/browser/wizard/complete.pt:4
+msgid "Import complete."
+msgstr "Import abgeschlossen."
+
 #: icemac/ab/importer/browser/wizard/complete.py:13
 msgid "Complete"
-msgstr "Vollständig"
+msgstr "Abschluss"
 
 #: icemac/ab/importer/browser/wizard/edit.py:14
 msgid "Edit import file"
 msgstr "Importdokument bearbeiten"
 
+#. Default: ""
 #: icemac/ab/importer/browser/wizard/map.py:212
-#: icemac/ab/importer/browser/wizard/map.py:223
-#: icemac/ab/importer/browser/wizard/map.py:263
-msgid "Value %s not allowed. Allowed values: %s"
-msgstr "Der Wert %s ist nicht erlaubt. Erlaubte Werte sind: %s"
+#: icemac/ab/importer/browser/wizard/map.py:222
+#: icemac/ab/importer/browser/wizard/map.py:265
+msgid "Value ${value} is not allowed. Allowed values are: ${values}"
+msgstr "Der Wert ${value} ist nicht erlaubt. Erlaubte Werte sind: ${values}"
 
-#: icemac/ab/importer/browser/wizard/map.py:221
-msgid "%s resp. %s"
-msgstr "%s bzw. %s"
+#. Default: ""
+#: icemac/ab/importer/browser/wizard/map.py:231
+msgid "${value} is no valid date."
+msgstr "${value} ist kein gültiges Datum."
 
-#: icemac/ab/importer/browser/wizard/map.py:232
-msgid "%s is no valid date."
-msgstr "%s ist kein gültiges Datum."
+#. Default: ""
+#: icemac/ab/importer/browser/wizard/map.py:238
+msgid "${value} is no valid datetime. Must match to format string \"${format}\"."
+msgstr "${value} ist keine gültige Kombination aus Datum und Uhrzeit. Sie muss zu folgendem Format passen: ${format}."
 
-#: icemac/ab/importer/browser/wizard/map.py:239
-msgid "%s is no valid datetime. Must match to format string %r."
-msgstr "%s ist keine gültige Kombination aus Datum und Uhrzeit. Sie muss zu folgendem Format passen: %r."
-
+#. Default: ""
 #: icemac/ab/importer/browser/wizard/map.py:247
-msgid "%s is not a valid integer number."
-msgstr "%s ist keine gültige Ganzzahl."
+msgid "${value} is not a valid integer number."
+msgstr "${value} ist keine gültige Ganzzahl."
 
-#: icemac/ab/importer/browser/wizard/map.py:255
-msgid "%s is not a valid decimal number."
-msgstr "%s ist keine gültige Dezimalzahl."
+#. Default: ""
+#: icemac/ab/importer/browser/wizard/map.py:256
+msgid "${value} is not a valid decimal number."
+msgstr "${value} ist keine gültige Dezimalzahl."
 
-#: icemac/ab/importer/browser/wizard/map.py:271
-msgid "%s is not a valid e-mail address."
-msgstr "%s ist keine gültige E-Mail-Adresse."
+#. Default: ""
+#: icemac/ab/importer/browser/wizard/map.py:274
+msgid "${value} is not a valid e-mail address."
+msgstr "${value} ist keine gültige E-Mail-Adresse."
 
-#: icemac/ab/importer/browser/wizard/map.py:277
+#: icemac/ab/importer/browser/wizard/map.py:281
 msgid "Not enough data fields in row."
 msgstr "In der Zeile befinden sich nicht genügend Daten."
 
-#: icemac/ab/importer/browser/wizard/map.py:483
+#. Default: ""
+#: icemac/ab/importer/browser/wizard/map.py:312
+msgid "${title}: ${message}"
+msgstr "${title}: ${message}"
+
+#: icemac/ab/importer/browser/wizard/map.py:495
 msgid "Map fields"
 msgstr "Felder zuweisen"
 
-#: icemac/ab/importer/browser/wizard/map.py:498
-#: icemac/ab/importer/browser/wizard/review.py:122
+#: icemac/ab/importer/browser/wizard/map.py:510
+#: icemac/ab/importer/browser/wizard/review.py:123
 msgid "main"
 msgstr "wichtigste"
 
-#: icemac/ab/importer/browser/wizard/map.py:503
-#: icemac/ab/importer/browser/wizard/review.py:131
+#: icemac/ab/importer/browser/wizard/map.py:515
+#: icemac/ab/importer/browser/wizard/review.py:132
 msgid "other"
 msgstr "weitere"
+
+#. Default: ""
+#: icemac/ab/importer/browser/wizard/map.py:516
+#: icemac/ab/importer/browser/wizard/review.py:133
+msgid "${prefix} ${title}"
+msgstr "${prefix} ${title}"
 
 #: icemac/ab/importer/browser/wizard/reader.py:16
 msgid "Import file reader"
@@ -104,23 +134,41 @@ msgstr "Anzahl von beisp. Telefonnummern pro Person"
 
 #: icemac/ab/importer/browser/wizard/reader.py:28
 msgid "Reader settings"
-msgstr "Einstellungen der Leseeinheit"
+msgstr "Leseeinheit einstellen"
 
-#: icemac/ab/importer/browser/wizard/review.py:100
+#: icemac/ab/importer/browser/wizard/review.py:101
 msgid "Keep imported data?"
 msgstr "Importierte Daten speichern?"
 
-#: icemac/ab/importer/browser/wizard/review.py:109
+#: icemac/ab/importer/browser/wizard/review.py:110
 msgid "There was nothing to import in the import file."
 msgstr "Im Importdokument wurde nichts gefunden, was importiert werden könnte."
 
-#: icemac/ab/importer/browser/wizard/review.py:171
+#. Default: ""
+#: icemac/ab/importer/browser/wizard/review.py:136
+msgid "<i>${prefix}</i><br />${title}"
+msgstr "<i>${prefix}</i><br />${title}"
+
+#. Default: ""
+#: icemac/ab/importer/browser/wizard/review.py:141
+msgid "<br />${title}"
+msgstr "<br />${title}"
+
+#: icemac/ab/importer/browser/wizard/review.py:177
 msgid "Errors:"
 msgstr "Fehler:"
 
-#: icemac/ab/importer/browser/wizard/review.py:196
+#: icemac/ab/importer/browser/wizard/review.py:204
 msgid "Review imported data"
-msgstr "Durchsicht der importierten Daten"
+msgstr "Importierte Daten durchsehen"
+
+#: icemac/ab/importer/browser/wizard/step.pt:28
+msgid "Steps:"
+msgstr "Schritte:"
+
+#: icemac/ab/importer/browser/wizard/step.pt:45
+msgid "Current step:"
+msgstr "Derzeitiger Schritt:"
 
 #: icemac/ab/importer/reader/csv/csv.py:47
 msgid "CSV file (comma separated fields, ISO-dates, UTF-8 encoded)"
@@ -270,22 +318,22 @@ msgstr "Entität"
 msgid "Edit fields"
 msgstr "Felder bearbeiten"
 
-#: icemac/addressbook/browser/entities/fields.py:105
+#: icemac/addressbook/browser/entities/fields.py:109
 msgid "Caution: When you delete this field, possibly data will get lost. Namely the data which was entered into this field when it was displayed in a form of an object."
 msgstr "Achtung: Wenn Sie dieses Feld löschen, gehen möglicherweise Daten verloren. Und zwar die Daten, die in dieses Feld eingegeben wurden, als es in einem Formular eines Objekts angezeigt wurde."
 
-#: icemac/addressbook/browser/entities/fields.py:63
+#: icemac/addressbook/browser/entities/fields.py:67
 msgid "Field"
 msgstr "Feld"
 
-#: icemac/addressbook/browser/entities/fields.py:66
+#: icemac/addressbook/browser/entities/fields.py:70
 #: icemac/addressbook/browser/keyword/keyword.py:58
 #: icemac/addressbook/browser/table.py:33
 #: icemac/addressbook/browser/rootfolder/rootfolder.pt:9
 msgid "Delete"
 msgstr "Löschen"
 
-#: icemac/addressbook/browser/entities/fields.py:69
+#: icemac/addressbook/browser/entities/fields.py:73
 msgid "Edit"
 msgstr "Bearbeiten"
 
@@ -418,8 +466,9 @@ msgstr "Wollen Sie diese Person und alle ihre Daten wirklich löschen?"
 
 #. Default: ""
 #: icemac/addressbook/browser/person/person.py:221
+#: icemac/ab/importer/browser/wizard/map.py:297
 msgid "${prefix} -- ${title}"
-msgstr "${prefix} -- ${title}"
+msgstr "${prefix} – ${title}"
 
 #: icemac/addressbook/browser/person/person.py:230
 msgid "Entries"
@@ -823,6 +872,13 @@ msgstr "Textzeile"
 #: icemac/addressbook/sources.py:87
 msgid "${title} (${desc})"
 msgstr "${title} (${desc})"
+
+#~ msgid "${token} resp. ${title}"
+#~ msgstr "${token} bzw. ${title}"
+#~ msgid "Value ${value} is not allowed. Allowed values are: %s"
+#~ msgstr "Der Wert ${value} ist nicht erlaubt. Erlaubte Werte sind: ${values}"
+#~ msgid "%s resp. %s"
+#~ msgstr "%s bzw. %s"
 
 #, fuzzy
 #~ msgid "main title"

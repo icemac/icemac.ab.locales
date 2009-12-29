@@ -51,5 +51,9 @@ setuptools.setup(
             'icemac.addressbook',
             'icemac.ab.importer',
             'icemac.ab.importxls',
-            ]),
+            ],
+        extractZopeMimetype = [
+            'zope.mimetype',
+            ],
+        ),
     )

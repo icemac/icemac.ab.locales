@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Development/Unknown\n"
-"POT-Creation-Date: Mon Dec 28 20:34:31 2009\n"
+"POT-Creation-Date: Tue Dec 29 14:41:47 2009\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
@@ -25,6 +25,15 @@ msgstr ""
 
 #: icemac/ab/importer/browser/configure.zcml:8
 msgid "Import data"
+msgstr ""
+
+#: icemac/ab/importer/browser/importer.pt:2
+msgid "Files for import"
+msgstr ""
+
+#: icemac/ab/importer/browser/importer.pt:5
+#: icemac/ab/importer/browser/readers.pt:2
+msgid "Registered import file readers"
 msgstr ""
 
 #: icemac/ab/importer/browser/importer.py:13
@@ -44,8 +53,16 @@ msgstr ""
 msgid "Import"
 msgstr ""
 
+#: icemac/ab/importer/browser/readers.pt:8
+msgid "Go back"
+msgstr ""
+
 #: icemac/ab/importer/browser/wizard/base.py:20
 msgid "Import Wizard"
+msgstr ""
+
+#: icemac/ab/importer/browser/wizard/complete.pt:4
+msgid "Import complete."
 msgstr ""
 
 #: icemac/ab/importer/browser/wizard/complete.py:13
@@ -57,51 +74,64 @@ msgid "Edit import file"
 msgstr ""
 
 #: icemac/ab/importer/browser/wizard/map.py:212
-#: icemac/ab/importer/browser/wizard/map.py:223
-#: icemac/ab/importer/browser/wizard/map.py:263
-msgid "Value %s not allowed. Allowed values: %s"
+#: icemac/ab/importer/browser/wizard/map.py:222
+#: icemac/ab/importer/browser/wizard/map.py:265
+#. Default: ""
+msgid "Value ${value} is not allowed. Allowed values are: ${values}"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/map.py:221
-msgid "%s resp. %s"
+#: icemac/ab/importer/browser/wizard/map.py:231
+#. Default: ""
+msgid "${value} is no valid date."
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/map.py:232
-msgid "%s is no valid date."
-msgstr ""
-
-#: icemac/ab/importer/browser/wizard/map.py:239
-msgid "%s is no valid datetime. Must match to format string %r."
+#: icemac/ab/importer/browser/wizard/map.py:238
+#. Default: ""
+msgid "${value} is no valid datetime. Must match to format string \"${format}\"."
 msgstr ""
 
 #: icemac/ab/importer/browser/wizard/map.py:247
-msgid "%s is not a valid integer number."
+#. Default: ""
+msgid "${value} is not a valid integer number."
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/map.py:255
-msgid "%s is not a valid decimal number."
+#: icemac/ab/importer/browser/wizard/map.py:256
+#. Default: ""
+msgid "${value} is not a valid decimal number."
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/map.py:271
-msgid "%s is not a valid e-mail address."
+#: icemac/ab/importer/browser/wizard/map.py:274
+#. Default: ""
+msgid "${value} is not a valid e-mail address."
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/map.py:277
+#: icemac/ab/importer/browser/wizard/map.py:281
 msgid "Not enough data fields in row."
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/map.py:483
+#: icemac/ab/importer/browser/wizard/map.py:312
+#. Default: ""
+msgid "${title}: ${message}"
+msgstr ""
+
+#: icemac/ab/importer/browser/wizard/map.py:495
 msgid "Map fields"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/map.py:498
-#: icemac/ab/importer/browser/wizard/review.py:122
+#: icemac/ab/importer/browser/wizard/map.py:510
+#: icemac/ab/importer/browser/wizard/review.py:123
 msgid "main"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/map.py:503
-#: icemac/ab/importer/browser/wizard/review.py:131
+#: icemac/ab/importer/browser/wizard/map.py:515
+#: icemac/ab/importer/browser/wizard/review.py:132
 msgid "other"
+msgstr ""
+
+#: icemac/ab/importer/browser/wizard/map.py:516
+#: icemac/ab/importer/browser/wizard/review.py:133
+#. Default: ""
+msgid "${prefix} ${title}"
 msgstr ""
 
 #: icemac/ab/importer/browser/wizard/reader.py:16
@@ -116,20 +146,38 @@ msgstr ""
 msgid "Reader settings"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/review.py:100
+#: icemac/ab/importer/browser/wizard/review.py:101
 msgid "Keep imported data?"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/review.py:109
+#: icemac/ab/importer/browser/wizard/review.py:110
 msgid "There was nothing to import in the import file."
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/review.py:171
+#: icemac/ab/importer/browser/wizard/review.py:136
+#. Default: ""
+msgid "<i>${prefix}</i><br />${title}"
+msgstr ""
+
+#: icemac/ab/importer/browser/wizard/review.py:141
+#. Default: ""
+msgid "<br />${title}"
+msgstr ""
+
+#: icemac/ab/importer/browser/wizard/review.py:177
 msgid "Errors:"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/review.py:196
+#: icemac/ab/importer/browser/wizard/review.py:204
 msgid "Review imported data"
+msgstr ""
+
+#: icemac/ab/importer/browser/wizard/step.pt:28
+msgid "Steps:"
+msgstr ""
+
+#: icemac/ab/importer/browser/wizard/step.pt:45
+msgid "Current step:"
 msgstr ""
 
 #: icemac/ab/importer/reader/csv/csv.py:47
@@ -280,22 +328,22 @@ msgstr ""
 msgid "Edit fields"
 msgstr ""
 
-#: icemac/addressbook/browser/entities/fields.py:105
+#: icemac/addressbook/browser/entities/fields.py:109
 msgid "Caution: When you delete this field, possibly data will get lost. Namely the data which was entered into this field when it was displayed in a form of an object."
 msgstr ""
 
-#: icemac/addressbook/browser/entities/fields.py:63
+#: icemac/addressbook/browser/entities/fields.py:67
 msgid "Field"
 msgstr ""
 
-#: icemac/addressbook/browser/entities/fields.py:66
+#: icemac/addressbook/browser/entities/fields.py:70
 #: icemac/addressbook/browser/keyword/keyword.py:58
 #: icemac/addressbook/browser/table.py:33
 #: icemac/addressbook/browser/rootfolder/rootfolder.pt:9
 msgid "Delete"
 msgstr ""
 
-#: icemac/addressbook/browser/entities/fields.py:69
+#: icemac/addressbook/browser/entities/fields.py:73
 msgid "Edit"
 msgstr ""
 
@@ -427,6 +475,7 @@ msgid "Do you really want to delete this person?"
 msgstr ""
 
 #: icemac/addressbook/browser/person/person.py:221
+#: icemac/ab/importer/browser/wizard/map.py:297
 #. Default: ""
 msgid "${prefix} -- ${title}"
 msgstr ""
