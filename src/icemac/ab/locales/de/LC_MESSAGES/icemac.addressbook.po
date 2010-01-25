@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: icemac.addressbook\n"
-"POT-Creation-Date: Tue Dec 29 14:41:47 2009\n"
+"POT-Creation-Date: Mon Jan 25 20:38:48 2010\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Michael Howitz <mh@gocept.com>\n"
 "Language-Team: Michael Howitz <icemac@gmx.net>\n"
@@ -108,22 +108,6 @@ msgstr "${title}: ${message}"
 msgid "Map fields"
 msgstr "Felder zuweisen"
 
-#: icemac/ab/importer/browser/wizard/map.py:510
-#: icemac/ab/importer/browser/wizard/review.py:123
-msgid "main"
-msgstr "wichtigste"
-
-#: icemac/ab/importer/browser/wizard/map.py:515
-#: icemac/ab/importer/browser/wizard/review.py:132
-msgid "other"
-msgstr "weitere"
-
-#. Default: ""
-#: icemac/ab/importer/browser/wizard/map.py:516
-#: icemac/ab/importer/browser/wizard/review.py:133
-msgid "${prefix} ${title}"
-msgstr "${prefix} ${title}"
-
 #: icemac/ab/importer/browser/wizard/reader.py:16
 msgid "Import file reader"
 msgstr "Leseeinheit für Importdokument"
@@ -226,41 +210,41 @@ msgstr "Personen"
 msgid "Edit address book"
 msgstr "Adressbuch bearbeiten"
 
-#: icemac/addressbook/browser/addressbook/edit.py:19
+#: icemac/addressbook/browser/addressbook/edit.py:20
 msgid "Edit address book data"
 msgstr "Daten des Adressbuchs bearbeiten"
 
-#: icemac/addressbook/browser/addressbook/edit.py:24
+#: icemac/addressbook/browser/addressbook/edit.py:27
 #: icemac/addressbook/browser/base.py:157
-#: icemac/addressbook/browser/keyword/keyword.py:47
-#: icemac/addressbook/browser/person/person.py:143
-#: icemac/addressbook/browser/principals/principals.py:135
+#: icemac/addressbook/browser/keyword/keyword.py:46
+#: icemac/addressbook/browser/person/person.py:147
+#: icemac/addressbook/browser/principals/principals.py:134
 msgid "Apply"
 msgstr "Anwenden"
 
-#: icemac/addressbook/browser/addressbook/edit.py:28
+#: icemac/addressbook/browser/addressbook/edit.py:31
 #: icemac/addressbook/browser/base.py:100
 #: icemac/addressbook/browser/base.py:163
-#: icemac/addressbook/browser/keyword/keyword.py:53
-#: icemac/addressbook/browser/person/person.py:154
-#: icemac/addressbook/browser/person/person.py:252
-#: icemac/addressbook/browser/principals/principals.py:141
+#: icemac/addressbook/browser/keyword/keyword.py:52
+#: icemac/addressbook/browser/person/person.py:158
+#: icemac/addressbook/browser/person/person.py:271
+#: icemac/addressbook/browser/principals/principals.py:140
 msgid "Cancel"
 msgstr "Abbrechen"
 
-#: icemac/addressbook/browser/addressbook/edit.py:33
+#: icemac/addressbook/browser/addressbook/edit.py:36
 msgid "Delete all persons in address book"
 msgstr "Alle Personen in diesem Adressbuch löschen"
 
-#: icemac/addressbook/browser/addressbook/edit.py:43
+#: icemac/addressbook/browser/addressbook/edit.py:46
 msgid "Do you really want to delete this whole address book?"
 msgstr "Wollen Sie wirklich dieses Adressbuch vollständig löschen?"
 
-#: icemac/addressbook/browser/addressbook/edit.py:59
+#: icemac/addressbook/browser/addressbook/edit.py:62
 msgid "number of persons"
 msgstr "Anzahl der Personen"
 
-#: icemac/addressbook/browser/addressbook/edit.py:60
+#: icemac/addressbook/browser/addressbook/edit.py:63
 #: icemac/addressbook/browser/principals/principals.py:38
 #: icemac/addressbook/interfaces.py:51
 #: icemac/addressbook/interfaces.py:208
@@ -268,21 +252,21 @@ msgstr "Anzahl der Personen"
 msgid "notes"
 msgstr "Anmerkungen"
 
-#: icemac/addressbook/browser/addressbook/edit.py:71
+#: icemac/addressbook/browser/addressbook/edit.py:74
 msgid "The users inside this address book will not get deleted."
 msgstr "Die Benutzer in diesem Adressbuch werden nicht gelöscht."
 
-#: icemac/addressbook/browser/addressbook/edit.py:77
+#: icemac/addressbook/browser/addressbook/edit.py:80
 msgid "Do you really want to delete all persons in this address book?"
 msgstr "Wollen Sie wirklich alle Personen in diesem Adressbuch löschen?"
 
-#: icemac/addressbook/browser/addressbook/edit.py:81
-#: icemac/addressbook/browser/base.py:187
+#: icemac/addressbook/browser/addressbook/edit.py:84
+#: icemac/addressbook/browser/base.py:191
 msgid "No, cancel"
 msgstr "Nein, abbrechen."
 
-#: icemac/addressbook/browser/addressbook/edit.py:86
-#: icemac/addressbook/browser/base.py:191
+#: icemac/addressbook/browser/addressbook/edit.py:89
+#: icemac/addressbook/browser/base.py:195
 msgid "Yes, delete"
 msgstr "Ja, löschen."
 
@@ -294,7 +278,7 @@ msgstr "Es sind keine Personen in diesem Adressbuch erfasst. Wählen Sie „Hinz
 msgid "Persons"
 msgstr "Personen"
 
-#: icemac/addressbook/browser/base.py:171
+#: icemac/addressbook/browser/base.py:175
 msgid "Do you really want to delete this entry?"
 msgstr "Wollen Sie wirklich diesen Eintrag löschen?"
 
@@ -302,11 +286,11 @@ msgstr "Wollen Sie wirklich diesen Eintrag löschen?"
 msgid "Add"
 msgstr "Hinzufügen"
 
-#: icemac/addressbook/browser/entities/configure.zcml:15
+#: icemac/addressbook/browser/entities/configure.zcml:11
 msgid "Entities"
 msgstr "Entitäten"
 
-#: icemac/addressbook/browser/entities/configure.zcml:79
+#: icemac/addressbook/browser/entities/configure.zcml:75
 msgid "field"
 msgstr "Feld"
 
@@ -318,7 +302,7 @@ msgstr "Entität"
 msgid "Edit fields"
 msgstr "Felder bearbeiten"
 
-#: icemac/addressbook/browser/entities/fields.py:109
+#: icemac/addressbook/browser/entities/fields.py:110
 msgid "Caution: When you delete this field, possibly data will get lost. Namely the data which was entered into this field when it was displayed in a form of an object."
 msgstr "Achtung: Wenn Sie dieses Feld löschen, gehen möglicherweise Daten verloren. Und zwar die Daten, die in dieses Feld eingegeben wurden, als es in einem Formular eines Objekts angezeigt wurde."
 
@@ -327,7 +311,7 @@ msgid "Field"
 msgstr "Feld"
 
 #: icemac/addressbook/browser/entities/fields.py:70
-#: icemac/addressbook/browser/keyword/keyword.py:58
+#: icemac/addressbook/browser/keyword/keyword.py:57
 #: icemac/addressbook/browser/table.py:33
 #: icemac/addressbook/browser/rootfolder/rootfolder.pt:9
 msgid "Delete"
@@ -362,11 +346,11 @@ msgstr "Schlagworte"
 msgid "Add new keyword"
 msgstr "Neues Schlagwort hinzufügen"
 
-#: icemac/addressbook/browser/keyword/keyword.py:35
+#: icemac/addressbook/browser/keyword/keyword.py:34
 msgid "Edit keyword"
 msgstr "Schlagwort bearbeiten"
 
-#: icemac/addressbook/browser/keyword/keyword.py:64
+#: icemac/addressbook/browser/keyword/keyword.py:63
 msgid "Do you really want to delete this keyword?"
 msgstr "Wollen Sie dieses Schlagwort wirklich löschen?"
 
@@ -387,13 +371,17 @@ msgstr "Stammdaten"
 msgid "Edit master data"
 msgstr "Stammdaten bearbeiten"
 
-#: icemac/addressbook/browser/metadata.py:16
-msgid "last modification information"
-msgstr "Informationen über die letzte Bearbeitung"
+#: icemac/addressbook/browser/metadata.py:17
+msgid "metadata"
+msgstr "Metadaten"
 
-#: icemac/addressbook/browser/metadata.py:36
+#: icemac/addressbook/browser/metadata.py:39
 msgid "Modification Date (UTC)"
 msgstr "Änderungsdatum (UTC)"
+
+#: icemac/addressbook/browser/metadata.py:43
+msgid "Creation Date (UTC)"
+msgstr "Erstellungsdatum (UTC)"
 
 #: icemac/addressbook/browser/person/address.py:34
 msgid "Add phone number"
@@ -431,20 +419,20 @@ msgstr "Wollen Sie diese Homepage-Adresse wirklich löschen?"
 msgid "home page"
 msgstr "Homepage-Adresse"
 
-#: icemac/addressbook/browser/person/person.py:107
+#: icemac/addressbook/browser/person/person.py:111
 msgid "Edit person data"
 msgstr "Personendaten bearbeiten"
 
-#: icemac/addressbook/browser/person/person.py:122
+#: icemac/addressbook/browser/person/person.py:126
 msgid "main ${address}"
 msgstr "wichtigste ${address}"
 
-#: icemac/addressbook/browser/person/person.py:124
+#: icemac/addressbook/browser/person/person.py:128
 msgid "other ${address}"
 msgstr "weitere ${address}"
 
-#: icemac/addressbook/browser/person/person.py:136
-#: icemac/addressbook/browser/person/person.py:218
+#: icemac/addressbook/browser/person/person.py:140
+#: icemac/addressbook/browser/person/person.py:237
 #: icemac/addressbook/file/file.py:64
 #: icemac/addressbook/file/interfaces.py:18
 #: icemac/addressbook/browser/file/configure.zcml:14
@@ -452,45 +440,45 @@ msgstr "weitere ${address}"
 msgid "file"
 msgstr "Dokument"
 
-#: icemac/addressbook/browser/person/person.py:159
+#: icemac/addressbook/browser/person/person.py:163
 msgid "Delete whole person"
 msgstr "ganze Person löschen"
 
-#: icemac/addressbook/browser/person/person.py:167
+#: icemac/addressbook/browser/person/person.py:171
 msgid "Delete single entry"
 msgstr "einzelnen Eintrag löschen"
 
-#: icemac/addressbook/browser/person/person.py:187
+#: icemac/addressbook/browser/person/person.py:206
 msgid "Do you really want to delete this person?"
 msgstr "Wollen Sie diese Person und alle ihre Daten wirklich löschen?"
 
 #. Default: ""
-#: icemac/addressbook/browser/person/person.py:221
+#: icemac/addressbook/browser/person/person.py:240
 #: icemac/ab/importer/browser/wizard/map.py:297
 msgid "${prefix} -- ${title}"
 msgstr "${prefix} – ${title}"
 
-#: icemac/addressbook/browser/person/person.py:230
+#: icemac/addressbook/browser/person/person.py:249
 msgid "Entries"
 msgstr "Einträge"
 
-#: icemac/addressbook/browser/person/person.py:236
+#: icemac/addressbook/browser/person/person.py:255
 msgid "Please choose an entry for deletion:"
 msgstr "Bitte wählen Sie einen Eintrag zum Löschen aus:"
 
-#: icemac/addressbook/browser/person/person.py:241
+#: icemac/addressbook/browser/person/person.py:260
 msgid "Delete entry"
 msgstr "Eintrag löschen"
 
-#: icemac/addressbook/browser/person/person.py:60
+#: icemac/addressbook/browser/person/person.py:65
 msgid "main adresses and numbers"
 msgstr "wichtigste Einträge"
 
-#: icemac/addressbook/browser/person/person.py:67
+#: icemac/addressbook/browser/person/person.py:72
 msgid "Add new person"
 msgstr "Neue Person hinzufügen"
 
-#: icemac/addressbook/browser/person/person.py:76
+#: icemac/addressbook/browser/person/person.py:81
 #: icemac/addressbook/interfaces.py:37
 #: icemac/addressbook/interfaces.py:204
 msgid "title"
@@ -505,11 +493,11 @@ msgstr "Benutzer"
 msgid "Users"
 msgstr "Benutzer"
 
-#: icemac/addressbook/browser/principals/principals.py:146
+#: icemac/addressbook/browser/principals/principals.py:145
 msgid "Delete user"
 msgstr "Benutzer löschen"
 
-#: icemac/addressbook/browser/principals/principals.py:177
+#: icemac/addressbook/browser/principals/principals.py:176
 msgid "Do you really want to delete this user?"
 msgstr "Wollen Sie diesen Benutzer wirklich löschen?"
 
@@ -543,11 +531,11 @@ msgstr "Suche"
 msgid "No person found."
 msgstr "Keine Personen gefunden."
 
-#: icemac/addressbook/browser/search/result/simple.py:24
+#: icemac/addressbook/browser/search/result/simple.py:23
 msgid "Export using"
 msgstr "Exportieren mit"
 
-#: icemac/addressbook/browser/search/result/simple.py:39
+#: icemac/addressbook/browser/search/result/simple.py:38
 msgid "Export"
 msgstr "Export"
 
@@ -557,7 +545,7 @@ msgstr "Bitte wählen Sie eine Suche aus."
 
 #: icemac/addressbook/browser/search/simple_single_keyword.py:41
 #: icemac/addressbook/interfaces.py:130
-#: icemac/addressbook/keyword.py:47
+#: icemac/addressbook/keyword.py:48
 #: icemac/addressbook/browser/keyword/configure.zcml:17
 msgid "keyword"
 msgstr "Schlagwort"
@@ -570,38 +558,55 @@ msgstr "Einfache Suche nach einzelnem Schlagwort"
 msgid "Name"
 msgstr "Name"
 
-#: icemac/addressbook/export/xls/simple.py:121
+#. Default: ""
+#: icemac/addressbook/export/sources.py:40
+msgid "${title} (${desc})"
+msgstr "${title} (${desc})"
+
+#: icemac/addressbook/export/xls/simple.py:127
 #: icemac/addressbook/person.py:46
 #: icemac/addressbook/principals/interfaces.py:37
 #: icemac/addressbook/browser/addressbook/configure.zcml:87
 msgid "person"
 msgstr "Person"
 
-#: icemac/addressbook/export/xls/simple.py:126
+#: icemac/addressbook/export/xls/simple.py:132
 msgid "XLS main"
 msgstr "XLS (wichtigste)"
 
-#: icemac/addressbook/export/xls/simple.py:127
+#: icemac/addressbook/export/xls/simple.py:133
 msgid "Exports person data and main addresses resp. phone numbers."
 msgstr "Exportiert die Personendaten und die wichtigsten Einträge."
 
-#: icemac/addressbook/export/xls/simple.py:140
+#: icemac/addressbook/export/xls/simple.py:146
 msgid "XLS complete"
 msgstr "XLS (vollständig)"
 
-#: icemac/addressbook/export/xls/simple.py:141
+#: icemac/addressbook/export/xls/simple.py:147
 msgid "Exports person data and all addresses resp. phone numbers."
 msgstr "Exportiert alle Personendaten und alle Einträge."
 
-#: icemac/addressbook/export/xls/simple.py:163
-msgid "main "
+#. Default: ""
+#: icemac/addressbook/export/xls/simple.py:171
+#: icemac/addressbook/export/xls/simple.py:191
+#: icemac/ab/importer/browser/wizard/map.py:516
+#: icemac/ab/importer/browser/wizard/review.py:133
+msgid "${prefix} ${title}"
+msgstr "${prefix} ${title}"
+
+#: icemac/addressbook/export/xls/simple.py:172
+#: icemac/ab/importer/browser/wizard/map.py:510
+#: icemac/ab/importer/browser/wizard/review.py:123
+msgid "main"
 msgstr "wichtigste"
 
-#: icemac/addressbook/export/xls/simple.py:180
-msgid "other "
+#: icemac/addressbook/export/xls/simple.py:192
+#: icemac/ab/importer/browser/wizard/map.py:515
+#: icemac/ab/importer/browser/wizard/review.py:132
+msgid "other"
 msgstr "weitere"
 
-#: icemac/addressbook/export/xls/simple.py:77
+#: icemac/addressbook/export/xls/simple.py:82
 msgid "Address book - Export"
 msgstr "Adressbuch - Export"
 
@@ -715,9 +720,17 @@ msgstr "wichtigste Anschrift"
 msgid "main phone number"
 msgstr "wichtigste Telefonnummer"
 
-#: icemac/addressbook/keyword.py:74
+#: icemac/addressbook/keyword.py:75
 msgid "This keyword already exists."
 msgstr "Dieses Schlagwort existiert bereits."
+
+#: icemac/addressbook/metadata/interfaces.py:14
+msgid "creator"
+msgstr "Ersteller"
+
+#: icemac/addressbook/metadata/interfaces.py:17
+msgid "last modfier"
+msgstr "Letzter Bearbeiter"
 
 #: icemac/addressbook/permissions.zcml:11
 msgid "EditAddressBook"
@@ -868,11 +881,12 @@ msgstr "Textfeld"
 msgid "text line"
 msgstr "Textzeile"
 
-#. Default: ""
-#: icemac/addressbook/sources.py:87
-msgid "${title} (${desc})"
-msgstr "${title} (${desc})"
-
+#~ msgid "last modification information"
+#~ msgstr "Informationen über die letzte Bearbeitung"
+#~ msgid "main "
+#~ msgstr "wichtigste"
+#~ msgid "other "
+#~ msgstr "weitere"
 #~ msgid "${token} resp. ${title}"
 #~ msgstr "${token} bzw. ${title}"
 #~ msgid "Value ${value} is not allowed. Allowed values are: %s"
