@@ -1,17 +1,27 @@
+##############################################################################
+#
+# Copyright (c) 2003-2004 Zope Corporation and Contributors.
+# All Rights Reserved.
+#
+# This software is subject to the provisions of the Zope Public License,
+# Version 2.1 (ZPL).  A copy of the ZPL should accompany this distribution.
+# THIS SOFTWARE IS PROVIDED "AS IS" AND ANY AND ALL EXPRESS OR IMPLIED
+# WARRANTIES ARE DISCLAIMED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+# WARRANTIES OF TITLE, MERCHANTABILITY, AGAINST INFRINGEMENT, AND FITNESS
+# FOR A PARTICULAR PURPOSE.
+#
+##############################################################################
 msgid ""
 msgstr ""
-"Project-Id-Version: icemac.addressbook\n"
-"POT-Creation-Date: Mon Jan 25 20:38:48 2010\n"
-"PO-Revision-Date: \n"
-"Last-Translator: Michael Howitz <mh@gocept.com>\n"
-"Language-Team: Michael Howitz <icemac@gmx.net>\n"
+"Project-Id-Version: Development/Unknown\n"
+"POT-Creation-Date: Sat Feb  6 11:47:22 2010\n"
+"PO-Revision-Date: 2010-02-06 11:52+0100\n"
+"Last-Translator: Michael Howitz <icemac@gmx.net>\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: German\n"
-"X-Poedit-Country: GERMANY\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-Basepath: ../../../../../\n"
+"Generated-By: zope/app/locales/extract.py\n"
 
 #: icemac/ab/importer/browser/configure.zcml:8
 msgid "Import data"
@@ -164,13 +174,13 @@ msgstr "Microsoft Excel-Dokument"
 
 #: icemac/addressbook/address.py:118
 #: icemac/addressbook/address.py:138
-#: icemac/addressbook/browser/person/configure.zcml:62
+#: icemac/addressbook/browser/person/configure.zcml:71
 msgid "phone number"
 msgstr "Telefonnummer"
 
 #: icemac/addressbook/address.py:35
 #: icemac/addressbook/address.py:134
-#: icemac/addressbook/browser/person/configure.zcml:51
+#: icemac/addressbook/browser/person/configure.zcml:60
 msgid "postal address"
 msgstr "Anschrift"
 
@@ -184,7 +194,7 @@ msgstr "keine"
 #: icemac/addressbook/address.py:68
 #: icemac/addressbook/address.py:142
 #: icemac/addressbook/interfaces.py:72
-#: icemac/addressbook/browser/person/configure.zcml:73
+#: icemac/addressbook/browser/person/configure.zcml:82
 msgid "e-mail address"
 msgstr "E-Mail-Adresse"
 
@@ -215,7 +225,7 @@ msgid "Edit address book data"
 msgstr "Daten des Adressbuchs bearbeiten"
 
 #: icemac/addressbook/browser/addressbook/edit.py:27
-#: icemac/addressbook/browser/base.py:157
+#: icemac/addressbook/browser/base.py:161
 #: icemac/addressbook/browser/keyword/keyword.py:46
 #: icemac/addressbook/browser/person/person.py:147
 #: icemac/addressbook/browser/principals/principals.py:134
@@ -223,11 +233,11 @@ msgid "Apply"
 msgstr "Anwenden"
 
 #: icemac/addressbook/browser/addressbook/edit.py:31
-#: icemac/addressbook/browser/base.py:100
-#: icemac/addressbook/browser/base.py:163
+#: icemac/addressbook/browser/base.py:104
+#: icemac/addressbook/browser/base.py:167
 #: icemac/addressbook/browser/keyword/keyword.py:52
 #: icemac/addressbook/browser/person/person.py:158
-#: icemac/addressbook/browser/person/person.py:271
+#: icemac/addressbook/browser/person/person.py:277
 #: icemac/addressbook/browser/principals/principals.py:140
 msgid "Cancel"
 msgstr "Abbrechen"
@@ -261,12 +271,12 @@ msgid "Do you really want to delete all persons in this address book?"
 msgstr "Wollen Sie wirklich alle Personen in diesem Adressbuch löschen?"
 
 #: icemac/addressbook/browser/addressbook/edit.py:84
-#: icemac/addressbook/browser/base.py:191
+#: icemac/addressbook/browser/base.py:195
 msgid "No, cancel"
 msgstr "Nein, abbrechen."
 
 #: icemac/addressbook/browser/addressbook/edit.py:89
-#: icemac/addressbook/browser/base.py:195
+#: icemac/addressbook/browser/base.py:199
 msgid "Yes, delete"
 msgstr "Ja, löschen."
 
@@ -278,11 +288,11 @@ msgstr "Es sind keine Personen in diesem Adressbuch erfasst. Wählen Sie „Hinz
 msgid "Persons"
 msgstr "Personen"
 
-#: icemac/addressbook/browser/base.py:175
+#: icemac/addressbook/browser/base.py:179
 msgid "Do you really want to delete this entry?"
 msgstr "Wollen Sie wirklich diesen Eintrag löschen?"
 
-#: icemac/addressbook/browser/base.py:94
+#: icemac/addressbook/browser/base.py:98
 msgid "Add"
 msgstr "Hinzufügen"
 
@@ -359,7 +369,7 @@ msgid "No keywords defined yet."
 msgstr "Es sind noch keine Schlagworte definiert."
 
 #. Default: "Add"
-#: icemac/addressbook/browser/layout.pt:182
+#: icemac/addressbook/browser/layout.pt:204
 msgid "Add-menu-Add"
 msgstr "Hinzufügen:"
 
@@ -375,11 +385,11 @@ msgstr "Stammdaten bearbeiten"
 msgid "metadata"
 msgstr "Metadaten"
 
-#: icemac/addressbook/browser/metadata.py:39
+#: icemac/addressbook/browser/metadata.py:44
 msgid "Modification Date (UTC)"
 msgstr "Änderungsdatum (UTC)"
 
-#: icemac/addressbook/browser/metadata.py:43
+#: icemac/addressbook/browser/metadata.py:48
 msgid "Creation Date (UTC)"
 msgstr "Erstellungsdatum (UTC)"
 
@@ -415,7 +425,7 @@ msgstr "Homepage-Adresse hinzufügen"
 msgid "Do you really want to delete this home page address?"
 msgstr "Wollen Sie diese Homepage-Adresse wirklich löschen?"
 
-#: icemac/addressbook/browser/person/configure.zcml:84
+#: icemac/addressbook/browser/person/configure.zcml:93
 msgid "home page"
 msgstr "Homepage-Adresse"
 
@@ -432,7 +442,7 @@ msgid "other ${address}"
 msgstr "weitere ${address}"
 
 #: icemac/addressbook/browser/person/person.py:140
-#: icemac/addressbook/browser/person/person.py:237
+#: icemac/addressbook/browser/person/person.py:243
 #: icemac/addressbook/file/file.py:64
 #: icemac/addressbook/file/interfaces.py:18
 #: icemac/addressbook/browser/file/configure.zcml:14
@@ -441,32 +451,36 @@ msgid "file"
 msgstr "Dokument"
 
 #: icemac/addressbook/browser/person/person.py:163
+msgid "Clone person"
+msgstr "Person kopieren"
+
+#: icemac/addressbook/browser/person/person.py:170
 msgid "Delete whole person"
 msgstr "ganze Person löschen"
 
-#: icemac/addressbook/browser/person/person.py:171
+#: icemac/addressbook/browser/person/person.py:178
 msgid "Delete single entry"
 msgstr "einzelnen Eintrag löschen"
 
-#: icemac/addressbook/browser/person/person.py:206
+#: icemac/addressbook/browser/person/person.py:212
 msgid "Do you really want to delete this person?"
 msgstr "Wollen Sie diese Person und alle ihre Daten wirklich löschen?"
 
 #. Default: ""
-#: icemac/addressbook/browser/person/person.py:240
+#: icemac/addressbook/browser/person/person.py:246
 #: icemac/ab/importer/browser/wizard/map.py:297
 msgid "${prefix} -- ${title}"
 msgstr "${prefix} – ${title}"
 
-#: icemac/addressbook/browser/person/person.py:249
+#: icemac/addressbook/browser/person/person.py:255
 msgid "Entries"
 msgstr "Einträge"
 
-#: icemac/addressbook/browser/person/person.py:255
+#: icemac/addressbook/browser/person/person.py:261
 msgid "Please choose an entry for deletion:"
 msgstr "Bitte wählen Sie einen Eintrag zum Löschen aus:"
 
-#: icemac/addressbook/browser/person/person.py:260
+#: icemac/addressbook/browser/person/person.py:266
 msgid "Delete entry"
 msgstr "Eintrag löschen"
 
@@ -745,31 +759,32 @@ msgid "ViewAddressBook"
 msgstr "ViewAddressBook"
 
 #: icemac/addressbook/permissions.zcml:27
-#: icemac/addressbook/permissions.zcml:37
+#: icemac/addressbook/permissions.zcml:32
 #: icemac/addressbook/permissions.zcml:42
-#: icemac/addressbook/permissions.zcml:48
+#: icemac/addressbook/permissions.zcml:47
 #: icemac/addressbook/permissions.zcml:53
 #: icemac/addressbook/permissions.zcml:58
-#: icemac/addressbook/permissions.zcml:64
+#: icemac/addressbook/permissions.zcml:63
 #: icemac/addressbook/permissions.zcml:69
 #: icemac/addressbook/permissions.zcml:74
-#: icemac/addressbook/permissions.zcml:80
+#: icemac/addressbook/permissions.zcml:79
 #: icemac/addressbook/permissions.zcml:85
 #: icemac/addressbook/permissions.zcml:90
-#: icemac/addressbook/permissions.zcml:96
+#: icemac/addressbook/permissions.zcml:95
 #: icemac/addressbook/permissions.zcml:101
 #: icemac/addressbook/permissions.zcml:106
-#: icemac/addressbook/permissions.zcml:112
+#: icemac/addressbook/permissions.zcml:111
 #: icemac/addressbook/permissions.zcml:117
 #: icemac/addressbook/permissions.zcml:122
-#: icemac/addressbook/permissions.zcml:128
+#: icemac/addressbook/permissions.zcml:127
 #: icemac/addressbook/permissions.zcml:133
 #: icemac/addressbook/permissions.zcml:138
-#: icemac/addressbook/permissions.zcml:144
+#: icemac/addressbook/permissions.zcml:143
+#: icemac/addressbook/permissions.zcml:149
 msgid "XXX"
 msgstr "XXX"
 
-#: icemac/addressbook/permissions.zcml:32
+#: icemac/addressbook/permissions.zcml:37
 msgid "Edit person contents"
 msgstr "Edit person contents"
 
@@ -883,42 +898,59 @@ msgstr "Textzeile"
 
 #~ msgid "last modification information"
 #~ msgstr "Informationen über die letzte Bearbeitung"
+
 #~ msgid "main "
 #~ msgstr "wichtigste"
+
 #~ msgid "other "
 #~ msgstr "weitere"
+
 #~ msgid "${token} resp. ${title}"
 #~ msgstr "${token} bzw. ${title}"
+
 #~ msgid "Value ${value} is not allowed. Allowed values are: %s"
 #~ msgstr "Der Wert ${value} ist nicht erlaubt. Erlaubte Werte sind: ${values}"
+
 #~ msgid "%s resp. %s"
 #~ msgstr "%s bzw. %s"
 
 #, fuzzy
 #~ msgid "main title"
 #~ msgstr "Bezeichnung"
+
 #~ msgid "${DYNAMIC_CONTENT}"
 #~ msgstr "${DYNAMIC_CONTENT}"
+
 #~ msgid "Site Manager"
 #~ msgstr "Site Manager"
+
 #~ msgid "Visitor"
 #~ msgstr "Betrachter"
+
 #~ msgid "Role which allows global visiting of data"
 #~ msgstr "Rolle, die es erlaubt alle Daten im Adressbuch zu betrachten"
+
 #~ msgid "Administrator for the Addressbook"
 #~ msgstr "Verwalter des Adressbuchs"
+
 #~ msgid "Administrator"
 #~ msgstr "Verwalter"
+
 #~ msgid "Editor"
 #~ msgstr "Bearbeiter"
+
 #~ msgid "Role which allows global editing of data"
 #~ msgstr "Rolle, die es erlaubt alle Daten im Adressbuch zu bearbeiten"
+
 #~ msgid "Login"
 #~ msgstr "Login"
+
 #~ msgid "name"
 #~ msgstr "name"
+
 #~ msgid "Person"
 #~ msgstr "Person"
+
 #~ msgid ""
 #~ "When you delete this field, the information stored using the field is "
 #~ "completely lost. You are no longer able to access it on the objects which "
@@ -927,4 +959,3 @@ msgstr "Textzeile"
 #~ "Wenn Sie dieses Feld löschen, gehen möglicherweise Daten verloren. Und "
 #~ "zwar die Daten, die in dieses Feld eingegeben wurden, als es in einem "
 #~ "Formular eines Objekts angezeigt wurde."
-
