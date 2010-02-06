@@ -8,7 +8,7 @@ import setuptools
 def read(*path_elements):
     return "\n\n" + file(os.path.join(*path_elements)).read()
 
-version = '0.3'
+version = '0.4dev'
 
 setuptools.setup(
     name='icemac.ab.locales',
