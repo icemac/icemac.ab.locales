@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Development/Unknown\n"
 "POT-Creation-Date: Sat Mar 20 12:05:02 2010\n"
-"PO-Revision-Date: 2010-03-20 12:07+0100\n"
+"PO-Revision-Date: 2010-03-20 12:15+0100\n"
 "Last-Translator: Michael Howitz <mh@gocept.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -539,21 +539,21 @@ msgstr "Es ist ein Fehler aufgetreten."
 #: icemac/addressbook/browser/search/base.py:40
 #: icemac/addressbook/browser/search/configure.zcml:7
 msgid "Search"
-msgstr "Suche"
+msgstr "Suchen"
 
 #. Default: "and"
 #: icemac/addressbook/browser/search/multi_keyword.py:25
 msgid "search-and"
-msgstr "und"
+msgstr "Ergebnisse müssen alle Suchbegriffe enthalten."
 
 #. Default: "or"
 #: icemac/addressbook/browser/search/multi_keyword.py:26
 msgid "search-or"
-msgstr "oder"
+msgstr "Ergebnisse müssen mindestens einen der Suchbegriffe enthalten."
 
 #: icemac/addressbook/browser/search/multi_keyword.py:32
 msgid "search term concatenation"
-msgstr "Suchbegriffverknüpfung"
+msgstr "Suchbegriffe verknüpfen"
 
 #: icemac/addressbook/browser/search/multi_keyword.py:36
 #: icemac/addressbook/browser/search/multi_keyword.py:38
