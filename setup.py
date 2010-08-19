@@ -55,5 +55,8 @@ setuptools.setup(
         extractZopeMimetype = [
             'zope.mimetype',
             ],
+        compile=[
+            'python-gettext'
+            ],
         ),
     )
