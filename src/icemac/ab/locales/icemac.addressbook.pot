@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Development/Unknown\n"
-"POT-Creation-Date: Thu Aug 19 16:22:03 2010\n"
+"POT-Creation-Date: Sat Sep  4 16:49:12 2010\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -203,7 +203,7 @@ msgstr ""
 msgid "home page address"
 msgstr ""
 
-#: icemac/addressbook/addressbook.py:54
+#: icemac/addressbook/addressbook.py:53
 #: icemac/addressbook/browser/rootfolder/configure.zcml:17
 msgid "address book"
 msgstr ""
@@ -257,7 +257,7 @@ msgstr ""
 #: icemac/addressbook/browser/addressbook/edit.py:63
 #: icemac/addressbook/browser/principals/principals.py:39
 #: icemac/addressbook/interfaces.py:54
-#: icemac/addressbook/interfaces.py:205
+#: icemac/addressbook/interfaces.py:208
 #: icemac/addressbook/principals/interfaces.py:46
 msgid "notes"
 msgstr ""
@@ -300,15 +300,35 @@ msgstr ""
 msgid "Entities"
 msgstr ""
 
-#: icemac/addressbook/browser/entities/configure.zcml:75
+#: icemac/addressbook/browser/entities/configure.zcml:67
 msgid "field"
 msgstr ""
 
-#: icemac/addressbook/browser/entities/entities.py:23
+#: icemac/addressbook/browser/entities/entities.py:20
+#. Default: "move"
+msgid "move-up-table-header"
+msgstr ""
+
+#: icemac/addressbook/browser/entities/entities.py:22
+#. Default: "up"
+msgid "move-up-table-cell"
+msgstr ""
+
+#: icemac/addressbook/browser/entities/entities.py:35
+#. Default: "move"
+msgid "move-down-table-header"
+msgstr ""
+
+#: icemac/addressbook/browser/entities/entities.py:37
+#. Default: "down"
+msgid "move-down-table-cell"
+msgstr ""
+
+#: icemac/addressbook/browser/entities/entities.py:56
 msgid "Entity"
 msgstr ""
 
-#: icemac/addressbook/browser/entities/entities.py:26
+#: icemac/addressbook/browser/entities/entities.py:59
 msgid "Edit fields"
 msgstr ""
 
@@ -501,7 +521,7 @@ msgstr ""
 
 #: icemac/addressbook/browser/person/person.py:81
 #: icemac/addressbook/interfaces.py:40
-#: icemac/addressbook/interfaces.py:201
+#: icemac/addressbook/interfaces.py:204
 msgid "title"
 msgstr ""
 
@@ -685,19 +705,19 @@ msgstr ""
 msgid "main home page address"
 msgstr ""
 
-#: icemac/addressbook/interfaces.py:199
+#: icemac/addressbook/interfaces.py:202
 msgid "type"
 msgstr ""
 
-#: icemac/addressbook/interfaces.py:203
+#: icemac/addressbook/interfaces.py:206
 msgid "choice field values"
 msgstr ""
 
-#: icemac/addressbook/interfaces.py:204
+#: icemac/addressbook/interfaces.py:207
 msgid "value"
 msgstr ""
 
-#: icemac/addressbook/interfaces.py:211
+#: icemac/addressbook/interfaces.py:214
 msgid "type \"choice\" requires at least one field value."
 msgstr ""
 
