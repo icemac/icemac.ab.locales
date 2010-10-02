@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Development/Unknown\n"
-"POT-Creation-Date: Sat Oct  2 20:32:10 2010\n"
+"POT-Creation-Date: Sat Oct  2 21:16:18 2010\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -318,6 +318,11 @@ msgstr ""
 
 #: icemac/addressbook/browser/base.py:223
 msgid "Do you really want to delete this entry?"
+msgstr ""
+
+#: icemac/addressbook/browser/base.py:283
+#. Default: ""
+msgid "\"${object}\" cloned."
 msgstr ""
 
 #: icemac/addressbook/browser/entities/configure.zcml:11

@@ -14,8 +14,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: icemac.addressbook\n"
-"POT-Creation-Date: Sat Oct  2 20:32:10 2010\n"
-"PO-Revision-Date: 2010-10-02 20:45+0100\n"
+"POT-Creation-Date: Sat Oct  2 21:16:18 2010\n"
+"PO-Revision-Date: 2010-10-02 21:18+0100\n"
 "Last-Translator: Michael Howitz <mh@gocept.com>\n"
 "Language-Team: Michael Howitz <icemac@gmx.net>\n"
 "MIME-Version: 1.0\n"
@@ -322,6 +322,11 @@ msgstr "Hinzufügen"
 #: icemac/addressbook/browser/base.py:223
 msgid "Do you really want to delete this entry?"
 msgstr "Wollen Sie wirklich diesen Eintrag löschen?"
+
+#. Default: ""
+#: icemac/addressbook/browser/base.py:283
+msgid "\"${object}\" cloned."
+msgstr "„${object}“ kopiert."
 
 #: icemac/addressbook/browser/entities/configure.zcml:11
 msgid "Entities"
