@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Development/Unknown\n"
-"POT-Creation-Date: Wed Oct 13 19:22:08 2010\n"
+"POT-Creation-Date: Fri Oct 15 17:53:34 2010\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -214,6 +214,10 @@ msgstr ""
 
 #: icemac/addressbook/browser/about/about.pt:13
 msgid "Icons from:"
+msgstr ""
+
+#: icemac/addressbook/browser/about/about.pt:19
+msgid "go back"
 msgstr ""
 
 #: icemac/addressbook/browser/about/about.pt:3
