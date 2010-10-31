@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Development/Unknown\n"
-"POT-Creation-Date: Sat Oct 30 21:10:36 2010\n"
+"POT-Creation-Date: Sun Oct 31 20:32:34 2010\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -57,7 +57,7 @@ msgstr ""
 msgid "Go back"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/base.py:21
+#: icemac/ab/importer/browser/wizard/base.py:22
 msgid "Import Wizard"
 msgstr ""
 
@@ -172,12 +172,12 @@ msgstr ""
 msgid "Review imported data"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/step.pt:28
-msgid "Steps:"
+#: icemac/ab/importer/browser/wizard/step.pt:26
+msgid "Current step:"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/step.pt:45
-msgid "Current step:"
+#: icemac/ab/importer/browser/wizard/step.pt:9
+msgid "Steps:"
 msgstr ""
 
 #: icemac/ab/importer/reader/csv/csv.py:47
@@ -220,15 +220,19 @@ msgstr ""
 msgid "address book"
 msgstr ""
 
-#: icemac/addressbook/browser/about/about.pt:11
+#: icemac/addressbook/browser/about/about.pt:13
+msgid "Copyright:"
+msgstr ""
+
+#: icemac/addressbook/browser/about/about.pt:15
 msgid "License:"
 msgstr ""
 
-#: icemac/addressbook/browser/about/about.pt:13
+#: icemac/addressbook/browser/about/about.pt:17
 msgid "Icons from:"
 msgstr ""
 
-#: icemac/addressbook/browser/about/about.pt:19
+#: icemac/addressbook/browser/about/about.pt:23
 msgid "go back"
 msgstr ""
 
@@ -245,7 +249,7 @@ msgid "Built on:"
 msgstr ""
 
 #: icemac/addressbook/browser/about/about.pt:9
-msgid "Copyright:"
+msgid "Optimized for:"
 msgstr ""
 
 #: icemac/addressbook/browser/addressbook/add.py:14
@@ -271,7 +275,7 @@ msgstr ""
 #: icemac/addressbook/browser/addressbook/edit.py:27
 #: icemac/addressbook/browser/base.py:216
 #: icemac/addressbook/browser/keyword/keyword.py:48
-#: icemac/addressbook/browser/person/person.py:192
+#: icemac/addressbook/browser/person/person.py:193
 #: icemac/addressbook/browser/principals/principals.py:134
 msgid "Apply"
 msgstr ""
@@ -280,8 +284,8 @@ msgstr ""
 #: icemac/addressbook/browser/base.py:150
 #: icemac/addressbook/browser/base.py:222
 #: icemac/addressbook/browser/keyword/keyword.py:54
-#: icemac/addressbook/browser/person/person.py:203
-#: icemac/addressbook/browser/person/person.py:322
+#: icemac/addressbook/browser/person/person.py:204
+#: icemac/addressbook/browser/person/person.py:323
 #: icemac/addressbook/browser/principals/principals.py:140
 msgid "Cancel"
 msgstr ""
@@ -546,56 +550,56 @@ msgstr ""
 msgid "home page"
 msgstr ""
 
-#: icemac/addressbook/browser/person/person.py:130
+#: icemac/addressbook/browser/person/person.py:131
 msgid "Edit person data"
 msgstr ""
 
-#: icemac/addressbook/browser/person/person.py:180
+#: icemac/addressbook/browser/person/person.py:181
 #: icemac/addressbook/export/xls/simple.py:177
 msgid "main ${address}"
 msgstr ""
 
-#: icemac/addressbook/browser/person/person.py:182
+#: icemac/addressbook/browser/person/person.py:183
 #: icemac/addressbook/export/xls/simple.py:196
 msgid "other ${address}"
 msgstr ""
 
-#: icemac/addressbook/browser/person/person.py:208
+#: icemac/addressbook/browser/person/person.py:209
 msgid "Clone person"
 msgstr ""
 
-#: icemac/addressbook/browser/person/person.py:215
+#: icemac/addressbook/browser/person/person.py:216
 msgid "Delete whole person"
 msgstr ""
 
-#: icemac/addressbook/browser/person/person.py:223
+#: icemac/addressbook/browser/person/person.py:224
 msgid "Delete single entry"
 msgstr ""
 
-#: icemac/addressbook/browser/person/person.py:258
+#: icemac/addressbook/browser/person/person.py:259
 msgid "Do you really want to delete this person?"
 msgstr ""
 
-#: icemac/addressbook/browser/person/person.py:267
+#: icemac/addressbook/browser/person/person.py:268
 msgid "Failed to delete person: This person is connected to a user. To delete this person, delete the user first."
 msgstr ""
 
-#: icemac/addressbook/browser/person/person.py:289
+#: icemac/addressbook/browser/person/person.py:290
 #: icemac/addressbook/preferences/sources.py:49
 #: icemac/ab/importer/browser/wizard/map.py:298
 #. Default: ""
 msgid "${prefix} -- ${title}"
 msgstr ""
 
-#: icemac/addressbook/browser/person/person.py:300
+#: icemac/addressbook/browser/person/person.py:301
 msgid "Entries"
 msgstr ""
 
-#: icemac/addressbook/browser/person/person.py:306
+#: icemac/addressbook/browser/person/person.py:307
 msgid "Please choose an entry for deletion:"
 msgstr ""
 
-#: icemac/addressbook/browser/person/person.py:311
+#: icemac/addressbook/browser/person/person.py:312
 msgid "Delete entry"
 msgstr ""
 
