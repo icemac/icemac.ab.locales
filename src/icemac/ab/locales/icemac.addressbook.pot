@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Development/Unknown\n"
-"POT-Creation-Date: Sun Oct 31 20:32:34 2010\n"
+"POT-Creation-Date: Thu Nov 18 07:54:41 2010\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -264,25 +264,21 @@ msgstr ""
 msgid "Edit address book"
 msgstr ""
 
-#: icemac/addressbook/browser/addressbook/edit.py:101
-msgid "Address book contents deleted."
-msgstr ""
-
-#: icemac/addressbook/browser/addressbook/edit.py:20
+#: icemac/addressbook/browser/addressbook/edit.py:21
 msgid "Edit address book data"
 msgstr ""
 
-#: icemac/addressbook/browser/addressbook/edit.py:27
-#: icemac/addressbook/browser/base.py:216
+#: icemac/addressbook/browser/addressbook/edit.py:28
+#: icemac/addressbook/browser/base.py:218
 #: icemac/addressbook/browser/keyword/keyword.py:48
 #: icemac/addressbook/browser/person/person.py:193
 #: icemac/addressbook/browser/principals/principals.py:134
 msgid "Apply"
 msgstr ""
 
-#: icemac/addressbook/browser/addressbook/edit.py:31
-#: icemac/addressbook/browser/base.py:150
-#: icemac/addressbook/browser/base.py:222
+#: icemac/addressbook/browser/addressbook/edit.py:32
+#: icemac/addressbook/browser/base.py:152
+#: icemac/addressbook/browser/base.py:224
 #: icemac/addressbook/browser/keyword/keyword.py:54
 #: icemac/addressbook/browser/person/person.py:204
 #: icemac/addressbook/browser/person/person.py:323
@@ -290,42 +286,24 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
-#: icemac/addressbook/browser/addressbook/edit.py:36
+#: icemac/addressbook/browser/addressbook/edit.py:37
 msgid "Delete all persons in address book"
 msgstr ""
 
-#: icemac/addressbook/browser/addressbook/edit.py:46
+#: icemac/addressbook/browser/addressbook/edit.py:47
 msgid "Do you really want to delete this whole address book?"
 msgstr ""
 
-#: icemac/addressbook/browser/addressbook/edit.py:62
-msgid "number of persons"
-msgstr ""
-
-#: icemac/addressbook/browser/addressbook/edit.py:63
-#: icemac/addressbook/browser/principals/principals.py:39
-#: icemac/addressbook/interfaces.py:55
-#: icemac/addressbook/interfaces.py:216
-#: icemac/addressbook/principals/interfaces.py:47
-msgid "notes"
-msgstr ""
-
-#: icemac/addressbook/browser/addressbook/edit.py:75
+#: icemac/addressbook/browser/addressbook/edit.py:71
 msgid "The users inside this address book will not get deleted."
 msgstr ""
 
-#: icemac/addressbook/browser/addressbook/edit.py:81
+#: icemac/addressbook/browser/addressbook/edit.py:77
 msgid "Do you really want to delete all persons in this address book?"
 msgstr ""
 
-#: icemac/addressbook/browser/addressbook/edit.py:86
-#: icemac/addressbook/browser/base.py:255
-msgid "No, cancel"
-msgstr ""
-
-#: icemac/addressbook/browser/addressbook/edit.py:90
-#: icemac/addressbook/browser/base.py:260
-msgid "Yes, delete"
+#: icemac/addressbook/browser/addressbook/edit.py:84
+msgid "Address book contents deleted."
 msgstr ""
 
 #: icemac/addressbook/browser/addressbook/list.py:218
@@ -352,33 +330,41 @@ msgstr ""
 msgid "Login failed. Username and/or password might be wrong."
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:139
+#: icemac/addressbook/browser/base.py:141
 msgid "Add"
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:145
+#: icemac/addressbook/browser/base.py:147
 #. Default: ""
 msgid "\"${title}\" added."
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:154
+#: icemac/addressbook/browser/base.py:156
 msgid "Addition canceled."
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:238
+#: icemac/addressbook/browser/base.py:240
 msgid "Do you really want to delete this entry?"
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:258
+#: icemac/addressbook/browser/base.py:257
+msgid "No, cancel"
+msgstr ""
+
+#: icemac/addressbook/browser/base.py:260
 msgid "Deletion canceled."
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:263
+#: icemac/addressbook/browser/base.py:262
+msgid "Yes, delete"
+msgstr ""
+
+#: icemac/addressbook/browser/base.py:268
 #. Default: ""
 msgid "\"${title}\" deleted."
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:303
+#: icemac/addressbook/browser/base.py:322
 #. Default: ""
 msgid "\"${object}\" cloned."
 msgstr ""
@@ -460,6 +446,20 @@ msgstr ""
 
 #: icemac/addressbook/browser/file/widget.py:30
 msgid "Download file"
+msgstr ""
+
+#: icemac/addressbook/browser/interfaces.py:30
+#: icemac/addressbook/browser/search/result/delete.py:27
+msgid "number of persons"
+msgstr ""
+
+#: icemac/addressbook/browser/interfaces.py:31
+#: icemac/addressbook/browser/principals/principals.py:39
+#: icemac/addressbook/browser/search/result/delete.py:28
+#: icemac/addressbook/interfaces.py:55
+#: icemac/addressbook/interfaces.py:216
+#: icemac/addressbook/principals/interfaces.py:47
+msgid "notes"
 msgstr ""
 
 #: icemac/addressbook/browser/keyword/configure.zcml:42
@@ -691,6 +691,19 @@ msgstr ""
 msgid "Keyword search"
 msgstr ""
 
+#: icemac/addressbook/browser/search/result/delete.py:49
+msgid "Whether one of the selected persons is a user, it cannot get deleted here, you have to delete the user before."
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/delete.py:57
+msgid "Do you really want to delete the selected persons?"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/delete.py:66
+#. Default: ""
+msgid "Selected persons deleted: ${num}"
+msgstr ""
+
 #: icemac/addressbook/browser/search/result/export.pt:11
 msgid "No person found."
 msgstr ""
@@ -699,8 +712,12 @@ msgstr ""
 msgid "Export using"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/simple.py:37
+#: icemac/addressbook/browser/search/result/simple.py:51
 msgid "Export"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/simple.py:57
+msgid "Delete selected persons"
 msgstr ""
 
 #: icemac/addressbook/browser/search/search.pt:2
