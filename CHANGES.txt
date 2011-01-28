@@ -5,7 +5,8 @@ Change log
 0.7 (unreleased)
 ================
 
-- Nothing changed yet.
+- Added German translations for new features in `icemac.addressbook`
+  version 1.6.
 
 
 0.6 (2010-11-23)
