@@ -13,8 +13,8 @@
 ##############################################################################
 msgid ""
 msgstr ""
-"Project-Id-Version: Development/Unknown\n"
-"POT-Creation-Date: Fri Jan 28 19:04:34 2011\n"
+"Project-Id-Version: Meaningless\n"
+"POT-Creation-Date: Fri Oct 28 22:50:51 2011\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: zope/app/locales/extract.py\n"
 
-#: icemac/ab/importer/browser/configure.zcml:8
+#: icemac/ab/importer/browser/configure.zcml:16
 msgid "Import data"
 msgstr ""
 
@@ -36,20 +36,20 @@ msgstr ""
 msgid "Registered import file readers"
 msgstr ""
 
-#: icemac/ab/importer/browser/importer.py:13
+#: icemac/ab/importer/browser/importer.py:14
 msgid "No import files uploaded, yet."
 msgstr ""
 
-#: icemac/ab/importer/browser/importer.py:22
+#: icemac/ab/importer/browser/importer.py:23
 msgid "MIME type"
 msgstr ""
 
-#: icemac/ab/importer/browser/importer.py:25
+#: icemac/ab/importer/browser/importer.py:26
 msgid "Notes"
 msgstr ""
 
-#: icemac/ab/importer/browser/importer.py:35
-#: icemac/ab/importer/configure.zcml:4
+#: icemac/ab/importer/browser/importer.py:36
+#: icemac/ab/importer/configure.zcml:7
 msgid "Import"
 msgstr ""
 
@@ -57,7 +57,7 @@ msgstr ""
 msgid "Go back"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/base.py:22
+#: icemac/ab/importer/browser/wizard/base.py:21
 msgid "Import Wizard"
 msgstr ""
 
@@ -69,67 +69,62 @@ msgstr ""
 msgid "Complete"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/edit.py:14
+#: icemac/ab/importer/browser/wizard/edit.py:15
 msgid "Edit import file"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/map.py:214
-#: icemac/ab/importer/browser/wizard/map.py:224
-#: icemac/ab/importer/browser/wizard/map.py:269
+#: icemac/ab/importer/browser/wizard/map.py:212
+#: icemac/ab/importer/browser/wizard/map.py:222
+#: icemac/ab/importer/browser/wizard/map.py:267
 #. Default: ""
 msgid "Value ${value} is not allowed. Allowed values are: ${values}"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/map.py:233
+#: icemac/ab/importer/browser/wizard/map.py:231
 #. Default: ""
 msgid "${value} is no valid date."
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/map.py:241
+#: icemac/ab/importer/browser/wizard/map.py:239
 #. Default: ""
 msgid "${value} is no valid datetime. Must match to format string \"${format}\"."
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/map.py:251
+#: icemac/ab/importer/browser/wizard/map.py:249
 #. Default: ""
 msgid "${value} is not a valid integer number."
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/map.py:260
+#: icemac/ab/importer/browser/wizard/map.py:258
 #. Default: ""
 msgid "${value} is not a valid decimal number."
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/map.py:278
-#. Default: ""
-msgid "${value} is not a valid e-mail address."
-msgstr ""
-
-#: icemac/ab/importer/browser/wizard/map.py:285
+#: icemac/ab/importer/browser/wizard/map.py:275
 msgid "Not enough data fields in row."
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/map.py:316
+#: icemac/ab/importer/browser/wizard/map.py:296
 #. Default: ""
 msgid "${title}: ${message}"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/map.py:498
+#: icemac/ab/importer/browser/wizard/map.py:478
 msgid "Map fields"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/map.py:513
-#: icemac/ab/importer/browser/wizard/review.py:119
+#: icemac/ab/importer/browser/wizard/map.py:493
+#: icemac/ab/importer/browser/wizard/review.py:121
 msgid "main"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/map.py:518
-#: icemac/ab/importer/browser/wizard/review.py:128
+#: icemac/ab/importer/browser/wizard/map.py:498
+#: icemac/ab/importer/browser/wizard/review.py:130
 msgid "other"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/map.py:519
-#: icemac/ab/importer/browser/wizard/review.py:129
+#: icemac/ab/importer/browser/wizard/map.py:499
+#: icemac/ab/importer/browser/wizard/review.py:131
 #. Default: ""
 msgid "${prefix} ${title}"
 msgstr ""
@@ -146,45 +141,37 @@ msgstr ""
 msgid "Reader settings"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/review.py:106
+#: icemac/ab/importer/browser/wizard/review.py:100
+msgid "Keep imported data?"
+msgstr ""
+
+#: icemac/ab/importer/browser/wizard/review.py:108
 msgid "There was nothing to import in the import file."
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/review.py:132
+#: icemac/ab/importer/browser/wizard/review.py:134
 #. Default: ""
 msgid "<i>${prefix}</i><br />${title}"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/review.py:137
+#: icemac/ab/importer/browser/wizard/review.py:139
 #. Default: ""
 msgid "<br />${title}"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/review.py:173
+#: icemac/ab/importer/browser/wizard/review.py:175
 msgid "Errors:"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/review.py:200
+#: icemac/ab/importer/browser/wizard/review.py:202
 msgid "Review imported data"
-msgstr ""
-
-#: icemac/ab/importer/browser/wizard/review.py:99
-msgid "Keep imported data?"
-msgstr ""
-
-#: icemac/ab/importer/browser/wizard/step.pt:26
-msgid "Current step:"
-msgstr ""
-
-#: icemac/ab/importer/browser/wizard/step.pt:9
-msgid "Steps:"
 msgstr ""
 
 #: icemac/ab/importer/reader/csv/csv.py:47
 msgid "CSV file (comma separated fields, ISO-dates, UTF-8 encoded)"
 msgstr ""
 
-#: icemac/ab/importxls/xls.py:17
+#: icemac/ab/importxls/xls.py:15
 msgid "Microsoft Excel file"
 msgstr ""
 
@@ -210,12 +197,12 @@ msgid "none"
 msgstr ""
 
 #: icemac/addressbook/address.py:73
-#: icemac/addressbook/interfaces.py:78
+#: icemac/addressbook/interfaces.py:85
 #: icemac/addressbook/browser/person/configure.zcml:82
 msgid "e-mail address"
 msgstr ""
 
-#: icemac/addressbook/addressbook.py:53
+#: icemac/addressbook/addressbook.py:55
 #: icemac/addressbook/browser/rootfolder/configure.zcml:17
 msgid "address book"
 msgstr ""
@@ -272,17 +259,18 @@ msgstr ""
 #: icemac/addressbook/browser/base.py:219
 #: icemac/addressbook/browser/keyword/keyword.py:49
 #: icemac/addressbook/browser/person/person.py:194
-#: icemac/addressbook/browser/principals/principals.py:134
+#: icemac/addressbook/browser/principals/principals.py:135
+#: icemac/addressbook/browser/search/result/base.py:40
 msgid "Apply"
 msgstr ""
 
 #: icemac/addressbook/browser/addressbook/edit.py:28
-#: icemac/addressbook/browser/base.py:153
+#: icemac/addressbook/browser/base.py:151
 #: icemac/addressbook/browser/base.py:225
 #: icemac/addressbook/browser/keyword/keyword.py:55
 #: icemac/addressbook/browser/person/person.py:205
 #: icemac/addressbook/browser/person/person.py:327
-#: icemac/addressbook/browser/principals/principals.py:140
+#: icemac/addressbook/browser/principals/principals.py:141
 msgid "Cancel"
 msgstr ""
 
@@ -306,7 +294,7 @@ msgstr ""
 msgid "Address book contents deleted."
 msgstr ""
 
-#: icemac/addressbook/browser/addressbook/list.py:219
+#: icemac/addressbook/browser/addressbook/list.py:25
 msgid "There are no persons entered yet, click on \"Add person\" to create one."
 msgstr ""
 
@@ -330,16 +318,16 @@ msgstr ""
 msgid "Login failed. Username and/or password might be wrong."
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:142
+#: icemac/addressbook/browser/base.py:140
 msgid "Add"
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:148
+#: icemac/addressbook/browser/base.py:146
 #. Default: ""
 msgid "\"${title}\" added."
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:157
+#: icemac/addressbook/browser/base.py:155
 msgid "Addition canceled."
 msgstr ""
 
@@ -377,11 +365,11 @@ msgstr ""
 msgid "field"
 msgstr ""
 
-#: icemac/addressbook/browser/entities/entities.py:127
+#: icemac/addressbook/browser/entities/entities.py:139
 msgid "Moved ${entity} up."
 msgstr ""
 
-#: icemac/addressbook/browser/entities/entities.py:134
+#: icemac/addressbook/browser/entities/entities.py:146
 msgid "Moved ${entity} down."
 msgstr ""
 
@@ -405,19 +393,19 @@ msgstr ""
 msgid "move-down-table-cell"
 msgstr ""
 
-#: icemac/addressbook/browser/entities/entities.py:57
-msgid "Entity"
-msgstr ""
-
-#: icemac/addressbook/browser/entities/entities.py:65
+#: icemac/addressbook/browser/entities/entities.py:53
 msgid "Edit fields"
 msgstr ""
 
-#: icemac/addressbook/browser/entities/fields.py:108
+#: icemac/addressbook/browser/entities/entities.py:71
+msgid "Entity"
+msgstr ""
+
+#: icemac/addressbook/browser/entities/fields.py:105
 msgid "Caution: When you delete this field, possibly data will get lost. Namely the data which was entered into this field when it was displayed in a form of an object."
 msgstr ""
 
-#: icemac/addressbook/browser/entities/fields.py:79
+#: icemac/addressbook/browser/entities/fields.py:76
 msgid "Saved sortorder."
 msgstr ""
 
@@ -437,6 +425,11 @@ msgstr ""
 msgid "Field"
 msgstr ""
 
+#: icemac/addressbook/browser/errormessage.py:31
+#. Default: ""
+msgid "${value} is not a valid e-mail address."
+msgstr ""
+
 #: icemac/addressbook/browser/file/file.py:130
 msgid "Do you really want to delete this file?"
 msgstr ""
@@ -453,16 +446,16 @@ msgstr ""
 msgid "Download file"
 msgstr ""
 
-#: icemac/addressbook/browser/interfaces.py:30
-#: icemac/addressbook/browser/search/result/delete.py:21
+#: icemac/addressbook/browser/interfaces.py:29
+#: icemac/addressbook/browser/search/result/handler/delete.py:20
 msgid "number of persons"
 msgstr ""
 
-#: icemac/addressbook/browser/interfaces.py:31
-#: icemac/addressbook/browser/principals/principals.py:39
-#: icemac/addressbook/browser/search/result/delete.py:22
+#: icemac/addressbook/browser/interfaces.py:30
+#: icemac/addressbook/browser/principals/principals.py:40
+#: icemac/addressbook/browser/search/result/handler/delete.py:21
 #: icemac/addressbook/interfaces.py:57
-#: icemac/addressbook/interfaces.py:251
+#: icemac/addressbook/interfaces.py:266
 #: icemac/addressbook/principals/interfaces.py:45
 msgid "notes"
 msgstr ""
@@ -480,7 +473,7 @@ msgid "Edit keyword"
 msgstr ""
 
 #: icemac/addressbook/browser/keyword/keyword.py:60
-#: icemac/addressbook/browser/table.py:35
+#: icemac/addressbook/browser/table.py:36
 #: icemac/addressbook/browser/entities/fields_list.pt:16
 #: icemac/addressbook/browser/rootfolder/rootfolder.pt:11
 msgid "Delete"
@@ -495,13 +488,13 @@ msgid "No keywords defined yet."
 msgstr ""
 
 #: icemac/addressbook/browser/keyword/keyword.py:80
-#: icemac/addressbook/interfaces.py:136
+#: icemac/addressbook/interfaces.py:143
 #: icemac/addressbook/keyword.py:49
 #: icemac/addressbook/browser/keyword/configure.zcml:17
 msgid "keyword"
 msgstr ""
 
-#: icemac/addressbook/browser/layout.pt:36
+#: icemac/addressbook/browser/layout.pt:35
 #. Default: "Add"
 msgid "Add-menu-Add"
 msgstr ""
@@ -567,12 +560,12 @@ msgid "Edit person data"
 msgstr ""
 
 #: icemac/addressbook/browser/person/person.py:182
-#: icemac/addressbook/export/xls/simple.py:177
+#: icemac/addressbook/export/xls/simple.py:171
 msgid "main ${address}"
 msgstr ""
 
 #: icemac/addressbook/browser/person/person.py:184
-#: icemac/addressbook/export/xls/simple.py:196
+#: icemac/addressbook/export/xls/simple.py:190
 msgid "other ${address}"
 msgstr ""
 
@@ -597,8 +590,8 @@ msgid "Failed to delete person: This person is connected to a user. To delete th
 msgstr ""
 
 #: icemac/addressbook/browser/person/person.py:294
-#: icemac/addressbook/preferences/sources.py:48
-#: icemac/ab/importer/browser/wizard/map.py:301
+#: icemac/addressbook/fieldsource.py:47
+#: icemac/ab/importer/browser/wizard/map.py:284
 #. Default: ""
 msgid "${prefix} -- ${title}"
 msgstr ""
@@ -628,36 +621,36 @@ msgstr ""
 msgid "Users"
 msgstr ""
 
-#: icemac/addressbook/browser/principals/principals.py:110
+#: icemac/addressbook/browser/principals/principals.py:111
 msgid "Edit user"
 msgstr ""
 
-#: icemac/addressbook/browser/principals/principals.py:145
+#: icemac/addressbook/browser/principals/principals.py:146
 msgid "Delete user"
 msgstr ""
 
-#: icemac/addressbook/browser/principals/principals.py:184
+#: icemac/addressbook/browser/principals/principals.py:185
 msgid "You changed the login name, please re-login."
 msgstr ""
 
-#: icemac/addressbook/browser/principals/principals.py:188
+#: icemac/addressbook/browser/principals/principals.py:189
 msgid "You changed the password, please re-login."
 msgstr ""
 
-#: icemac/addressbook/browser/principals/principals.py:208
+#: icemac/addressbook/browser/principals/principals.py:209
 msgid "Do you really want to delete this user?"
 msgstr ""
 
-#: icemac/addressbook/browser/principals/principals.py:25
+#: icemac/addressbook/browser/principals/principals.py:26
 msgid "No users defined yet or you are not allowed to access any."
 msgstr ""
 
-#: icemac/addressbook/browser/principals/principals.py:35
+#: icemac/addressbook/browser/principals/principals.py:36
 #: icemac/addressbook/principals/interfaces.py:40
 msgid "login name"
 msgstr ""
 
-#: icemac/addressbook/browser/principals/principals.py:65
+#: icemac/addressbook/browser/principals/principals.py:66
 msgid "Add new user"
 msgstr ""
 
@@ -669,31 +662,35 @@ msgstr ""
 msgid "Address books"
 msgstr ""
 
-#: icemac/addressbook/browser/search/base.py:34
+#: icemac/addressbook/browser/search/base.py:42
 msgid "There were some errors."
 msgstr ""
 
-#: icemac/addressbook/browser/search/base.py:40
+#: icemac/addressbook/browser/search/base.py:48
 #: icemac/addressbook/browser/search/configure.zcml:7
 msgid "Search"
 msgstr ""
 
-#: icemac/addressbook/browser/search/multi_keyword.py:23
+#: icemac/addressbook/browser/search/multi_keyword.py:17
+msgid "The keywords you want to search for have to be in the right box. Use the arrow buttons to move them."
+msgstr ""
+
+#: icemac/addressbook/browser/search/multi_keyword.py:26
 #. Default: "and"
 msgid "search-and"
 msgstr ""
 
-#: icemac/addressbook/browser/search/multi_keyword.py:24
+#: icemac/addressbook/browser/search/multi_keyword.py:27
 #. Default: "or"
 msgid "search-or"
 msgstr ""
 
-#: icemac/addressbook/browser/search/multi_keyword.py:30
+#: icemac/addressbook/browser/search/multi_keyword.py:33
 msgid "search term concatenation"
 msgstr ""
 
-#: icemac/addressbook/browser/search/multi_keyword.py:34
-#: icemac/addressbook/browser/search/multi_keyword.py:36
+#: icemac/addressbook/browser/search/multi_keyword.py:37
+#: icemac/addressbook/browser/search/multi_keyword.py:39
 #: icemac/addressbook/interfaces.py:53
 #: icemac/addressbook/interfaces.py:55
 msgid "keywords"
@@ -703,46 +700,184 @@ msgstr ""
 msgid "Keyword search"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/delete.py:42
+#: icemac/addressbook/browser/search/name.py:16
+msgid "You may use wildcards in this search: Use ? for a single character or * for multiple characters."
+msgstr ""
+
+#: icemac/addressbook/browser/search/name.py:25
+msgid "Name of a person"
+msgstr ""
+
+#: icemac/addressbook/browser/search/name.py:26
+msgid "You may use ? as wildcard for a single character or * as wildcard for multiple characters."
+msgstr ""
+
+#: icemac/addressbook/browser/search/name.zcml:16
+msgid "Name search"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/base.py:22
+msgid "Apply on selected persons"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/configure.zcml:24
+msgid "Deletion (Deletes selected persons.)"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/delete.py:40
 msgid "Whether one of the selected persons is a user, it cannot get deleted here, you have to delete the user before."
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/delete.py:50
+#: icemac/addressbook/browser/search/result/handler/delete.py:48
 msgid "Do you really want to delete the selected persons?"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/delete.py:58
+#: icemac/addressbook/browser/search/result/handler/delete.py:56
 #. Default: ""
 msgid "Selected persons deleted: ${num}"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/export.pt:11
+#: icemac/addressbook/browser/search/result/handler/export/configure.zcml:14
+msgid "XLS export main (Exports person data and main addresses resp. phone numbers.)"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/export/configure.zcml:33
+msgid "XLS export complete (Exports person data and all addresses resp. phone numbers.)"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/update/base.py:20
+msgid "Update Wizard"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/update/check.py:57
+msgid "name"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/update/check.py:61
+msgid "errors"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/update/check.py:74
+msgid "Check result"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/update/choose.py:14
+msgid "Which field should be updated?"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/update/choose.py:22
+msgid "Choose field"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/update/configure.zcml:17
+msgid "Update (Allows you to choose a field for update on each selected person.)"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:110
+msgid "New value"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:122
+msgid "new value"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:123
+msgid "This value should be set on each selected person."
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:146
+msgid "operation"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:147
+msgid "What should be done with the current value and the new one?"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:44
+msgid "prepend new value to existing one"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:45
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:62
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:96
+msgid "replace existing value with new one"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:46
+msgid "append new value to existing one"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:48
+msgid "remove all occurrences of new value in existing one"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:50
+msgid "remove left-most occurrence of new value in existing one"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:52
+msgid "remove right-most occurrence of new value in existing one"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:73
+msgid "append selected keywords to existing ones"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:74
+msgid "remove selected keywords from existing ones"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:75
+msgid "intersection (i. e. keywords which are in selected keywords and existing ones)"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:78
+msgid "symmetric difference (i. e. keywords which are either in selected keywords or existing ones but not both)"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:92
+msgid "add new value to existing one"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:93
+msgid "substract new value from existing one"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:94
+msgid "multiply new value by existing one"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:95
+msgid "divide existing value by new one"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/update/errormessages.py:12
+msgid "Division by zero"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/update/errormessages.py:18
+#. Default: ""
+msgid "Unexpected error occurred: ${klass}: ${text}"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/result.pt:11
 msgid "No person found."
-msgstr ""
-
-#: icemac/addressbook/browser/search/result/simple.py:22
-msgid "Export using"
-msgstr ""
-
-#: icemac/addressbook/browser/search/result/simple.py:51
-msgid "Export"
-msgstr ""
-
-#: icemac/addressbook/browser/search/result/simple.py:57
-msgid "Delete selected persons"
 msgstr ""
 
 #: icemac/addressbook/browser/search/search.pt:2
 msgid "Please choose a search."
 msgstr ""
 
-#: icemac/addressbook/browser/table.py:20
+#: icemac/addressbook/browser/table.py:21
 msgid "Name"
 msgstr ""
 
-#: icemac/addressbook/export/sources.py:39
-#. Default: ""
-msgid "${title} (${desc})"
+#: icemac/addressbook/browser/wizard-step.pt:26
+msgid "Current step:"
+msgstr ""
+
+#: icemac/addressbook/browser/wizard-step.pt:9
+msgid "Steps:"
 msgstr ""
 
 #: icemac/addressbook/export/xls/simple.py:122
@@ -750,22 +885,6 @@ msgstr ""
 #: icemac/addressbook/principals/interfaces.py:36
 #: icemac/addressbook/browser/addressbook/configure.zcml:97
 msgid "person"
-msgstr ""
-
-#: icemac/addressbook/export/xls/simple.py:131
-msgid "XLS main"
-msgstr ""
-
-#: icemac/addressbook/export/xls/simple.py:132
-msgid "Exports person data and main addresses resp. phone numbers."
-msgstr ""
-
-#: icemac/addressbook/export/xls/simple.py:149
-msgid "XLS complete"
-msgstr ""
-
-#: icemac/addressbook/export/xls/simple.py:150
-msgid "Exports person data and all addresses resp. phone numbers."
 msgstr ""
 
 #: icemac/addressbook/export/xls/simple.py:73
@@ -787,7 +906,7 @@ msgstr ""
 #: icemac/addressbook/file/file.py:65
 #: icemac/addressbook/file/interfaces.py:19
 #: icemac/addressbook/browser/file/configure.zcml:14
-#: icemac/ab/importer/browser/configure.zcml:26
+#: icemac/ab/importer/browser/configure.zcml:34
 msgid "file"
 msgstr ""
 
@@ -807,36 +926,40 @@ msgstr ""
 msgid "Size"
 msgstr ""
 
-#: icemac/addressbook/interfaces.py:103
+#: icemac/addressbook/interfaces.py:106
+msgid "main postal address"
+msgstr ""
+
+#: icemac/addressbook/interfaces.py:110
 msgid "main phone number"
 msgstr ""
 
-#: icemac/addressbook/interfaces.py:107
+#: icemac/addressbook/interfaces.py:114
 msgid "main e-mail address"
 msgstr ""
 
-#: icemac/addressbook/interfaces.py:111
+#: icemac/addressbook/interfaces.py:118
 msgid "main home page address"
 msgstr ""
 
-#: icemac/addressbook/interfaces.py:245
+#: icemac/addressbook/interfaces.py:260
 msgid "type"
 msgstr ""
 
-#: icemac/addressbook/interfaces.py:249
+#: icemac/addressbook/interfaces.py:264
 msgid "choice field values"
 msgstr ""
 
-#: icemac/addressbook/interfaces.py:250
+#: icemac/addressbook/interfaces.py:265
 msgid "value"
 msgstr ""
 
-#: icemac/addressbook/interfaces.py:257
+#: icemac/addressbook/interfaces.py:272
 msgid "type \"choice\" requires at least one field value."
 msgstr ""
 
 #: icemac/addressbook/interfaces.py:43
-#: icemac/addressbook/interfaces.py:247
+#: icemac/addressbook/interfaces.py:262
 msgid "title"
 msgstr ""
 
@@ -852,41 +975,37 @@ msgstr ""
 msgid "birth date"
 msgstr ""
 
-#: icemac/addressbook/interfaces.py:64
+#: icemac/addressbook/interfaces.py:71
 msgid "address prefix"
 msgstr ""
 
-#: icemac/addressbook/interfaces.py:65
+#: icemac/addressbook/interfaces.py:72
 msgid "e. g. company name or c/o"
 msgstr ""
 
-#: icemac/addressbook/interfaces.py:66
+#: icemac/addressbook/interfaces.py:73
 msgid "street"
 msgstr ""
 
-#: icemac/addressbook/interfaces.py:67
+#: icemac/addressbook/interfaces.py:74
 msgid "city"
 msgstr ""
 
-#: icemac/addressbook/interfaces.py:68
+#: icemac/addressbook/interfaces.py:75
 msgid "zip"
 msgstr ""
 
-#: icemac/addressbook/interfaces.py:70
+#: icemac/addressbook/interfaces.py:77
 msgid "country"
 msgstr ""
 
-#: icemac/addressbook/interfaces.py:86
-#: icemac/addressbook/sources.py:43
+#: icemac/addressbook/interfaces.py:93
+#: icemac/addressbook/sources.py:53
 msgid "URL"
 msgstr ""
 
-#: icemac/addressbook/interfaces.py:92
-msgid "number"
-msgstr ""
-
 #: icemac/addressbook/interfaces.py:99
-msgid "main postal address"
+msgid "number"
 msgstr ""
 
 #: icemac/addressbook/keyword.py:70
@@ -959,29 +1078,21 @@ msgstr ""
 msgid "Person List Preferences"
 msgstr ""
 
-#: icemac/addressbook/preferences/interfaces.py:15
-#: icemac/addressbook/preferences/interfaces.py:17
+#: icemac/addressbook/preferences/interfaces.py:16
+#: icemac/addressbook/preferences/interfaces.py:18
 msgid "columns"
 msgstr ""
 
-#: icemac/addressbook/preferences/interfaces.py:21
+#: icemac/addressbook/preferences/interfaces.py:22
 msgid "order by"
 msgstr ""
 
-#: icemac/addressbook/preferences/interfaces.py:25
+#: icemac/addressbook/preferences/interfaces.py:26
 msgid "sort direction"
 msgstr ""
 
-#: icemac/addressbook/preferences/interfaces.py:28
+#: icemac/addressbook/preferences/interfaces.py:29
 msgid "batch size"
-msgstr ""
-
-#: icemac/addressbook/preferences/sources.py:57
-msgid "ascending (A-->Z)"
-msgstr ""
-
-#: icemac/addressbook/preferences/sources.py:58
-msgid "descending (Z-->A)"
 msgstr ""
 
 #: icemac/addressbook/principals/configure.zcml:14
@@ -1048,43 +1159,51 @@ msgstr ""
 msgid "<no person>"
 msgstr ""
 
-#: icemac/addressbook/sources.py:27
+#: icemac/addressbook/sources.py:29
 msgid "yes"
 msgstr ""
 
-#: icemac/addressbook/sources.py:28
+#: icemac/addressbook/sources.py:30
 msgid "no"
 msgstr ""
 
-#: icemac/addressbook/sources.py:35
-msgid "bool"
-msgstr ""
-
-#: icemac/addressbook/sources.py:36
-msgid "choice"
-msgstr ""
-
 #: icemac/addressbook/sources.py:37
-msgid "date"
+msgid "ascending (A-->Z)"
 msgstr ""
 
 #: icemac/addressbook/sources.py:38
+msgid "descending (Z-->A)"
+msgstr ""
+
+#: icemac/addressbook/sources.py:45
+msgid "bool"
+msgstr ""
+
+#: icemac/addressbook/sources.py:46
+msgid "choice"
+msgstr ""
+
+#: icemac/addressbook/sources.py:47
+msgid "date"
+msgstr ""
+
+#: icemac/addressbook/sources.py:48
 msgid "datetime"
 msgstr ""
 
-#: icemac/addressbook/sources.py:39
+#: icemac/addressbook/sources.py:49
 msgid "decimal number"
 msgstr ""
 
-#: icemac/addressbook/sources.py:40
+#: icemac/addressbook/sources.py:50
 msgid "integer number"
 msgstr ""
 
-#: icemac/addressbook/sources.py:41
+#: icemac/addressbook/sources.py:51
 msgid "text area"
 msgstr ""
 
-#: icemac/addressbook/sources.py:42
+#: icemac/addressbook/sources.py:52
 msgid "text line"
 msgstr ""
 
