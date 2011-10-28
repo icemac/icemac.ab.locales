@@ -25,7 +25,7 @@ setuptools.setup(
     url='http://pypi.python.org/pypi/icemac.ab.locales',
     license='ZPL 2.1',
     classifiers=[
-        'Development Status :: 4 - Beta',
+        'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
         'Framework :: Zope3',
         'Intended Audience :: Developers',
@@ -34,7 +34,7 @@ setuptools.setup(
         'Natural Language :: German',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2.5',
+        'Programming Language :: Python :: 2.6',
         'Topic :: Internet :: WWW/HTTP',
         ],
     packages=setuptools.find_packages('src'),
