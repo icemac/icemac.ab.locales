@@ -2,10 +2,10 @@
 Change log
 ==========
 
-0.9 (unreleased)
-================
+0.8.1 (2011-10-28)
+==================
 
-- Nothing changed yet.
+- Version 0.8 was a brown bag release.
 
 
 0.8 (2011-10-28)
