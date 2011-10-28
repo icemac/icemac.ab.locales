@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: zope.mimetype\n"
-"POT-Creation-Date: Tue Dec 29 15:23:35 2009\n"
+"POT-Creation-Date: Fri Oct 28 22:53:23 2011\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Michael Howitz <mh@gocept.com>\n"
 "Language-Team: Michael Howitz <icemac@gmx.net>\n"

@@ -1,6 +1,6 @@
 ##############################################################################
 #
-# Copyright (c) 2003-2004 Zope Corporation and Contributors.
+# Copyright (c) 2003-2004 Zope Foundation and Contributors.
 # All Rights Reserved.
 #
 # This software is subject to the provisions of the Zope Public License,
@@ -13,11 +13,11 @@
 ##############################################################################
 msgid ""
 msgstr ""
-"Project-Id-Version: Development/Unknown\n"
-"POT-Creation-Date: Tue Dec 29 15:23:35 2009\n"
+"Project-Id-Version: Meaningless\n"
+"POT-Creation-Date: Fri Oct 28 22:53:23 2011\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
+"Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
