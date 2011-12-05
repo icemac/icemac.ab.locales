@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Meaningless\n"
-"POT-Creation-Date: Fri Oct 28 22:50:51 2011\n"
+"POT-Creation-Date: Mon Dec  5 21:03:07 2011\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: zope/app/locales/extract.py\n"
 
-#: icemac/ab/importer/browser/configure.zcml:16
+#: icemac/ab/importer/browser/configure.zcml:15
 msgid "Import data"
 msgstr ""
 
@@ -57,7 +57,7 @@ msgstr ""
 msgid "Go back"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/base.py:21
+#: icemac/ab/importer/browser/wizard/base.py:20
 msgid "Import Wizard"
 msgstr ""
 
@@ -73,57 +73,57 @@ msgstr ""
 msgid "Edit import file"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/map.py:212
-#: icemac/ab/importer/browser/wizard/map.py:222
-#: icemac/ab/importer/browser/wizard/map.py:267
+#: icemac/ab/importer/browser/wizard/map.py:214
+#: icemac/ab/importer/browser/wizard/map.py:225
+#: icemac/ab/importer/browser/wizard/map.py:275
 #. Default: ""
 msgid "Value ${value} is not allowed. Allowed values are: ${values}"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/map.py:231
+#: icemac/ab/importer/browser/wizard/map.py:235
 #. Default: ""
 msgid "${value} is no valid date."
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/map.py:239
+#: icemac/ab/importer/browser/wizard/map.py:244
 #. Default: ""
 msgid "${value} is no valid datetime. Must match to format string \"${format}\"."
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/map.py:249
+#: icemac/ab/importer/browser/wizard/map.py:255
 #. Default: ""
 msgid "${value} is not a valid integer number."
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/map.py:258
+#: icemac/ab/importer/browser/wizard/map.py:265
 #. Default: ""
 msgid "${value} is not a valid decimal number."
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/map.py:275
+#: icemac/ab/importer/browser/wizard/map.py:284
 msgid "Not enough data fields in row."
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/map.py:296
+#: icemac/ab/importer/browser/wizard/map.py:305
 #. Default: ""
 msgid "${title}: ${message}"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/map.py:478
+#: icemac/ab/importer/browser/wizard/map.py:487
 msgid "Map fields"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/map.py:493
+#: icemac/ab/importer/browser/wizard/map.py:502
 #: icemac/ab/importer/browser/wizard/review.py:121
 msgid "main"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/map.py:498
+#: icemac/ab/importer/browser/wizard/map.py:507
 #: icemac/ab/importer/browser/wizard/review.py:130
 msgid "other"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/map.py:499
+#: icemac/ab/importer/browser/wizard/map.py:508
 #: icemac/ab/importer/browser/wizard/review.py:131
 #. Default: ""
 msgid "${prefix} ${title}"
@@ -175,11 +175,11 @@ msgstr ""
 msgid "Microsoft Excel file"
 msgstr ""
 
-#: icemac/addressbook/address.py:100
+#: icemac/addressbook/address.py:107
 msgid "home page address"
 msgstr ""
 
-#: icemac/addressbook/address.py:127
+#: icemac/addressbook/address.py:134
 #: icemac/addressbook/browser/person/configure.zcml:71
 msgid "phone number"
 msgstr ""
@@ -191,8 +191,8 @@ msgstr ""
 
 #: icemac/addressbook/address.py:45
 #: icemac/addressbook/address.py:81
-#: icemac/addressbook/address.py:108
-#: icemac/addressbook/address.py:135
+#: icemac/addressbook/address.py:115
+#: icemac/addressbook/address.py:142
 msgid "none"
 msgstr ""
 
@@ -202,7 +202,7 @@ msgstr ""
 msgid "e-mail address"
 msgstr ""
 
-#: icemac/addressbook/addressbook.py:55
+#: icemac/addressbook/addressbook.py:56
 #: icemac/addressbook/browser/rootfolder/configure.zcml:17
 msgid "address book"
 msgstr ""
@@ -260,7 +260,7 @@ msgstr ""
 #: icemac/addressbook/browser/keyword/keyword.py:49
 #: icemac/addressbook/browser/person/person.py:194
 #: icemac/addressbook/browser/principals/principals.py:135
-#: icemac/addressbook/browser/search/result/base.py:40
+#: icemac/addressbook/browser/search/result/base.py:39
 msgid "Apply"
 msgstr ""
 
@@ -294,7 +294,7 @@ msgstr ""
 msgid "Address book contents deleted."
 msgstr ""
 
-#: icemac/addressbook/browser/addressbook/list.py:25
+#: icemac/addressbook/browser/addressbook/list.py:15
 msgid "There are no persons entered yet, click on \"Add person\" to create one."
 msgstr ""
 
@@ -425,7 +425,7 @@ msgstr ""
 msgid "Field"
 msgstr ""
 
-#: icemac/addressbook/browser/errormessage.py:31
+#: icemac/addressbook/browser/errormessage.py:20
 #. Default: ""
 msgid "${value} is not a valid e-mail address."
 msgstr ""
@@ -494,7 +494,15 @@ msgstr ""
 msgid "keyword"
 msgstr ""
 
-#: icemac/addressbook/browser/layout.pt:35
+#: icemac/addressbook/browser/layout.pt:17
+msgid "info-i"
+msgstr ""
+
+#: icemac/addressbook/browser/layout.pt:17
+msgid "Information about icemac.addressbook"
+msgstr ""
+
+#: icemac/addressbook/browser/layout.pt:34
 #. Default: "Add"
 msgid "Add-menu-Add"
 msgstr ""
@@ -590,8 +598,8 @@ msgid "Failed to delete person: This person is connected to a user. To delete th
 msgstr ""
 
 #: icemac/addressbook/browser/person/person.py:294
-#: icemac/addressbook/fieldsource.py:47
-#: icemac/ab/importer/browser/wizard/map.py:284
+#: icemac/addressbook/fieldsource.py:45
+#: icemac/ab/importer/browser/wizard/map.py:293
 #. Default: ""
 msgid "${prefix} -- ${title}"
 msgstr ""
@@ -700,15 +708,15 @@ msgstr ""
 msgid "Keyword search"
 msgstr ""
 
-#: icemac/addressbook/browser/search/name.py:16
+#: icemac/addressbook/browser/search/name.py:15
 msgid "You may use wildcards in this search: Use ? for a single character or * for multiple characters."
 msgstr ""
 
-#: icemac/addressbook/browser/search/name.py:25
+#: icemac/addressbook/browser/search/name.py:24
 msgid "Name of a person"
 msgstr ""
 
-#: icemac/addressbook/browser/search/name.py:26
+#: icemac/addressbook/browser/search/name.py:25
 msgid "You may use ? as wildcard for a single character or * as wildcard for multiple characters."
 msgstr ""
 
@@ -716,7 +724,7 @@ msgstr ""
 msgid "Name search"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/base.py:22
+#: icemac/addressbook/browser/search/result/base.py:20
 msgid "Apply on selected persons"
 msgstr ""
 
@@ -745,27 +753,39 @@ msgstr ""
 msgid "XLS export complete (Exports person data and all addresses resp. phone numbers.)"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/handler/update/base.py:20
+#: icemac/addressbook/browser/search/result/handler/mailto/configure.zcml:14
+msgid "E-Mail (Creates a link to send e-mails.)"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/mailto/mailto.pt:2
+msgid "Send an e-mail"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/mailto/mailto.pt:3
+msgid "Click here to open your e-mail client"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/update/base.py:17
 msgid "Update Wizard"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/handler/update/check.py:57
+#: icemac/addressbook/browser/search/result/handler/update/check.py:53
 msgid "name"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/handler/update/check.py:61
+#: icemac/addressbook/browser/search/result/handler/update/check.py:57
 msgid "errors"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/handler/update/check.py:74
+#: icemac/addressbook/browser/search/result/handler/update/check.py:70
 msgid "Check result"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/handler/update/choose.py:14
+#: icemac/addressbook/browser/search/result/handler/update/choose.py:17
 msgid "Which field should be updated?"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/handler/update/choose.py:22
+#: icemac/addressbook/browser/search/result/handler/update/choose.py:25
 msgid "Choose field"
 msgstr ""
 
@@ -773,89 +793,89 @@ msgstr ""
 msgid "Update (Allows you to choose a field for update on each selected person.)"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/handler/update/enter.py:110
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:107
 msgid "New value"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/handler/update/enter.py:122
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:119
 msgid "new value"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/handler/update/enter.py:123
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:120
 msgid "This value should be set on each selected person."
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/handler/update/enter.py:146
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:143
 msgid "operation"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/handler/update/enter.py:147
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:144
 msgid "What should be done with the current value and the new one?"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/handler/update/enter.py:44
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:41
 msgid "prepend new value to existing one"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/handler/update/enter.py:45
-#: icemac/addressbook/browser/search/result/handler/update/enter.py:62
-#: icemac/addressbook/browser/search/result/handler/update/enter.py:96
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:42
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:59
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:93
 msgid "replace existing value with new one"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/handler/update/enter.py:46
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:43
 msgid "append new value to existing one"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/handler/update/enter.py:48
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:45
 msgid "remove all occurrences of new value in existing one"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/handler/update/enter.py:50
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:47
 msgid "remove left-most occurrence of new value in existing one"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/handler/update/enter.py:52
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:49
 msgid "remove right-most occurrence of new value in existing one"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/handler/update/enter.py:73
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:70
 msgid "append selected keywords to existing ones"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/handler/update/enter.py:74
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:71
 msgid "remove selected keywords from existing ones"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/handler/update/enter.py:75
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:72
 msgid "intersection (i. e. keywords which are in selected keywords and existing ones)"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/handler/update/enter.py:78
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:75
 msgid "symmetric difference (i. e. keywords which are either in selected keywords or existing ones but not both)"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/handler/update/enter.py:92
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:89
 msgid "add new value to existing one"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/handler/update/enter.py:93
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:90
 msgid "substract new value from existing one"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/handler/update/enter.py:94
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:91
 msgid "multiply new value by existing one"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/handler/update/enter.py:95
+#: icemac/addressbook/browser/search/result/handler/update/enter.py:92
 msgid "divide existing value by new one"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/handler/update/errormessages.py:12
+#: icemac/addressbook/browser/search/result/handler/update/errormessages.py:13
 msgid "Division by zero"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/handler/update/errormessages.py:18
+#: icemac/addressbook/browser/search/result/handler/update/errormessages.py:20
 #. Default: ""
 msgid "Unexpected error occurred: ${klass}: ${text}"
 msgstr ""
@@ -906,7 +926,7 @@ msgstr ""
 #: icemac/addressbook/file/file.py:65
 #: icemac/addressbook/file/interfaces.py:19
 #: icemac/addressbook/browser/file/configure.zcml:14
-#: icemac/ab/importer/browser/configure.zcml:34
+#: icemac/ab/importer/browser/configure.zcml:33
 msgid "file"
 msgstr ""
 

@@ -5,7 +5,8 @@ Change log
 0.8.2 (unreleased)
 ==================
 
-- Nothing changed yet.
+- Added German translations for new features in `icemac.addressbook`
+  version 1.8.
 
 
 0.8.1 (2011-10-28)
