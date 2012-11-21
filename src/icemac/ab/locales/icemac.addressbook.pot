@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Meaningless\n"
-"POT-Creation-Date: Fri Apr 20 21:58:35 2012\n"
+"POT-Creation-Date: Wed Nov 21 20:31:40 2012\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -61,6 +61,7 @@ msgid "Import"
 msgstr ""
 
 #: icemac/ab/importer/browser/readers.pt:8
+#: icemac/addressbook/browser/about/about.pt:23
 msgid "Go back"
 msgstr ""
 
@@ -83,27 +84,22 @@ msgstr ""
 #: icemac/ab/importer/browser/wizard/map.py:214
 #: icemac/ab/importer/browser/wizard/map.py:225
 #: icemac/ab/importer/browser/wizard/map.py:275
-#. Default: ""
 msgid "Value ${value} is not allowed. Allowed values are: ${values}"
 msgstr ""
 
 #: icemac/ab/importer/browser/wizard/map.py:235
-#. Default: ""
 msgid "${value} is no valid date."
 msgstr ""
 
 #: icemac/ab/importer/browser/wizard/map.py:244
-#. Default: ""
 msgid "${value} is no valid datetime. Must match to format string \"${format}\"."
 msgstr ""
 
 #: icemac/ab/importer/browser/wizard/map.py:255
-#. Default: ""
 msgid "${value} is not a valid integer number."
 msgstr ""
 
 #: icemac/ab/importer/browser/wizard/map.py:265
-#. Default: ""
 msgid "${value} is not a valid decimal number."
 msgstr ""
 
@@ -114,12 +110,10 @@ msgstr ""
 #: icemac/ab/importer/browser/wizard/map.py:293
 #: icemac/addressbook/browser/person/person.py:290
 #: icemac/addressbook/fieldsource.py:45
-#. Default: ""
 msgid "${prefix} -- ${title}"
 msgstr ""
 
 #: icemac/ab/importer/browser/wizard/map.py:305
-#. Default: ""
 msgid "${title}: ${message}"
 msgstr ""
 
@@ -139,7 +133,6 @@ msgstr ""
 
 #: icemac/ab/importer/browser/wizard/map.py:508
 #: icemac/ab/importer/browser/wizard/review.py:131
-#. Default: ""
 msgid "${prefix} ${title}"
 msgstr ""
 
@@ -164,12 +157,10 @@ msgid "There was nothing to import in the import file."
 msgstr ""
 
 #: icemac/ab/importer/browser/wizard/review.py:134
-#. Default: ""
 msgid "<i>${prefix}</i><br />${title}"
 msgstr ""
 
 #: icemac/ab/importer/browser/wizard/review.py:139
-#. Default: ""
 msgid "<br />${title}"
 msgstr ""
 
@@ -247,10 +238,6 @@ msgstr ""
 
 #: icemac/addressbook/browser/about/about.pt:17
 msgid "Icons from:"
-msgstr ""
-
-#: icemac/addressbook/browser/about/about.pt:23
-msgid "go back"
 msgstr ""
 
 #: icemac/addressbook/browser/addressbook/add.py:14
@@ -333,7 +320,6 @@ msgid "Add"
 msgstr ""
 
 #: icemac/addressbook/browser/base.py:160
-#. Default: ""
 msgid "\"${title}\" added."
 msgstr ""
 
@@ -363,12 +349,10 @@ msgid "Yes, delete"
 msgstr ""
 
 #: icemac/addressbook/browser/base.py:311
-#. Default: ""
 msgid "\"${title}\" deleted."
 msgstr ""
 
 #: icemac/addressbook/browser/base.py:368
-#. Default: ""
 msgid "\"${object}\" cloned."
 msgstr ""
 
@@ -448,7 +432,6 @@ msgid "Save sortorder"
 msgstr ""
 
 #: icemac/addressbook/browser/errormessage.py:20
-#. Default: ""
 msgid "${value} is not a valid e-mail address."
 msgstr ""
 
@@ -749,7 +732,6 @@ msgid "Do you really want to delete the selected persons?"
 msgstr ""
 
 #: icemac/addressbook/browser/search/result/handler/delete.py:56
-#. Default: ""
 msgid "Selected persons deleted: ${num}"
 msgstr ""
 
@@ -773,19 +755,31 @@ msgstr ""
 msgid "Click here to open your e-mail client"
 msgstr ""
 
+#: icemac/addressbook/browser/search/result/handler/names/configure.zcml:14
+msgid "Names (Comma separated list of person names.)"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/names/list.pt:2
+msgid "Names of selected persons"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/names/list.pt:4
+msgid "Go back to addressbook"
+msgstr ""
+
 #: icemac/addressbook/browser/search/result/handler/update/base.py:18
 msgid "Update Wizard"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/handler/update/check.py:53
+#: icemac/addressbook/browser/search/result/handler/update/check.py:55
 msgid "name"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/handler/update/check.py:57
+#: icemac/addressbook/browser/search/result/handler/update/check.py:59
 msgid "errors"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/handler/update/check.py:70
+#: icemac/addressbook/browser/search/result/handler/update/check.py:71
 msgid "Check result"
 msgstr ""
 
@@ -884,7 +878,6 @@ msgid "Division by zero"
 msgstr ""
 
 #: icemac/addressbook/browser/search/result/handler/update/errormessages.py:20
-#. Default: ""
 msgid "Unexpected error occurred: ${klass}: ${text}"
 msgstr ""
 
