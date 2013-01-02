@@ -31,6 +31,7 @@ setuptools.setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved',
         'License :: OSI Approved :: Zope Public License',
+        'Natural Language :: English',
         'Natural Language :: German',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
