@@ -1,0 +1,19 @@
+syntax: glob
+
+.installed.cfg
+admin.zcml
+bin
+buildout.cfg
+coverage
+debug-ajax.ini
+debug-pdb.ini
+deploy.ini
+develop-eggs
+install.user.ini
+omelette
+parts
+site.zcml
+zope.conf
+.mr.developer.cfg
+mac
+*.egg-info
