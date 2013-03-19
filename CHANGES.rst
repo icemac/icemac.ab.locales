@@ -1,63 +1,62 @@
-==========
 Change log
 ==========
 
 0.12 (unreleased)
-=================
+-----------------
 
-- Nothing changed yet.
+- Moved code to bitbucket: https://bitbucket.org/icemac/icemac.ab.importxls
 
 
 0.11 (2012-12-29)
-=================
+-----------------
 
 - Added German translations for new features in `icemac.addressbook`
   version 1.9.
 
 
 0.10 (2012-04-20)
-=================
+-----------------
 
 - Added German translations for new features in `icemac.addressbook`
   version 1.8.1.
 
 
 0.9 (2011-12-05)
-================
+----------------
 
 - Added German translations for new features in `icemac.addressbook`
   version 1.8.
 
 
 0.8.1 (2011-10-28)
-==================
+------------------
 
 - Version 0.8 was a brown bag release.
 
 
 0.8 (2011-10-28)
-================
+----------------
 
 - Added German translations for new features in `icemac.addressbook`
   version 1.7.
 
 
 0.7 (2011-02-03)
-================
+----------------
 
 - Added German translations for new features in `icemac.addressbook`
   version 1.6.
 
 
 0.6 (2010-11-23)
-================
+----------------
 
 - Added German translations for new features in `icemac.addressbook`
   version 1.5.
 
 
 0.5 (2010-08-19)
-================
+----------------
 
 - Added German translations for new features in `icemac.addressbook`
   version 1.4.
@@ -67,28 +66,28 @@ Change log
 
 
 0.4 (2010-03-20)
-================
+----------------
 
 - Added German translations for new features in `icemac.addressbook`
   version 1.3.
 
 
 0.3 (2010-02-06)
-================
+----------------
 
 - Added German translations for new features in `icemac.addressbook`
   version 1.2.
 
 
 0.2 (2010-01-25)
-================
+----------------
 
 - Added German translations for new features in `icemac.addressbook`
   version 1.1.
 
 
 0.1 (2009-12-29)
-================
+----------------
 
 - Split out from `icemac.addressbook`.
 

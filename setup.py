@@ -6,7 +6,7 @@ import os.path
 import setuptools
 
 def read(*path_elements):
-    return "\n\n" + file(os.path.join(*path_elements)).read()
+    return file(os.path.join(*path_elements)).read()
 
 version = '0.12.dev0'
 
@@ -15,10 +15,7 @@ setuptools.setup(
     version=version,
     description=(
         "Translations for icemac.addressbook and icemac.ab.* packages."),
-    long_description=(
-        read('README.txt') +
-        read('CHANGES.txt')
-        ),
+    long_description='\n\n'.join([read('README.rst'), read('CHANGES.rst')]),
     keywords='icemac addressbook address book locales translation i18n',
     author='Michael Howitz',
     author_email='icemac@gmx.net',
