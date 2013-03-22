@@ -4,5 +4,6 @@
 
   <include package="icemac.addressbook" />
   <include package="icemac.ab.importer" />
+  <include package="icemac.ab.calendar" />
 
 </configure>

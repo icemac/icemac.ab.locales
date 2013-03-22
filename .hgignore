@@ -17,3 +17,4 @@ zope.conf
 .mr.developer.cfg
 mac
 *.egg-info
+*.pyc

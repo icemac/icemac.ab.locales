@@ -8,6 +8,8 @@ Change log
 
 - Adapted to move of packages provideing i18n message ids to bitbucket.org.
 
+- Added `icemac.ab.calendar` to list of packages providing message ids.
+
 0.11 (2012-12-29)
 -----------------
 

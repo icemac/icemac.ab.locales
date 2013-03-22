@@ -46,9 +46,10 @@ setuptools.setup(
         ],
     extras_require = dict(
         extract = [
-            'icemac.addressbook',
+            'icemac.ab.calendar',
             'icemac.ab.importer',
             'icemac.ab.importxls',
+            'icemac.addressbook',
             ],
         extractZopeMimetype = [
             'zope.mimetype',
