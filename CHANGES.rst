@@ -6,6 +6,7 @@ Change log
 
 - Moved code to bitbucket: https://bitbucket.org/icemac/icemac.ab.importxls
 
+- Adapted to move of packages provideing i18n message ids to bitbucket.org.
 
 0.11 (2012-12-29)
 -----------------
