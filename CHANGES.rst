@@ -10,6 +10,9 @@ Change log
 
 - Added `icemac.ab.calendar` to list of packages providing message ids.
 
+- Added German translations for new features in `icemac.addressbook`
+  version 1.10.
+
 0.11 (2012-12-29)
 -----------------
 
