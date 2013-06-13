@@ -1,7 +1,7 @@
 Change log
 ==========
 
-0.12 (unreleased)
+0.12 (2013-06-13)
 -----------------
 
 - Moved code to bitbucket: https://bitbucket.org/icemac/icemac.ab.importxls
