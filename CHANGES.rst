@@ -4,7 +4,8 @@ Change log
 0.13 (unreleased)
 -----------------
 
-- Nothing changed yet.
+- Added German translations for new features in `icemac.addressbook`
+  version 2.0 and `icemac.ab.calendar` 1.0.
 
 
 0.12 (2013-06-13)
