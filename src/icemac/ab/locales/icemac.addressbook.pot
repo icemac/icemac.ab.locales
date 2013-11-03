@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Meaningless\n"
-"POT-Creation-Date: Sat Nov  2 20:04:20 2013\n"
+"POT-Creation-Date: Sun Nov  3 14:54:16 2013\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -51,6 +51,10 @@ msgid "Edit event"
 msgstr ""
 
 #: icemac/ab/calendar/browser/event.py:29
+msgid "Clone event"
+msgstr ""
+
+#: icemac/ab/calendar/browser/event.py:35
 #: icemac/ab/calendar/masterdata/category.py:67
 #: icemac/addressbook/browser/entities/fields_list.pt:17
 #: icemac/addressbook/browser/keyword/keyword.py:56
@@ -59,8 +63,12 @@ msgstr ""
 msgid "Delete"
 msgstr ""
 
-#: icemac/ab/calendar/browser/event.py:38
+#: icemac/ab/calendar/browser/event.py:44
 msgid "Do you really want to delete this event?"
+msgstr ""
+
+#: icemac/ab/calendar/browser/event.py:52
+msgid "Do you really want to clone this event?"
 msgstr ""
 
 #: icemac/ab/calendar/browser/event.zcml:8
@@ -189,6 +197,10 @@ msgstr ""
 msgid "calendar:EditEvent"
 msgstr ""
 
+#: icemac/ab/calendar/permissions.zcml:58
+msgid "calendar:CloneEvent"
+msgstr ""
+
 #: icemac/ab/calendar/roles.zcml:5
 msgid "Calendar editor"
 msgstr ""
@@ -197,11 +209,11 @@ msgstr ""
 msgid "Role which allows to edit the calendar."
 msgstr ""
 
-#: icemac/ab/calendar/roles.zcml:79
+#: icemac/ab/calendar/roles.zcml:83
 msgid "Calendar visitor"
 msgstr ""
 
-#: icemac/ab/calendar/roles.zcml:79
+#: icemac/ab/calendar/roles.zcml:83
 msgid "Role which allows to visit the calendar."
 msgstr ""
 
@@ -292,7 +304,7 @@ msgid "Not enough data fields in row."
 msgstr ""
 
 #: icemac/ab/importer/browser/wizard/map.py:293
-#: icemac/addressbook/browser/person/person.py:290
+#: icemac/addressbook/browser/person/person.py:295
 #: icemac/addressbook/fieldsource.py:45
 msgid "${prefix} -- ${title}"
 msgstr ""
@@ -527,7 +539,15 @@ msgstr ""
 msgid "\"${title}\" deleted."
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:368
+#: icemac/addressbook/browser/base.py:356
+msgid "Do you really want to clone this entry?"
+msgstr ""
+
+#: icemac/addressbook/browser/base.py:357
+msgid "Cloning canceled."
+msgstr ""
+
+#: icemac/addressbook/browser/base.py:369
 msgid "\"${object}\" cloned."
 msgstr ""
 
@@ -750,31 +770,35 @@ msgstr ""
 msgid "Clone person"
 msgstr ""
 
-#: icemac/addressbook/browser/person/person.py:211
+#: icemac/addressbook/browser/person/person.py:210
 msgid "Delete whole person"
 msgstr ""
 
-#: icemac/addressbook/browser/person/person.py:219
+#: icemac/addressbook/browser/person/person.py:218
 msgid "Delete single entry"
 msgstr ""
 
-#: icemac/addressbook/browser/person/person.py:256
+#: icemac/addressbook/browser/person/person.py:255
 msgid "Do you really want to delete this person?"
 msgstr ""
 
-#: icemac/addressbook/browser/person/person.py:266
-msgid "Failed to delete person: This person is connected to a user. To delete this person, delete the user first."
+#: icemac/addressbook/browser/person/person.py:265
+msgid "Failed to delete person: This person is referenced. To delete this person, remove the reference before."
 msgstr ""
 
-#: icemac/addressbook/browser/person/person.py:301
+#: icemac/addressbook/browser/person/person.py:273
+msgid "Do you really want to clone this person?"
+msgstr ""
+
+#: icemac/addressbook/browser/person/person.py:306
 msgid "Entries"
 msgstr ""
 
-#: icemac/addressbook/browser/person/person.py:307
+#: icemac/addressbook/browser/person/person.py:312
 msgid "Please choose an entry for deletion:"
 msgstr ""
 
-#: icemac/addressbook/browser/person/person.py:312
+#: icemac/addressbook/browser/person/person.py:317
 msgid "Delete entry"
 msgstr ""
 
@@ -891,7 +915,7 @@ msgid "Deletion (Deletes selected persons.)"
 msgstr ""
 
 #: icemac/addressbook/browser/search/result/handler/delete.py:39
-msgid "You are not able to delete a person which is referenced. You have to remove the references before."
+msgid "You are not able to delete a person which is referenced. You have to remove the reference before."
 msgstr ""
 
 #: icemac/addressbook/browser/search/result/handler/delete.py:49
