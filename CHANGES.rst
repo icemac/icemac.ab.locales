@@ -39,13 +39,6 @@ Change log
 - Added German translations for new features in `icemac.addressbook`
   version 1.8.1.
 
-
-0.9 (2011-12-05)
-----------------
-
-- Added German translations for new features in `icemac.addressbook`
-  version 1.8.
-
 Previous changes
 ----------------
 
