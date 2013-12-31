@@ -1,7 +1,7 @@
 Change log
 ==========
 
-2.1 (unreleased)
+2.1 (2013-12-31)
 ----------------
 
 - Added German translations for new features in `icemac.addressbook`
