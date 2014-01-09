@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Meaningless\n"
-"POT-Creation-Date: Tue Dec 31 13:56:14 2013\n"
+"POT-Creation-Date: Thu Jan  9 21:41:50 2014\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -29,11 +29,15 @@ msgstr ""
 msgid "Time zone"
 msgstr ""
 
-#: icemac/ab/calendar/browser/calendar.py:27
-msgid "month for display"
+#: icemac/ab/calendar/browser/calendar.py:56
+msgid "month"
 msgstr ""
 
-#: icemac/ab/calendar/browser/calendar.py:35
+#: icemac/ab/calendar/browser/calendar.py:58
+msgid "year"
+msgstr ""
+
+#: icemac/ab/calendar/browser/calendar.py:66
 msgid "Month changed."
 msgstr ""
 
@@ -87,40 +91,40 @@ msgstr ""
 msgid "This category already exists."
 msgstr ""
 
-#: icemac/ab/calendar/interfaces.py:54
+#: icemac/ab/calendar/interfaces.py:55
 msgid "Additional event fields to be displayed in calendar"
 msgstr ""
 
-#: icemac/ab/calendar/interfaces.py:84
-#: icemac/ab/calendar/interfaces.py:116
+#: icemac/ab/calendar/interfaces.py:85
+#: icemac/ab/calendar/interfaces.py:117
 #: icemac/ab/calendar/masterdata/category.py:20
 #: icemac/ab/calendar/masterdata/category.zcml:27
 msgid "event category"
 msgstr ""
 
-#: icemac/ab/calendar/interfaces.py:117
+#: icemac/ab/calendar/interfaces.py:118
 #: icemac/addressbook/sources.py:50
 msgid "datetime"
 msgstr ""
 
-#: icemac/ab/calendar/interfaces.py:119
+#: icemac/ab/calendar/interfaces.py:120
 msgid "alternative title to category"
 msgstr ""
 
-#: icemac/ab/calendar/interfaces.py:121
-#: icemac/ab/calendar/interfaces.py:123
+#: icemac/ab/calendar/interfaces.py:122
+#: icemac/ab/calendar/interfaces.py:124
 msgid "persons"
 msgstr ""
 
-#: icemac/ab/calendar/interfaces.py:126
+#: icemac/ab/calendar/interfaces.py:127
 msgid "other persons"
 msgstr ""
 
-#: icemac/ab/calendar/interfaces.py:127
+#: icemac/ab/calendar/interfaces.py:128
 msgid "person name"
 msgstr ""
 
-#: icemac/ab/calendar/interfaces.py:128
+#: icemac/ab/calendar/interfaces.py:129
 #: icemac/addressbook/browser/interfaces.py:29
 #: icemac/addressbook/browser/principals/principals.py:40
 #: icemac/addressbook/browser/search/result/handler/delete.py:20
@@ -521,52 +525,52 @@ msgstr ""
 msgid "Login failed. Username and/or password might be wrong."
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:142
+#: icemac/addressbook/browser/base.py:149
 msgid "Add"
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:148
+#: icemac/addressbook/browser/base.py:155
 msgid "\"${title}\" added."
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:153
-#: icemac/addressbook/browser/base.py:239
+#: icemac/addressbook/browser/base.py:160
+#: icemac/addressbook/browser/base.py:246
 msgid "Cancel"
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:157
+#: icemac/addressbook/browser/base.py:164
 msgid "Addition canceled."
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:290
+#: icemac/addressbook/browser/base.py:297
 msgid "No, cancel"
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:295
+#: icemac/addressbook/browser/base.py:302
 msgid "Yes"
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:306
+#: icemac/addressbook/browser/base.py:313
 msgid "Do you really want to delete this entry?"
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:308
+#: icemac/addressbook/browser/base.py:315
 msgid "Deletion canceled."
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:312
+#: icemac/addressbook/browser/base.py:319
 msgid "\"${title}\" deleted."
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:356
+#: icemac/addressbook/browser/base.py:363
 msgid "Do you really want to clone this entry?"
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:357
+#: icemac/addressbook/browser/base.py:364
 msgid "Cloning canceled."
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:369
+#: icemac/addressbook/browser/base.py:376
 msgid "\"${object}\" cloned."
 msgstr ""
 

@@ -4,7 +4,7 @@ Change log
 2.2 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Added German translations for new features in `icemac.ab.calendar` 1.3.
 
 
 2.1 (2013-12-31)
