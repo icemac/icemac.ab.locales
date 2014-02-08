@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Meaningless\n"
-"POT-Creation-Date: Thu Jan  9 21:41:50 2014\n"
+"POT-Creation-Date: Sat Feb  8 15:13:25 2014\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -23,25 +23,38 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: zope/app/locales/extract.py\n"
 
-#: icemac/ab/calendar/browser/calendar.pt:4
+#: icemac/ab/calendar/browser/calendar.pt:3
 #: icemac/addressbook/preferences/configure.zcml:28
 #: icemac/addressbook/preferences/interfaces.py:46
 msgid "Time zone"
 msgstr ""
 
-#: icemac/ab/calendar/browser/calendar.py:56
+#: icemac/ab/calendar/browser/calendar.pt:12
+msgid "Month"
+msgstr ""
+
+#: icemac/ab/calendar/browser/calendar.pt:17
+msgid "Year"
+msgstr ""
+
+#: icemac/ab/calendar/browser/calendar.py:73
 msgid "month"
 msgstr ""
 
-#: icemac/ab/calendar/browser/calendar.py:58
+#: icemac/ab/calendar/browser/calendar.py:74
+#: icemac/ab/calendar/browser/calendar.py:168
 msgid "year"
 msgstr ""
 
-#: icemac/ab/calendar/browser/calendar.py:66
+#: icemac/ab/calendar/browser/calendar.py:82
 msgid "Month changed."
 msgstr ""
 
-#: icemac/ab/calendar/browser/configure.zcml:17
+#: icemac/ab/calendar/browser/calendar.py:176
+msgid "Year changed."
+msgstr ""
+
+#: icemac/ab/calendar/browser/configure.zcml:33
 #: icemac/ab/calendar/browser/startpage.py:6
 #: icemac/ab/calendar/masterdata/configure.zcml:8
 msgid "Calendar"
@@ -214,11 +227,11 @@ msgstr ""
 msgid "Role which allows to edit the calendar."
 msgstr ""
 
-#: icemac/ab/calendar/roles.zcml:83
+#: icemac/ab/calendar/roles.zcml:87
 msgid "Calendar visitor"
 msgstr ""
 
-#: icemac/ab/calendar/roles.zcml:83
+#: icemac/ab/calendar/roles.zcml:87
 msgid "Role which allows to visit the calendar."
 msgstr ""
 
@@ -525,52 +538,52 @@ msgstr ""
 msgid "Login failed. Username and/or password might be wrong."
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:149
+#: icemac/addressbook/browser/base.py:152
 msgid "Add"
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:155
+#: icemac/addressbook/browser/base.py:158
 msgid "\"${title}\" added."
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:160
-#: icemac/addressbook/browser/base.py:246
+#: icemac/addressbook/browser/base.py:163
+#: icemac/addressbook/browser/base.py:249
 msgid "Cancel"
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:164
+#: icemac/addressbook/browser/base.py:167
 msgid "Addition canceled."
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:297
+#: icemac/addressbook/browser/base.py:300
 msgid "No, cancel"
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:302
+#: icemac/addressbook/browser/base.py:305
 msgid "Yes"
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:313
+#: icemac/addressbook/browser/base.py:316
 msgid "Do you really want to delete this entry?"
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:315
+#: icemac/addressbook/browser/base.py:318
 msgid "Deletion canceled."
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:319
+#: icemac/addressbook/browser/base.py:322
 msgid "\"${title}\" deleted."
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:363
+#: icemac/addressbook/browser/base.py:366
 msgid "Do you really want to clone this entry?"
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:364
+#: icemac/addressbook/browser/base.py:367
 msgid "Cloning canceled."
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:376
+#: icemac/addressbook/browser/base.py:379
 msgid "\"${object}\" cloned."
 msgstr ""
 
