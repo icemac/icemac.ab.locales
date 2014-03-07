@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Meaningless\n"
-"POT-Creation-Date: Sat Feb  8 15:13:25 2014\n"
+"POT-Creation-Date: Fri Mar  7 21:47:55 2014\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -37,20 +37,20 @@ msgstr ""
 msgid "Year"
 msgstr ""
 
-#: icemac/ab/calendar/browser/calendar.py:73
+#: icemac/ab/calendar/browser/calendar.py:72
 msgid "month"
 msgstr ""
 
-#: icemac/ab/calendar/browser/calendar.py:74
-#: icemac/ab/calendar/browser/calendar.py:168
+#: icemac/ab/calendar/browser/calendar.py:73
+#: icemac/ab/calendar/browser/calendar.py:167
 msgid "year"
 msgstr ""
 
-#: icemac/ab/calendar/browser/calendar.py:82
+#: icemac/ab/calendar/browser/calendar.py:81
 msgid "Month changed."
 msgstr ""
 
-#: icemac/ab/calendar/browser/calendar.py:176
+#: icemac/ab/calendar/browser/calendar.py:175
 msgid "Year changed."
 msgstr ""
 
@@ -274,6 +274,7 @@ msgstr ""
 
 #: icemac/ab/importer/browser/readers.pt:8
 #: icemac/addressbook/browser/about/about.pt:25
+#: icemac/addressbook/browser/person/export.pt:19
 #: icemac/addressbook/browser/search/result/handler/mailto/mailto.pt:9
 #: icemac/addressbook/browser/search/result/handler/names/list.pt:10
 msgid "Go back"
@@ -322,7 +323,7 @@ msgid "Not enough data fields in row."
 msgstr ""
 
 #: icemac/ab/importer/browser/wizard/map.py:293
-#: icemac/addressbook/browser/person/person.py:294
+#: icemac/addressbook/browser/person/person.py:301
 #: icemac/addressbook/fieldsource.py:45
 msgid "${prefix} -- ${title}"
 msgstr ""
@@ -772,6 +773,22 @@ msgstr ""
 msgid "home page"
 msgstr ""
 
+#: icemac/addressbook/browser/person/export.pt:3
+msgid "Export person data"
+msgstr ""
+
+#: icemac/addressbook/browser/person/export.pt:5
+msgid "You did not enter enough data of the person, so no export is possible."
+msgstr ""
+
+#: icemac/addressbook/browser/person/export.pt:10
+msgid "Select one of the following export formats:"
+msgstr ""
+
+#: icemac/addressbook/browser/person/export.py:18
+msgid "iCalendar export of birth date (.ics file)"
+msgstr ""
+
 #: icemac/addressbook/browser/person/list.pt:2
 msgid "Persons"
 msgstr ""
@@ -810,27 +827,31 @@ msgstr ""
 msgid "Delete single entry"
 msgstr ""
 
-#: icemac/addressbook/browser/person/person.py:254
+#: icemac/addressbook/browser/person/person.py:224
+msgid "Export"
+msgstr ""
+
+#: icemac/addressbook/browser/person/person.py:261
 msgid "Do you really want to delete this person?"
 msgstr ""
 
-#: icemac/addressbook/browser/person/person.py:264
+#: icemac/addressbook/browser/person/person.py:271
 msgid "Failed to delete person: This person is referenced. To delete this person, remove the reference before."
 msgstr ""
 
-#: icemac/addressbook/browser/person/person.py:272
+#: icemac/addressbook/browser/person/person.py:279
 msgid "Do you really want to clone this person?"
 msgstr ""
 
-#: icemac/addressbook/browser/person/person.py:305
+#: icemac/addressbook/browser/person/person.py:312
 msgid "Entries"
 msgstr ""
 
-#: icemac/addressbook/browser/person/person.py:311
+#: icemac/addressbook/browser/person/person.py:318
 msgid "Please choose an entry for deletion:"
 msgstr ""
 
-#: icemac/addressbook/browser/person/person.py:316
+#: icemac/addressbook/browser/person/person.py:323
 msgid "Delete entry"
 msgstr ""
 
@@ -959,6 +980,14 @@ msgstr ""
 
 #: icemac/addressbook/browser/search/result/handler/export/configure.zcml:33
 msgid "XLS export complete (Exports person data and all addresses resp. phone numbers.)"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/icalendar/configure.zcml:13
+msgid "iCalendar export birthday (Export person's birthdays as .ics file.)"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/icalendar/export.py:26
+msgid "birthdays of ${address_book}"
 msgstr ""
 
 #: icemac/addressbook/browser/search/result/handler/mailto/configure.zcml:14
