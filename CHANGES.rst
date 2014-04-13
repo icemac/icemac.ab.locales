@@ -6,6 +6,8 @@ Change log
 
 - Added German translations for new features in `icemac.ab.calendar` 1.5.
 
+- Fix German translation of plural form of `keyword`.
+
 
 2.3 (2014-03-07)
 ----------------

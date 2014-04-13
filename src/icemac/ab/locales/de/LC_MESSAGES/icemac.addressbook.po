@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: icemac.addressbook\n"
 "POT-Creation-Date: Sun Apr 13 18:11:46 2014\n"
-"PO-Revision-Date: 2014-04-13 18:19+0100\n"
+"PO-Revision-Date: 2014-04-13 18:22+0100\n"
 "Last-Translator: Michael Howitz <mh@gocept.com>\n"
 "Language-Team: Michael Howitz <icemac@gmx.net>\n"
 "Language: de_DE\n"
@@ -751,7 +751,7 @@ msgstr "Schlagwort"
 
 #: icemac/addressbook/browser/keyword/configure.zcml:36
 msgid "Keywords"
-msgstr "Schlagworte"
+msgstr "Schlagwörter"
 
 #: icemac/addressbook/browser/keyword/keyword.py:21
 msgid "Add new keyword"
@@ -767,7 +767,7 @@ msgstr "Wollen Sie dieses Schlagwort wirklich löschen?"
 
 #: icemac/addressbook/browser/keyword/keyword.py:75
 msgid "No keywords defined yet."
-msgstr "Es sind noch keine Schlagworte definiert."
+msgstr "Es sind noch keine Schlagwörter definiert."
 
 #: icemac/addressbook/browser/layout.pt:21
 msgid "Information about icemac.addressbook"
@@ -998,8 +998,8 @@ msgid ""
 "The keywords you want to search for have to be in the right box. Use the "
 "arrow buttons to move them."
 msgstr ""
-"Die Schlagworte, nach denen Sie suchen wollen, müssen in der rechten Box "
-"stehen. Benutzen Sie die Pfeil-Schaltflächen, um die Schlagworte zu bewegen."
+"Die Schlagwörter, nach denen Sie suchen wollen, müssen in der rechten Box "
+"stehen. Benutzen Sie die Pfeil-Schaltflächen, um die Schlagwörter zu bewegen."
 
 #. Default: "and"
 #: icemac/addressbook/browser/search/multi_keyword.py:26
@@ -1019,7 +1019,7 @@ msgstr "Suchbegriffe verknüpfen"
 #: icemac/addressbook/browser/search/multi_keyword.py:39
 #: icemac/addressbook/interfaces.py:198 icemac/addressbook/interfaces.py:200
 msgid "keywords"
-msgstr "Schlagworte"
+msgstr "Schlagwörter"
 
 #: icemac/addressbook/browser/search/multi_keyword.zcml:16
 msgid "Keyword search"
@@ -1192,16 +1192,16 @@ msgid ""
 "intersection (i. e. keywords which are in selected keywords and existing "
 "ones)"
 msgstr ""
-"Schnittmenge (d. h. nur die Schlagworte behalten, die in neuen und "
-"bestehenden Schlagworten vorkommen) "
+"Schnittmenge (d. h. nur die Schlagwörter behalten, die in neuen und "
+"bestehenden Schlagwörtern vorkommen) "
 
 #: icemac/addressbook/browser/search/result/handler/update/enter.py:73
 msgid ""
 "symmetric difference (i. e. keywords which are either in selected keywords "
 "or existing ones but not both)"
 msgstr ""
-"exklusives Oder (d. h. nur die Schlagworte behalten, die in neuen oder "
-"bestehenden Schlagworten vorkommen, aber nicht in beiden)"
+"exklusives Oder (d. h. nur die Schlagwörter behalten, die in neuen oder "
+"bestehenden Schlagwörtern vorkommen, aber nicht in beiden)"
 
 #: icemac/addressbook/browser/search/result/handler/update/enter.py:87
 msgid "add new value to existing one"
