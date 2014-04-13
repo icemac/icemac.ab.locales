@@ -14,8 +14,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: icemac.addressbook\n"
-"POT-Creation-Date: Fri Mar  7 21:47:55 2014\n"
-"PO-Revision-Date: 2014-03-07 21:51+0100\n"
+"POT-Creation-Date: Sun Apr 13 18:11:46 2014\n"
+"PO-Revision-Date: 2014-04-13 18:19+0100\n"
 "Last-Translator: Michael Howitz <mh@gocept.com>\n"
 "Language-Team: Michael Howitz <icemac@gmx.net>\n"
 "Language: de_DE\n"
@@ -77,10 +77,11 @@ msgstr "Ereignis kopieren"
 
 #: icemac/ab/calendar/browser/event.py:35
 #: icemac/ab/calendar/masterdata/category.py:67
+#: icemac/ab/calendar/masterdata/event.py:68
 #: icemac/addressbook/browser/entities/fields_list.pt:17
-#: icemac/addressbook/browser/keyword/keyword.py:56
+#: icemac/addressbook/browser/keyword/keyword.py:57
 #: icemac/addressbook/browser/rootfolder/rootfolder.pt:11
-#: icemac/addressbook/browser/table.py:35
+#: icemac/addressbook/browser/table.py:34
 msgid "Delete"
 msgstr "Löschen"
 
@@ -92,8 +93,8 @@ msgstr "Wollen Sie dieses Ereignis wirklich löschen?"
 msgid "Do you really want to clone this event?"
 msgstr "Wollen Sie dieses Ereignis wirklich kopieren?"
 
-#: icemac/ab/calendar/browser/event.zcml:8 icemac/ab/calendar/event.py:32
-#: icemac/ab/calendar/event.py:43
+#: icemac/ab/calendar/browser/event.zcml:8 icemac/ab/calendar/event.py:33
+#: icemac/ab/calendar/event.py:44
 msgid "event"
 msgstr "Ereignis"
 
@@ -106,45 +107,56 @@ msgstr "Bearbeiten"
 msgid "This category already exists."
 msgstr "Dieses Ereigniskategorie existiert bereits."
 
-#: icemac/ab/calendar/interfaces.py:55
+#: icemac/ab/calendar/event.py:81 icemac/ab/calendar/masterdata/event.zcml:27
+msgid "recurring event"
+msgstr "Wiederkehrendes Ereignis"
+
+#: icemac/ab/calendar/interfaces.py:59
 msgid "Additional event fields to be displayed in calendar"
 msgstr ""
 "Zusätzliche Felder, die in der Kalender-Ansicht angezeigt werden sollen"
 
-#: icemac/ab/calendar/interfaces.py:85 icemac/ab/calendar/interfaces.py:117
+#: icemac/ab/calendar/interfaces.py:90 icemac/ab/calendar/interfaces.py:122
 #: icemac/ab/calendar/masterdata/category.py:20
 #: icemac/ab/calendar/masterdata/category.zcml:27
 msgid "event category"
 msgstr "Ereigniskategorie"
 
-#: icemac/ab/calendar/interfaces.py:118 icemac/addressbook/sources.py:50
+#: icemac/ab/calendar/interfaces.py:123
+#: icemac/ab/calendar/masterdata/event.py:23 icemac/addressbook/sources.py:50
 msgid "datetime"
 msgstr "Datum und Uhrzeit"
 
-#: icemac/ab/calendar/interfaces.py:120
+#: icemac/ab/calendar/interfaces.py:125
 msgid "alternative title to category"
 msgstr "Alternativer Titel (überschreibt Kategorie)"
 
-#: icemac/ab/calendar/interfaces.py:122 icemac/ab/calendar/interfaces.py:124
+#: icemac/ab/calendar/interfaces.py:127 icemac/ab/calendar/interfaces.py:129
 msgid "persons"
 msgstr "Personen"
 
-#: icemac/ab/calendar/interfaces.py:127
+#: icemac/ab/calendar/interfaces.py:132
 msgid "other persons"
 msgstr "weitere Personen"
 
-#: icemac/ab/calendar/interfaces.py:128
+#: icemac/ab/calendar/interfaces.py:133
 msgid "person name"
 msgstr "Name"
 
-#: icemac/ab/calendar/interfaces.py:129
+#: icemac/ab/calendar/interfaces.py:134
+#: icemac/ab/calendar/masterdata/event.py:32
 #: icemac/addressbook/browser/interfaces.py:29
-#: icemac/addressbook/browser/principals/principals.py:40
+#: icemac/addressbook/browser/principals/principals.py:46
 #: icemac/addressbook/browser/search/result/handler/delete.py:20
 #: icemac/addressbook/interfaces.py:202 icemac/addressbook/interfaces.py:388
 #: icemac/addressbook/principals/interfaces.py:45
 msgid "notes"
 msgstr "Anmerkungen"
+
+#: icemac/ab/calendar/interfaces.py:165
+#: icemac/ab/calendar/masterdata/event.py:27
+msgid "recurrence period"
+msgstr "Wiederholung"
 
 #: icemac/ab/calendar/masterdata/calendar-masterdata.pt:2
 msgid "Edit calendar master data"
@@ -170,9 +182,29 @@ msgstr "Wollen Sie diese Ereigniskategorie wirklich löschen?"
 msgid "Event categories"
 msgstr "Ereigniskategorien"
 
-#: icemac/ab/calendar/masterdata/configure.zcml:36
+#: icemac/ab/calendar/masterdata/configure.zcml:42
 msgid "Calendar view"
 msgstr "Kalender-Anzeige"
+
+#: icemac/ab/calendar/masterdata/event.py:14
+msgid "No recurring events defined yet."
+msgstr "Es sind noch keine wiederkehrenden Ereignisse angelegt."
+
+#: icemac/ab/calendar/masterdata/event.py:43
+msgid "Add new recurring event"
+msgstr "Neues wiederkehrendes Ereignis hinzufügen"
+
+#: icemac/ab/calendar/masterdata/event.py:53
+msgid "Edit recurring event"
+msgstr "Wiederkehrendes Ereignis bearbeiten"
+
+#: icemac/ab/calendar/masterdata/event.py:75
+msgid "Do you really want to delete this recurring event?"
+msgstr "Wollen Sie dieses wiederkehrende Ereignis wirklich löschen?"
+
+#: icemac/ab/calendar/masterdata/event.zcml:9
+msgid "Recurring Events"
+msgstr "Wiederkehrende Ereignisse"
 
 #: icemac/ab/calendar/permissions.zcml:5
 msgid "EditCalendar"
@@ -218,6 +250,30 @@ msgstr "calendar:EditEvent"
 msgid "calendar:CloneEvent"
 msgstr "calendar:CloneEvent"
 
+#: icemac/ab/calendar/permissions.zcml:64
+msgid "calendar:EditRecurringEventContainer"
+msgstr "calendar:EditRecurringEventContainer"
+
+#: icemac/ab/calendar/permissions.zcml:69
+msgid "calendar:ViewRecurringEventContainer"
+msgstr "calendar:ViewRecurringEventContainer"
+
+#: icemac/ab/calendar/permissions.zcml:75
+msgid "calendar:AddEventRecurringEvent"
+msgstr "calendar:AddEventRecurringEvent"
+
+#: icemac/ab/calendar/permissions.zcml:80
+msgid "calendar:ViewEventRecurringEvent"
+msgstr "calendar:ViewEventRecurringEvent"
+
+#: icemac/ab/calendar/permissions.zcml:85
+msgid "calendar:EditEventRecurringEvent"
+msgstr "calendar:EditEventRecurringEvent"
+
+#: icemac/ab/calendar/recurrence.py:49
+msgid "weekly, same weekday"
+msgstr "wöchentlich"
+
 #: icemac/ab/calendar/roles.zcml:5
 msgid "Calendar editor"
 msgstr "Kalenderbearbeiter"
@@ -226,11 +282,11 @@ msgstr "Kalenderbearbeiter"
 msgid "Role which allows to edit the calendar."
 msgstr "Role which allows to edit the calendar."
 
-#: icemac/ab/calendar/roles.zcml:87
+#: icemac/ab/calendar/roles.zcml:109
 msgid "Calendar visitor"
 msgstr "Kalenderbetrachter"
 
-#: icemac/ab/calendar/roles.zcml:87
+#: icemac/ab/calendar/roles.zcml:109
 msgid "Role which allows to visit the calendar."
 msgstr "Role which allows to visit the calendar."
 
@@ -476,7 +532,7 @@ msgstr "Daten des Adressbuchs bearbeiten"
 
 #: icemac/addressbook/browser/addressbook/crud.py:35
 #: icemac/addressbook/browser/person/person.py:191
-#: icemac/addressbook/browser/principals/principals.py:135
+#: icemac/addressbook/browser/principals/principals.py:141
 #: icemac/addressbook/browser/search/result/base.py:39
 msgid "Apply"
 msgstr "Anwenden"
@@ -592,7 +648,7 @@ msgstr "„${object}“ kopiert."
 msgid "Entities"
 msgstr "Entitäten"
 
-#: icemac/addressbook/browser/entities/configure.zcml:63
+#: icemac/addressbook/browser/entities/configure.zcml:70
 msgid "field"
 msgstr "Feld"
 
@@ -688,7 +744,7 @@ msgid "number of persons"
 msgstr "Anzahl der Personen"
 
 #: icemac/addressbook/browser/keyword/configure.zcml:17
-#: icemac/addressbook/browser/keyword/keyword.py:80
+#: icemac/addressbook/browser/keyword/keyword.py:81
 #: icemac/addressbook/interfaces.py:148 icemac/addressbook/keyword.py:44
 msgid "keyword"
 msgstr "Schlagwort"
@@ -697,19 +753,19 @@ msgstr "Schlagwort"
 msgid "Keywords"
 msgstr "Schlagworte"
 
-#: icemac/addressbook/browser/keyword/keyword.py:20
+#: icemac/addressbook/browser/keyword/keyword.py:21
 msgid "Add new keyword"
 msgstr "Neues Schlagwort hinzufügen"
 
-#: icemac/addressbook/browser/keyword/keyword.py:41
+#: icemac/addressbook/browser/keyword/keyword.py:42
 msgid "Edit keyword"
 msgstr "Schlagwort bearbeiten"
 
-#: icemac/addressbook/browser/keyword/keyword.py:64
+#: icemac/addressbook/browser/keyword/keyword.py:65
 msgid "Do you really want to delete this keyword?"
 msgstr "Wollen Sie dieses Schlagwort wirklich löschen?"
 
-#: icemac/addressbook/browser/keyword/keyword.py:74
+#: icemac/addressbook/browser/keyword/keyword.py:75
 msgid "No keywords defined yet."
 msgstr "Es sind noch keine Schlagworte definiert."
 
@@ -878,41 +934,46 @@ msgstr "Eintrag löschen"
 msgid "Users"
 msgstr "Benutzer"
 
-#: icemac/addressbook/browser/principals/configure.zcml:45
+#: icemac/addressbook/browser/principals/configure.zcml:52
 msgid "user"
 msgstr "Benutzer"
 
-#: icemac/addressbook/browser/principals/principals.py:26
+#: icemac/addressbook/browser/principals/principals.py:28
 msgid "No users defined yet or you are not allowed to access any."
 msgstr ""
 "Es sind noch keine Benutzer angelegt oder Sie dürfen keine Benutzer sehen."
 
-#: icemac/addressbook/browser/principals/principals.py:36
+#: icemac/addressbook/browser/principals/principals.py:38
 #: icemac/addressbook/principals/interfaces.py:40
 msgid "login name"
 msgstr "Anmeldename"
 
-#: icemac/addressbook/browser/principals/principals.py:66
+#: icemac/addressbook/browser/principals/principals.py:41
+#: icemac/addressbook/principals/interfaces.py:54
+msgid "roles"
+msgstr "Rollen"
+
+#: icemac/addressbook/browser/principals/principals.py:72
 msgid "Add new user"
 msgstr "Neuen Benutzer hinzufügen"
 
-#: icemac/addressbook/browser/principals/principals.py:111
+#: icemac/addressbook/browser/principals/principals.py:117
 msgid "Edit user"
 msgstr "Benutzer bearbeiten"
 
-#: icemac/addressbook/browser/principals/principals.py:142
+#: icemac/addressbook/browser/principals/principals.py:148
 msgid "Delete user"
 msgstr "Benutzer löschen"
 
-#: icemac/addressbook/browser/principals/principals.py:181
+#: icemac/addressbook/browser/principals/principals.py:187
 msgid "You changed the login name, please re-login."
 msgstr "Anmeldenamen geändert. Bitte mit neuem Anmeldenamen anmelden."
 
-#: icemac/addressbook/browser/principals/principals.py:185
+#: icemac/addressbook/browser/principals/principals.py:191
 msgid "You changed the password, please re-login."
 msgstr "Passwort geändert. Bitte mit neuem Passwort anmelden."
 
-#: icemac/addressbook/browser/principals/principals.py:205
+#: icemac/addressbook/browser/principals/principals.py:211
 msgid "Do you really want to delete this user?"
 msgstr "Wollen Sie diesen Benutzer wirklich löschen?"
 
@@ -932,7 +993,7 @@ msgstr ""
 msgid "There were some errors."
 msgstr "Es ist ein Fehler aufgetreten."
 
-#: icemac/addressbook/browser/search/multi_keyword.py:16
+#: icemac/addressbook/browser/search/multi_keyword.py:17
 msgid ""
 "The keywords you want to search for have to be in the right box. Use the "
 "arrow buttons to move them."
@@ -941,21 +1002,21 @@ msgstr ""
 "stehen. Benutzen Sie die Pfeil-Schaltflächen, um die Schlagworte zu bewegen."
 
 #. Default: "and"
-#: icemac/addressbook/browser/search/multi_keyword.py:25
+#: icemac/addressbook/browser/search/multi_keyword.py:26
 msgid "search-and"
 msgstr "Ergebnisse müssen alle Suchbegriffe enthalten."
 
 #. Default: "or"
-#: icemac/addressbook/browser/search/multi_keyword.py:26
+#: icemac/addressbook/browser/search/multi_keyword.py:27
 msgid "search-or"
 msgstr "Ergebnisse müssen mindestens einen der Suchbegriffe enthalten."
 
-#: icemac/addressbook/browser/search/multi_keyword.py:32
+#: icemac/addressbook/browser/search/multi_keyword.py:33
 msgid "search term concatenation"
 msgstr "Suchbegriffe verknüpfen"
 
-#: icemac/addressbook/browser/search/multi_keyword.py:36
-#: icemac/addressbook/browser/search/multi_keyword.py:38
+#: icemac/addressbook/browser/search/multi_keyword.py:37
+#: icemac/addressbook/browser/search/multi_keyword.py:39
 #: icemac/addressbook/interfaces.py:198 icemac/addressbook/interfaces.py:200
 msgid "keywords"
 msgstr "Schlagworte"
@@ -964,7 +1025,7 @@ msgstr "Schlagworte"
 msgid "Keyword search"
 msgstr "Schlagwortsuche"
 
-#: icemac/addressbook/browser/search/name.py:15
+#: icemac/addressbook/browser/search/name.py:16
 msgid ""
 "You may use wildcards in this search: Use ? for a single character or * for "
 "multiple characters."
@@ -973,11 +1034,11 @@ msgstr ""
 "Platzhalter für ein einzelnes Zeichen oder * als Platzhalter für beliebig "
 "viele Zeichen."
 
-#: icemac/addressbook/browser/search/name.py:24
+#: icemac/addressbook/browser/search/name.py:25
 msgid "Name of a person"
 msgstr "Name einer Person"
 
-#: icemac/addressbook/browser/search/name.py:25
+#: icemac/addressbook/browser/search/name.py:26
 msgid ""
 "You may use ? as wildcard for a single character or * as wildcard for "
 "multiple characters."
@@ -1061,7 +1122,7 @@ msgstr "Namen der ausgewählten Personen"
 msgid "Number of persons: ${count}"
 msgstr "Anzahl der Personen: ${count}"
 
-#: icemac/addressbook/browser/search/result/handler/update/base.py:19
+#: icemac/addressbook/browser/search/result/handler/update/base.py:20
 msgid "Update Wizard"
 msgstr "Bearbeitungs-Assistent"
 
@@ -1198,7 +1259,7 @@ msgstr "Keine Personen gefunden."
 msgid "Please choose a search."
 msgstr "Bitte wählen Sie eine Suche aus."
 
-#: icemac/addressbook/browser/table.py:20
+#: icemac/addressbook/browser/table.py:19
 msgid "Name"
 msgstr "Name"
 
@@ -1499,10 +1560,6 @@ msgstr "Der Anmeldename des Benutzers."
 #: icemac/addressbook/principals/interfaces.py:46
 msgid "Provides notes for the user."
 msgstr "Anmerkungen zum Benutzer."
-
-#: icemac/addressbook/principals/interfaces.py:54
-msgid "roles"
-msgstr "Rollen"
 
 #: icemac/addressbook/principals/principals.py:139
 msgid "<no person>"
