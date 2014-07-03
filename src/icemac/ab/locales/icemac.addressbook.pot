@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Meaningless\n"
-"POT-Creation-Date: Sat Jun 28 17:44:50 2014\n"
+"POT-Creation-Date: Thu Jul  3 20:52:04 2014\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -98,7 +98,7 @@ msgstr ""
 #: icemac/ab/calendar/browser/event.py:106
 #: icemac/addressbook/browser/addressbook/crud.py:35
 #: icemac/addressbook/browser/person/person.py:191
-#: icemac/addressbook/browser/principals/principals.py:141
+#: icemac/addressbook/browser/principals/principals.py:140
 #: icemac/addressbook/browser/search/result/base.py:39
 msgid "Apply"
 msgstr ""
@@ -122,7 +122,7 @@ msgstr ""
 msgid "event"
 msgstr ""
 
-#: icemac/ab/calendar/browser/renderer/table.py:60
+#: icemac/ab/calendar/browser/renderer/table.py:58
 #: icemac/addressbook/browser/entities/fields_list.pt:20
 msgid "Edit"
 msgstr ""
@@ -172,8 +172,8 @@ msgstr ""
 
 #: icemac/ab/calendar/interfaces.py:140
 #: icemac/ab/calendar/masterdata/event.py:32
-#: icemac/addressbook/browser/interfaces.py:29
-#: icemac/addressbook/browser/principals/principals.py:46
+#: icemac/addressbook/browser/interfaces.py:27
+#: icemac/addressbook/browser/principals/principals.py:45
 #: icemac/addressbook/browser/search/result/handler/delete.py:20
 #: icemac/addressbook/interfaces.py:201
 #: icemac/addressbook/interfaces.py:391
@@ -420,17 +420,17 @@ msgid "Map fields"
 msgstr ""
 
 #: icemac/ab/importer/browser/wizard/map.py:502
-#: icemac/ab/importer/browser/wizard/review.py:121
+#: icemac/ab/importer/browser/wizard/review.py:124
 msgid "main"
 msgstr ""
 
 #: icemac/ab/importer/browser/wizard/map.py:507
-#: icemac/ab/importer/browser/wizard/review.py:130
+#: icemac/ab/importer/browser/wizard/review.py:133
 msgid "other"
 msgstr ""
 
 #: icemac/ab/importer/browser/wizard/map.py:508
-#: icemac/ab/importer/browser/wizard/review.py:131
+#: icemac/ab/importer/browser/wizard/review.py:134
 msgid "${prefix} ${title}"
 msgstr ""
 
@@ -446,27 +446,27 @@ msgstr ""
 msgid "Reader settings"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/review.py:100
+#: icemac/ab/importer/browser/wizard/review.py:103
 msgid "Keep imported data?"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/review.py:108
+#: icemac/ab/importer/browser/wizard/review.py:111
 msgid "There was nothing to import in the import file."
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/review.py:134
+#: icemac/ab/importer/browser/wizard/review.py:137
 msgid "<i>${prefix}</i><br />${title}"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/review.py:139
+#: icemac/ab/importer/browser/wizard/review.py:142
 msgid "<br />${title}"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/review.py:175
+#: icemac/ab/importer/browser/wizard/review.py:178
 msgid "Errors:"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/review.py:202
+#: icemac/ab/importer/browser/wizard/review.py:205
 msgid "Review imported data"
 msgstr ""
 
@@ -508,6 +508,10 @@ msgstr ""
 #: icemac/addressbook/addressbook.py:55
 #: icemac/addressbook/browser/rootfolder/configure.zcml:17
 msgid "address book"
+msgstr ""
+
+#: icemac/addressbook/base.zcml:23
+msgid "Site Manager"
 msgstr ""
 
 #: icemac/addressbook/browser/about/about.pt:3
@@ -744,7 +748,7 @@ msgstr ""
 msgid "Download file"
 msgstr ""
 
-#: icemac/addressbook/browser/interfaces.py:28
+#: icemac/addressbook/browser/interfaces.py:26
 #: icemac/addressbook/browser/search/result/handler/delete.py:19
 msgid "number of persons"
 msgstr ""
@@ -936,41 +940,41 @@ msgstr ""
 msgid "user"
 msgstr ""
 
-#: icemac/addressbook/browser/principals/principals.py:28
+#: icemac/addressbook/browser/principals/principals.py:27
 msgid "No users defined yet or you are not allowed to access any."
 msgstr ""
 
-#: icemac/addressbook/browser/principals/principals.py:38
+#: icemac/addressbook/browser/principals/principals.py:37
 #: icemac/addressbook/principals/interfaces.py:40
 msgid "login name"
 msgstr ""
 
-#: icemac/addressbook/browser/principals/principals.py:41
+#: icemac/addressbook/browser/principals/principals.py:40
 #: icemac/addressbook/principals/interfaces.py:54
 msgid "roles"
 msgstr ""
 
-#: icemac/addressbook/browser/principals/principals.py:72
+#: icemac/addressbook/browser/principals/principals.py:71
 msgid "Add new user"
 msgstr ""
 
-#: icemac/addressbook/browser/principals/principals.py:117
+#: icemac/addressbook/browser/principals/principals.py:116
 msgid "Edit user"
 msgstr ""
 
-#: icemac/addressbook/browser/principals/principals.py:148
+#: icemac/addressbook/browser/principals/principals.py:147
 msgid "Delete user"
 msgstr ""
 
-#: icemac/addressbook/browser/principals/principals.py:187
+#: icemac/addressbook/browser/principals/principals.py:186
 msgid "You changed the login name, please re-login."
 msgstr ""
 
-#: icemac/addressbook/browser/principals/principals.py:191
+#: icemac/addressbook/browser/principals/principals.py:190
 msgid "You changed the password, please re-login."
 msgstr ""
 
-#: icemac/addressbook/browser/principals/principals.py:211
+#: icemac/addressbook/browser/principals/principals.py:210
 msgid "Do you really want to delete this user?"
 msgstr ""
 
@@ -1518,6 +1522,30 @@ msgstr ""
 
 #: icemac/addressbook/principals/principals.py:139
 msgid "<no person>"
+msgstr ""
+
+#: icemac/addressbook/roles.zcml:6
+msgid "Editor"
+msgstr ""
+
+#: icemac/addressbook/roles.zcml:6
+msgid "Role which allows global editing of data"
+msgstr ""
+
+#: icemac/addressbook/roles.zcml:176
+msgid "Role which allows global visiting of data"
+msgstr ""
+
+#: icemac/addressbook/roles.zcml:176
+msgid "Visitor"
+msgstr ""
+
+#: icemac/addressbook/roles.zcml:257
+msgid "Administrator"
+msgstr ""
+
+#: icemac/addressbook/roles.zcml:257
+msgid "Administrator for the Addressbook"
 msgstr ""
 
 #: icemac/addressbook/sources.py:31
