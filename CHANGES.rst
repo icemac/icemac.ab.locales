@@ -1,7 +1,7 @@
 Change log
 ==========
 
-2.5 (unreleased)
+2.5 (2014-07-03)
 ----------------
 
 - Re-add i18n message ids for role names missing since version 0.1.
