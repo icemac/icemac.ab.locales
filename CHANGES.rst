@@ -4,7 +4,7 @@ Change log
 2.7 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Fix some German translations.
 
 
 2.6 (2014-12-16)

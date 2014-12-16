@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: icemac.addressbook\n"
 "POT-Creation-Date: Tue Dec 16 20:55:08 2014\n"
-"PO-Revision-Date: 2014-12-16 21:05+0100\n"
+"PO-Revision-Date: 2014-12-16 21:16+0100\n"
 "Last-Translator: Michael Howitz <mh@gocept.com>\n"
 "Language-Team: Michael Howitz <icemac@gmx.net>\n"
 "Language: de_DE\n"
@@ -388,7 +388,7 @@ msgid ""
 "each last but one Sunday every other month)"
 msgstr ""
 "zweimonatlich, gleicher Wochentag vom Ende des Monats gezählt (z. B. jeden "
-"vorletzten Sonntag aller zwei Monat)"
+"vorletzten Sonntag aller zwei Monate)"
 
 #: icemac/ab/calendar/recurrence.py:282
 msgid "yearly (e. g. 24th of December)"
@@ -396,7 +396,7 @@ msgstr "jährlich (z. B. 24. Dezember)"
 
 #: icemac/ab/calendar/recurrence.py:299
 msgid "${date} every year"
-msgstr "${date} in jedem Jahr"
+msgstr "jedes Jahr am ${date}"
 
 #: icemac/ab/calendar/roles.zcml:5
 msgid "Calendar editor"
