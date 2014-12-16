@@ -1,7 +1,7 @@
 Change log
 ==========
 
-2.6 (unreleased)
+2.6 (2014-12-16)
 ----------------
 
 - Add German translations for new features in `icemac.ab.calendar` 1.6.
@@ -25,25 +25,6 @@ Change log
 ----------------
 
 - Add German translations for new features in `icemac.addressbook` 2.4.
-
-
-2.2 (2014-02-08)
-----------------
-
-- Add German translations for new features in `icemac.ab.calendar` 1.3.
-
-
-2.1 (2013-12-31)
-----------------
-
-- Add German translations for new features in `icemac.addressbook` 2.1.
-
-
-2.0 (2013-11-03)
-----------------
-
-- Add German translations for new features in `icemac.addressbook` 2.0 and
-  `icemac.ab.calendar` 1.0.
 
 
 Previous changes
