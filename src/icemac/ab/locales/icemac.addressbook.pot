@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Meaningless\n"
-"POT-Creation-Date: Thu Jul  3 20:52:04 2014\n"
+"POT-Creation-Date: Tue Dec 16 20:55:08 2014\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -29,11 +29,11 @@ msgstr ""
 msgid "Time zone"
 msgstr ""
 
-#: icemac/ab/calendar/browser/calendar.pt:12
+#: icemac/ab/calendar/browser/calendar.pt:21
 msgid "Month"
 msgstr ""
 
-#: icemac/ab/calendar/browser/calendar.pt:17
+#: icemac/ab/calendar/browser/calendar.pt:26
 msgid "Year"
 msgstr ""
 
@@ -60,22 +60,22 @@ msgstr ""
 msgid "Calendar"
 msgstr ""
 
-#: icemac/ab/calendar/browser/event.py:17
+#: icemac/ab/calendar/browser/event.py:28
 msgid "Add new event"
 msgstr ""
 
-#: icemac/ab/calendar/browser/event.py:27
+#: icemac/ab/calendar/browser/event.py:48
 msgid "Edit event"
 msgstr ""
 
-#: icemac/ab/calendar/browser/event.py:34
+#: icemac/ab/calendar/browser/event.py:55
 msgid "Clone event"
 msgstr ""
 
-#: icemac/ab/calendar/browser/event.py:40
-#: icemac/ab/calendar/browser/event.py:110
+#: icemac/ab/calendar/browser/event.py:61
+#: icemac/ab/calendar/browser/event.py:131
 #: icemac/ab/calendar/masterdata/category.py:67
-#: icemac/ab/calendar/masterdata/event.py:68
+#: icemac/ab/calendar/masterdata/event.py:75
 #: icemac/addressbook/browser/entities/fields_list.pt:17
 #: icemac/addressbook/browser/keyword/keyword.py:57
 #: icemac/addressbook/browser/rootfolder/rootfolder.pt:11
@@ -83,19 +83,19 @@ msgstr ""
 msgid "Delete"
 msgstr ""
 
-#: icemac/ab/calendar/browser/event.py:49
+#: icemac/ab/calendar/browser/event.py:70
 msgid "Do you really want to delete this event?"
 msgstr ""
 
-#: icemac/ab/calendar/browser/event.py:57
+#: icemac/ab/calendar/browser/event.py:78
 msgid "Do you really want to clone this event?"
 msgstr ""
 
-#: icemac/ab/calendar/browser/event.py:97
+#: icemac/ab/calendar/browser/event.py:118
 msgid "Edit recurred event"
 msgstr ""
 
-#: icemac/ab/calendar/browser/event.py:106
+#: icemac/ab/calendar/browser/event.py:127
 #: icemac/addressbook/browser/addressbook/crud.py:35
 #: icemac/addressbook/browser/person/person.py:191
 #: icemac/addressbook/browser/principals/principals.py:140
@@ -103,15 +103,15 @@ msgstr ""
 msgid "Apply"
 msgstr ""
 
-#: icemac/ab/calendar/browser/event.py:126
+#: icemac/ab/calendar/browser/event.py:147
 msgid "View recurred event"
 msgstr ""
 
-#: icemac/ab/calendar/browser/event.py:137
+#: icemac/ab/calendar/browser/event.py:158
 msgid "Do you really want to delete this recurred event?"
 msgstr ""
 
-#: icemac/ab/calendar/browser/event.py:148
+#: icemac/ab/calendar/browser/event.py:169
 #: icemac/addressbook/browser/base.py:321
 msgid "\"${title}\" deleted."
 msgstr ""
@@ -122,16 +122,20 @@ msgstr ""
 msgid "event"
 msgstr ""
 
-#: icemac/ab/calendar/browser/renderer/table.py:58
+#: icemac/ab/calendar/browser/renderer/table.py:60
 #: icemac/addressbook/browser/entities/fields_list.pt:20
 msgid "Edit"
+msgstr ""
+
+#: icemac/ab/calendar/browser/renderer/table.py:134
+msgid "Add new event for this day."
 msgstr ""
 
 #: icemac/ab/calendar/category.py:27
 msgid "This category already exists."
 msgstr ""
 
-#: icemac/ab/calendar/event.py:90
+#: icemac/ab/calendar/event.py:98
 #: icemac/ab/calendar/masterdata/event.zcml:27
 msgid "recurring event"
 msgstr ""
@@ -148,7 +152,7 @@ msgid "event category"
 msgstr ""
 
 #: icemac/ab/calendar/interfaces.py:129
-#: icemac/ab/calendar/masterdata/event.py:23
+#: icemac/ab/calendar/masterdata/event.py:32
 #: icemac/addressbook/sources.py:50
 msgid "datetime"
 msgstr ""
@@ -171,7 +175,7 @@ msgid "person name"
 msgstr ""
 
 #: icemac/ab/calendar/interfaces.py:140
-#: icemac/ab/calendar/masterdata/event.py:32
+#: icemac/ab/calendar/masterdata/event.py:39
 #: icemac/addressbook/browser/interfaces.py:27
 #: icemac/addressbook/browser/principals/principals.py:45
 #: icemac/addressbook/browser/search/result/handler/delete.py:20
@@ -181,8 +185,8 @@ msgstr ""
 msgid "notes"
 msgstr ""
 
-#: icemac/ab/calendar/interfaces.py:178
-#: icemac/ab/calendar/masterdata/event.py:27
+#: icemac/ab/calendar/interfaces.py:181
+#: icemac/ab/calendar/masterdata/event.py:36
 msgid "recurrence period"
 msgstr ""
 
@@ -214,19 +218,19 @@ msgstr ""
 msgid "Calendar view"
 msgstr ""
 
-#: icemac/ab/calendar/masterdata/event.py:14
+#: icemac/ab/calendar/masterdata/event.py:23
 msgid "No recurring events defined yet."
 msgstr ""
 
-#: icemac/ab/calendar/masterdata/event.py:43
+#: icemac/ab/calendar/masterdata/event.py:50
 msgid "Add new recurring event"
 msgstr ""
 
-#: icemac/ab/calendar/masterdata/event.py:53
+#: icemac/ab/calendar/masterdata/event.py:60
 msgid "Edit recurring event"
 msgstr ""
 
-#: icemac/ab/calendar/masterdata/event.py:75
+#: icemac/ab/calendar/masterdata/event.py:82
 msgid "Do you really want to delete this recurring event?"
 msgstr ""
 
@@ -298,8 +302,94 @@ msgstr ""
 msgid "calendar:EditEventRecurringEvent"
 msgstr ""
 
-#: icemac/ab/calendar/recurrence.py:49
-msgid "weekly, same weekday"
+#: icemac/ab/calendar/recurrence.py:121
+msgid "weekly, same weekday (e. g. each Friday)"
+msgstr ""
+
+#: icemac/ab/calendar/recurrence.py:126
+msgid "${weekday} every week"
+msgstr ""
+
+#: icemac/ab/calendar/recurrence.py:135
+msgid "every other week, same weekday (e. g. each second Friday)"
+msgstr ""
+
+#: icemac/ab/calendar/recurrence.py:140
+msgid "${weekday} every other week"
+msgstr ""
+
+#: icemac/ab/calendar/recurrence.py:179
+msgid "1st"
+msgstr ""
+
+#: icemac/ab/calendar/recurrence.py:180
+msgid "2nd"
+msgstr ""
+
+#: icemac/ab/calendar/recurrence.py:181
+msgid "3rd"
+msgstr ""
+
+#: icemac/ab/calendar/recurrence.py:182
+msgid "4th"
+msgstr ""
+
+#: icemac/ab/calendar/recurrence.py:183
+msgid "5th"
+msgstr ""
+
+#: icemac/ab/calendar/recurrence.py:203
+msgid "monthly, same weekday (e. g. each 3rd Sunday)"
+msgstr ""
+
+#: icemac/ab/calendar/recurrence.py:205
+#: icemac/ab/calendar/recurrence.py:261
+msgid "${recurrence} ${weekday} every month"
+msgstr ""
+
+#: icemac/ab/calendar/recurrence.py:215
+msgid "every other month, same weekday (e. g. each 3rd Sunday in other month)"
+msgstr ""
+
+#: icemac/ab/calendar/recurrence.py:218
+#: icemac/ab/calendar/recurrence.py:274
+msgid "${recurrence} ${weekday} every other month"
+msgstr ""
+
+#: icemac/ab/calendar/recurrence.py:227
+msgid "last"
+msgstr ""
+
+#: icemac/ab/calendar/recurrence.py:228
+msgid "last but one"
+msgstr ""
+
+#: icemac/ab/calendar/recurrence.py:229
+msgid "last but two"
+msgstr ""
+
+#: icemac/ab/calendar/recurrence.py:230
+msgid "last but three"
+msgstr ""
+
+#: icemac/ab/calendar/recurrence.py:231
+msgid "last but four"
+msgstr ""
+
+#: icemac/ab/calendar/recurrence.py:258
+msgid "monthly, same weekday counted from the end of the month (e. g. each last but one Sunday)"
+msgstr ""
+
+#: icemac/ab/calendar/recurrence.py:271
+msgid "every other month on same weekday counted from the end of the month (e. g. each last but one Sunday every other month)"
+msgstr ""
+
+#: icemac/ab/calendar/recurrence.py:282
+msgid "yearly (e. g. 24th of December)"
+msgstr ""
+
+#: icemac/ab/calendar/recurrence.py:299
+msgid "${date} every year"
 msgstr ""
 
 #: icemac/ab/calendar/roles.zcml:5
