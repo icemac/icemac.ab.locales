@@ -1,7 +1,7 @@
 Change log
 ==========
 
-2.7 (unreleased)
+2.7 (2014-12-16)
 ----------------
 
 - Fix some German translations.
