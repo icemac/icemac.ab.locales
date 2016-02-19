@@ -4,9 +4,9 @@ Change log
 2.8 (unreleased)
 ----------------
 
-- Nothing changed yet.
 - Add German translations for new features in `icemac.addressbook` 2.6.
 
+- Add German translations for `icemac.recurrence`.
 
 
 2.7 (2014-12-16)

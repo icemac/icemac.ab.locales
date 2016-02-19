@@ -1,0 +1,133 @@
+# #############################################################################
+#
+# Copyright (c) 2003-2004 Zope Corporation and Contributors.
+# All Rights Reserved.
+#
+# This software is subject to the provisions of the Zope Public License,
+# Version 2.1 (ZPL).  A copy of the ZPL should accompany this distribution.
+# THIS SOFTWARE IS PROVIDED "AS IS" AND ANY AND ALL EXPRESS OR IMPLIED
+# WARRANTIES ARE DISCLAIMED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+# WARRANTIES OF TITLE, MERCHANTABILITY, AGAINST INFRINGEMENT, AND FITNESS
+# FOR A PARTICULAR PURPOSE.
+#
+# #############################################################################
+msgid ""
+msgstr ""
+"Project-Id-Version: icemac.addressbook\n"
+"POT-Creation-Date: 2016-02-19 21:57+0100\n"
+"PO-Revision-Date: 2016-02-19 21:58+0100\n"
+"Last-Translator: Michael Howitz <mh@gocept.com>\n"
+"Language-Team: Michael Howitz <icemac@gmx.net>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: zope/app/locales/extract.py\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.8.7\n"
+
+#: icemac/recurrence/daily.py:12
+msgid "daily"
+msgstr "täglich"
+
+#: icemac/recurrence/daily.py:13
+msgid "each day"
+msgstr "jeden Tag"
+
+#: icemac/recurrence/monthly.py:66
+msgid "1st"
+msgstr "ersten"
+
+#: icemac/recurrence/monthly.py:67
+msgid "2nd"
+msgstr "zweiten"
+
+#: icemac/recurrence/monthly.py:68
+msgid "3rd"
+msgstr "dritten"
+
+#: icemac/recurrence/monthly.py:69
+msgid "4th"
+msgstr "vierten"
+
+#: icemac/recurrence/monthly.py:70
+msgid "5th"
+msgstr "fünften"
+
+#: icemac/recurrence/monthly.py:91
+msgid "monthly, same weekday (e. g. each 3rd Sunday)"
+msgstr "monatlich, gleicher Wochentag (z. B. jeden dritten Sonntag im Monat)"
+
+#: icemac/recurrence/monthly.py:93 icemac/recurrence/monthly.py:154
+msgid "${recurrence} ${weekday} every month"
+msgstr "jeden ${recurrence} ${weekday} im Monat"
+
+#: icemac/recurrence/monthly.py:105
+msgid "every other month, same weekday (e. g. each 3rd Sunday in other month)"
+msgstr ""
+"zweimonatlich, gleicher Wochentag (z. B. jeden dritten Sonntag aller zwei "
+"Monate)"
+
+#: icemac/recurrence/monthly.py:108 icemac/recurrence/monthly.py:168
+msgid "${recurrence} ${weekday} every other month"
+msgstr "jeden ${recurrence} ${weekday} aller zwei Monate"
+
+#: icemac/recurrence/monthly.py:119
+msgid "last"
+msgstr "letzten"
+
+#: icemac/recurrence/monthly.py:120
+msgid "last but one"
+msgstr "vorletzten"
+
+#: icemac/recurrence/monthly.py:121
+msgid "last but two"
+msgstr "drittletzten"
+
+#: icemac/recurrence/monthly.py:122
+msgid "last but three"
+msgstr "viertletzten"
+
+#: icemac/recurrence/monthly.py:123
+msgid "last but four"
+msgstr "fünftletzten"
+
+#: icemac/recurrence/monthly.py:151
+msgid ""
+"monthly, same weekday counted from the end of the month (e. g. each last but "
+"one Sunday)"
+msgstr ""
+"monatlich, gleicher Wochentag vom Ende des Monats gezählt (z. B. jeden "
+"vorletzten Sonntag im Monat)"
+
+#: icemac/recurrence/monthly.py:165
+msgid ""
+"every other month on same weekday counted from the end of the month (e. g. "
+"each last but one Sunday every other month)"
+msgstr ""
+"zweimonatlich, gleicher Wochentag vom Ende des Monats gezählt (z. B. jeden "
+"vorletzten Sonntag aller zwei Monate)"
+
+#: icemac/recurrence/weekly.py:25
+msgid "weekly, same weekday (e. g. each Friday)"
+msgstr "﻿wöchentlich, gleicher Wochentag (z. B. jeden Freitag)"
+
+#: icemac/recurrence/weekly.py:30
+msgid "${weekday} every week"
+msgstr "jeden ${weekday}"
+
+#: icemac/recurrence/weekly.py:39
+msgid "every other week, same weekday (e. g. each second Friday)"
+msgstr "﻿jede zweite Woche, gleicher Wochentag (z. B. jeden zweiten Freitag)"
+
+#: icemac/recurrence/weekly.py:44
+msgid "${weekday} every other week"
+msgstr "jeden zweiten ${weekday}"
+
+#: icemac/recurrence/yearly.py:20
+msgid "yearly (e. g. 24th of December)"
+msgstr "jährlich (z. B. 24. Dezember)"
+
+#: icemac/recurrence/yearly.py:39
+msgid "${date} every year"
+msgstr "jedes Jahr am ${date}"
