@@ -5,6 +5,8 @@ Change log
 ----------------
 
 - Nothing changed yet.
+- Add German translations for new features in `icemac.addressbook` 2.6.
+
 
 
 2.7 (2014-12-16)
