@@ -6,6 +6,8 @@ Change log
 
 - Add German translations for new features in `icemac.addressbook` 2.6.
 
+- Add German translations for `icemac.ab.calexport`.
+
 - Add German translations for `icemac.recurrence`.
 
 

@@ -14,8 +14,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: icemac.addressbook\n"
-"POT-Creation-Date: 2016-02-19 21:59+0100\n"
-"PO-Revision-Date: 2016-02-19 22:08+0100\n"
+"POT-Creation-Date: 2016-02-20 15:28+0100\n"
+"PO-Revision-Date: 2016-02-20 15:29+0100\n"
 "Last-Translator: Michael Howitz <mh@gocept.com>\n"
 "Language-Team: Michael Howitz <icemac@gmx.net>\n"
 "Language: de_DE\n"
@@ -166,6 +166,7 @@ msgstr "Zusätzliche Felder, die in der Kalender-Ansicht angezeigt werden sollen
 #: icemac/ab/calendar/interfaces.py:105 icemac/ab/calendar/interfaces.py:137
 #: icemac/ab/calendar/masterdata/category.py:18
 #: icemac/ab/calendar/masterdata/category.zcml:27
+#: icemac/ab/calexport/interfaces.py:49
 msgid "event category"
 msgstr "Ereigniskategorie"
 
@@ -344,6 +345,63 @@ msgstr "Kalender lesen"
 #: icemac/ab/calendar/roles.zcml:113
 msgid "Role which allows to visit the calendar."
 msgstr "Role which allows to visit the calendar."
+
+#: icemac/ab/calexport/browser/export.py:25
+msgid "Export current month"
+msgstr "Diesen Monat exportieren"
+
+#: icemac/ab/calexport/interfaces.py:36
+msgid "HTML to be inserted above calendar in export file"
+msgstr "HTML-Code, der in der Exportdatei über den Kalenderdaten stehen soll"
+
+#: icemac/ab/calexport/interfaces.py:41
+msgid "HTML to be inserted below calendar in export file"
+msgstr "HTML-Code, der in der Exportdatei unter den Kalenderdaten stehen soll"
+
+#: icemac/ab/calexport/interfaces.py:46
+msgid "Export only events having one of these categories"
+msgstr "Nur Ereignisse der folgenden Kategorien exportieren"
+
+#: icemac/ab/calexport/interfaces.py:53
+msgid ""
+"Use this Boolean field to determine whether the event should be rendered with "
+"the `special` CSS class"
+msgstr ""
+"Dieses Feld mit einem Wahrheitswert verwenden, um zu entscheiden, ob für das "
+"Ereignis die CSS-Klasse „special“ gerendert werden soll."
+
+#: icemac/ab/calexport/masterdata/configure.zcml:8
+msgid "Configure export"
+msgstr "Export konfigurieren"
+
+#: icemac/ab/calexport/masterdata/export.py:17
+msgid "Configure the calendar html export"
+msgstr "Den HTML-Export des Kalenders konfigurieren"
+
+#: icemac/ab/calexport/permissions.zcml:4
+msgid "ExportCalendar"
+msgstr "ExportCalendar"
+
+#: icemac/ab/calexport/permissions.zcml:9
+msgid "EditCalendarExportMasterdata"
+msgstr "EditCalendarExportMasterdata"
+
+#: icemac/ab/calexport/roles.zcml:5
+msgid "Calendar eport editor"
+msgstr "Kalender-Export bearbeiten"
+
+#: icemac/ab/calexport/roles.zcml:5
+msgid "Role which allows to edit masterdata of the calendar export."
+msgstr ""
+"Rolle, die es erlaubt die Stammdaten des Kalender-Exports zu bearbeiten."
+
+#: icemac/ab/calexport/roles.zcml:68
+msgid "Calendar exporter"
+msgstr "Kalender exportieren"
+
+#: icemac/ab/calexport/roles.zcml:68
+msgid "Role which allows to export the calendar data."
+msgstr "Rolle, die es erlaubt den Kalender zu exportieren."
 
 #: icemac/ab/importer/browser/configure.zcml:15
 msgid "Import data"

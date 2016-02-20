@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Unknown\n"
-"POT-Creation-Date: Fri Feb 19 21:59:05 2016\n"
+"POT-Creation-Date: Sat Feb 20 15:28:40 2016\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -169,6 +169,7 @@ msgstr ""
 #: icemac/ab/calendar/interfaces.py:137
 #: icemac/ab/calendar/masterdata/category.py:18
 #: icemac/ab/calendar/masterdata/category.zcml:27
+#: icemac/ab/calexport/interfaces.py:49
 msgid "event category"
 msgstr ""
 
@@ -348,6 +349,58 @@ msgstr ""
 
 #: icemac/ab/calendar/roles.zcml:113
 msgid "Role which allows to visit the calendar."
+msgstr ""
+
+#: icemac/ab/calexport/browser/export.py:25
+msgid "Export current month"
+msgstr ""
+
+#: icemac/ab/calexport/interfaces.py:36
+msgid "HTML to be inserted above calendar in export file"
+msgstr ""
+
+#: icemac/ab/calexport/interfaces.py:41
+msgid "HTML to be inserted below calendar in export file"
+msgstr ""
+
+#: icemac/ab/calexport/interfaces.py:46
+msgid "Export only events having one of these categories"
+msgstr ""
+
+#: icemac/ab/calexport/interfaces.py:53
+msgid "Use this Boolean field to determine whether the event should be rendered with the `special` CSS class"
+msgstr ""
+
+#: icemac/ab/calexport/masterdata/configure.zcml:8
+msgid "Configure export"
+msgstr ""
+
+#: icemac/ab/calexport/masterdata/export.py:17
+msgid "Configure the calendar html export"
+msgstr ""
+
+#: icemac/ab/calexport/permissions.zcml:4
+msgid "ExportCalendar"
+msgstr ""
+
+#: icemac/ab/calexport/permissions.zcml:9
+msgid "EditCalendarExportMasterdata"
+msgstr ""
+
+#: icemac/ab/calexport/roles.zcml:5
+msgid "Calendar eport editor"
+msgstr ""
+
+#: icemac/ab/calexport/roles.zcml:5
+msgid "Role which allows to edit masterdata of the calendar export."
+msgstr ""
+
+#: icemac/ab/calexport/roles.zcml:68
+msgid "Calendar exporter"
+msgstr ""
+
+#: icemac/ab/calexport/roles.zcml:68
+msgid "Role which allows to export the calendar data."
 msgstr ""
 
 #: icemac/ab/importer/browser/configure.zcml:15
