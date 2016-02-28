@@ -1,7 +1,7 @@
 Change log
 ==========
 
-2.8 (unreleased)
+2.8 (2016-02-28)
 ----------------
 
 - Add German translations for new features in `icemac.addressbook` 2.6.
@@ -35,12 +35,6 @@ Change log
 - Add German translations for new features in `icemac.ab.calendar` 1.5.
 
 - Fix German translation of plural form of `keyword`.
-
-
-2.3 (2014-03-07)
-----------------
-
-- Add German translations for new features in `icemac.addressbook` 2.4.
 
 
 Previous changes
