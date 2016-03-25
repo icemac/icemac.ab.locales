@@ -4,7 +4,8 @@ Change log
 2.9 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Add English translations for the i18n domains `icemac.addressbook` and
+  `icemac.recurrence` to streamline the English texts a bit.
 
 
 2.8 (2016-02-28)
