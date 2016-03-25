@@ -1,7 +1,9 @@
 syntax: glob
 
 *.egg-info
+*.mo
 *.pyc
+.DS_Store
 .installed.cfg
 .mr.developer.cfg
 bin
