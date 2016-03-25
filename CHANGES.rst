@@ -7,6 +7,9 @@ Change log
 - Add English translations for the i18n domains `icemac.addressbook` and
   `icemac.recurrence` to streamline the English texts a bit.
 
+- Fix German translations for new features in `icemac.ab.calendar` 1.8.
+
+
 
 2.8 (2016-02-28)
 ----------------
