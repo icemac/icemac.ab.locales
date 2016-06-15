@@ -4,7 +4,7 @@ Change log
 2.10 (unreleased)
 -----------------
 
-- Nothing changed yet.
+- Improve some German translations for `icemac.addressbook`.
 
 
 2.9 (2016-06-15)
