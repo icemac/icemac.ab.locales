@@ -9,6 +9,11 @@ Change log
 
 - Fix German translations for new features in `icemac.ab.calendar` 1.8.
 
+- Add translations for messages new in:
+
+  - `icemac.ab.calexport` 1.1
+
+  - `icemac.addressbook` 2.7
 
 
 2.8 (2016-02-28)
@@ -37,14 +42,6 @@ Change log
 ----------------
 
 - Re-add i18n message ids for role names missing since version 0.1.
-
-
-2.4 (2014-07-01)
-----------------
-
-- Add German translations for new features in `icemac.ab.calendar` 1.5.
-
-- Fix German translation of plural form of `keyword`.
 
 
 Previous changes

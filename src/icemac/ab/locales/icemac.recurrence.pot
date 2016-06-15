@@ -31,69 +31,69 @@ msgstr ""
 msgid "each day"
 msgstr ""
 
-#: icemac/recurrence/monthly.py:66
+#: icemac/recurrence/monthly.py:64
 msgid "1st"
 msgstr ""
 
-#: icemac/recurrence/monthly.py:67
+#: icemac/recurrence/monthly.py:65
 msgid "2nd"
 msgstr ""
 
-#: icemac/recurrence/monthly.py:68
+#: icemac/recurrence/monthly.py:66
 msgid "3rd"
 msgstr ""
 
-#: icemac/recurrence/monthly.py:69
+#: icemac/recurrence/monthly.py:67
 msgid "4th"
 msgstr ""
 
-#: icemac/recurrence/monthly.py:70
+#: icemac/recurrence/monthly.py:68
 msgid "5th"
 msgstr ""
 
-#: icemac/recurrence/monthly.py:91
+#: icemac/recurrence/monthly.py:89
 msgid "monthly, same weekday (e. g. each 3rd Sunday)"
 msgstr ""
 
-#: icemac/recurrence/monthly.py:93
-#: icemac/recurrence/monthly.py:154
+#: icemac/recurrence/monthly.py:91
+#: icemac/recurrence/monthly.py:151
 msgid "${recurrence} ${weekday} every month"
 msgstr ""
 
-#: icemac/recurrence/monthly.py:105
+#: icemac/recurrence/monthly.py:102
 msgid "every other month, same weekday (e. g. each 3rd Sunday in other month)"
 msgstr ""
 
-#: icemac/recurrence/monthly.py:108
-#: icemac/recurrence/monthly.py:168
+#: icemac/recurrence/monthly.py:105
+#: icemac/recurrence/monthly.py:165
 msgid "${recurrence} ${weekday} every other month"
 msgstr ""
 
-#: icemac/recurrence/monthly.py:119
+#: icemac/recurrence/monthly.py:116
 msgid "last"
 msgstr ""
 
-#: icemac/recurrence/monthly.py:120
+#: icemac/recurrence/monthly.py:117
 msgid "last but one"
 msgstr ""
 
-#: icemac/recurrence/monthly.py:121
+#: icemac/recurrence/monthly.py:118
 msgid "last but two"
 msgstr ""
 
-#: icemac/recurrence/monthly.py:122
+#: icemac/recurrence/monthly.py:119
 msgid "last but three"
 msgstr ""
 
-#: icemac/recurrence/monthly.py:123
+#: icemac/recurrence/monthly.py:120
 msgid "last but four"
 msgstr ""
 
-#: icemac/recurrence/monthly.py:151
+#: icemac/recurrence/monthly.py:148
 msgid "monthly, same weekday counted from the end of the month (e. g. each last but one Sunday)"
 msgstr ""
 
-#: icemac/recurrence/monthly.py:165
+#: icemac/recurrence/monthly.py:162
 msgid "every other month on same weekday counted from the end of the month (e. g. each last but one Sunday every other month)"
 msgstr ""
 
