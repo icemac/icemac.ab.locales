@@ -1,7 +1,7 @@
 Change log
 ==========
 
-2.9 (unreleased)
+2.9 (2016-06-15)
 ----------------
 
 - Add English translations for the i18n domains `icemac.addressbook` and
