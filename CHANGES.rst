@@ -1,7 +1,7 @@
 Change log
 ==========
 
-2.11 (unreleased)
+2.11 (2016-06-25)
 -----------------
 
 - Add translations for messages new in  `icemac.ab.calendar` 1.9.
@@ -43,18 +43,6 @@ Change log
 ----------------
 
 - Fix some German translations.
-
-
-2.6 (2014-12-16)
-----------------
-
-- Add German translations for new features in `icemac.ab.calendar` 1.6.
-
-
-2.5 (2014-07-03)
-----------------
-
-- Re-add i18n message ids for role names missing since version 0.1.
 
 
 Previous changes
