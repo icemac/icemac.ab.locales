@@ -14,8 +14,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: icemac.addressbook\n"
-"POT-Creation-Date: 2016-06-15 18:03+0200\n"
-"PO-Revision-Date: 2016-06-25 11:24+0200\n"
+"POT-Creation-Date: 2016-06-25 14:36+0200\n"
+"PO-Revision-Date: 2016-06-25 14:37+0200\n"
 "Last-Translator: Michael Howitz <mh@gocept.com>\n"
 "Language-Team: Michael Howitz <icemac@gmx.net>\n"
 "Language: en\n"
@@ -65,20 +65,34 @@ msgstr "Year changed."
 msgid "Calendar"
 msgstr "Calendar"
 
-#: icemac/ab/calendar/browser/event.py:129
+#: icemac/ab/calendar/browser/event.py:118
+msgid "Missing: ${value}"
+msgstr "Missing: ${value}"
+
+#: icemac/ab/calendar/browser/event.py:123
+msgid ""
+"Please deselect the persons prefixed with \"Missing:\" They are no longer in "
+"the list of available persons. (Maybe reconsider the following setting: "
+"Master Data > Calendar > Settings > Person keyword)"
+msgstr ""
+"Please deselect the persons prefixed with \"Missing:\" They are no longer in "
+"the list of available persons. (Maybe reconsider the following setting: "
+"Master Data > Calendar > Settings > Person keyword.)"
+
+#: icemac/ab/calendar/browser/event.py:155
 msgid "Add new event"
 msgstr "Add new event"
 
-#: icemac/ab/calendar/browser/event.py:152
+#: icemac/ab/calendar/browser/event.py:178
 msgid "Edit event"
 msgstr "Edit event"
 
-#: icemac/ab/calendar/browser/event.py:159
+#: icemac/ab/calendar/browser/event.py:185
 msgid "Clone event"
 msgstr "Clone event"
 
-#: icemac/ab/calendar/browser/event.py:165
-#: icemac/ab/calendar/browser/event.py:244
+#: icemac/ab/calendar/browser/event.py:191
+#: icemac/ab/calendar/browser/event.py:270
 #: icemac/ab/calendar/masterdata/category.py:62
 #: icemac/ab/calendar/masterdata/event.py:125
 #: icemac/addressbook/browser/entities/fields_list.pt:17
@@ -88,41 +102,41 @@ msgstr "Clone event"
 msgid "Delete"
 msgstr "Delete"
 
-#: icemac/ab/calendar/browser/event.py:174
+#: icemac/ab/calendar/browser/event.py:200
 msgid "Do you really want to delete this event?"
 msgstr "Do you really want to delete this event?"
 
-#: icemac/ab/calendar/browser/event.py:182
+#: icemac/ab/calendar/browser/event.py:208
 msgid "Do you really want to clone this event?"
 msgstr "Do you really want to clone this event?"
 
-#: icemac/ab/calendar/browser/event.py:231
+#: icemac/ab/calendar/browser/event.py:257
 msgid "Edit recurred event"
 msgstr "Edit recurred event"
 
-#: icemac/ab/calendar/browser/event.py:240
+#: icemac/ab/calendar/browser/event.py:266
 #: icemac/addressbook/browser/addressbook/crud.py:42
 #: icemac/addressbook/browser/person/person.py:191
-#: icemac/addressbook/browser/principals/principals.py:133
+#: icemac/addressbook/browser/principals/principals.py:148
 #: icemac/addressbook/browser/search/result/base.py:35
 msgid "Apply"
 msgstr "Apply"
 
-#: icemac/ab/calendar/browser/event.py:261
+#: icemac/ab/calendar/browser/event.py:287
 msgid "View recurred event"
 msgstr "View recurred event"
 
-#: icemac/ab/calendar/browser/event.py:273
+#: icemac/ab/calendar/browser/event.py:299
 msgid "Do you really want to delete this recurred event?"
 msgstr "Do you really want to delete this recurred event?"
 
-#: icemac/ab/calendar/browser/event.zcml:33 icemac/ab/calendar/event.py:75
+#: icemac/ab/calendar/browser/event.zcml:45 icemac/ab/calendar/event.py:75
 #: icemac/ab/calendar/event.py:86
 msgid "event"
 msgstr "event"
 
 #: icemac/ab/calendar/browser/interfaces.py:17
-#: icemac/ab/calendar/interfaces.py:140
+#: icemac/ab/calendar/interfaces.py:158
 msgid "whole day event?"
 msgstr "whole day event?"
 
@@ -139,7 +153,7 @@ msgid "Either enter a `time` or select `whole day event`!"
 msgstr "Either enter a `time` or select `whole day event`!"
 
 #: icemac/ab/calendar/browser/interfaces.py:34
-#: icemac/ab/calendar/interfaces.py:138
+#: icemac/ab/calendar/interfaces.py:156
 #: icemac/ab/calendar/masterdata/event.py:40 icemac/addressbook/sources.py:50
 msgid "datetime"
 msgstr "date and time"
@@ -161,50 +175,63 @@ msgstr "This category already exists."
 msgid "recurring event"
 msgstr "recurring event"
 
-#: icemac/ab/calendar/interfaces.py:72
+#: icemac/ab/calendar/interfaces.py:73
 msgid "Additional event fields to be displayed in calendar"
 msgstr "Additional fields of events to be displayed in the calendar"
 
-#: icemac/ab/calendar/interfaces.py:105 icemac/ab/calendar/interfaces.py:137
+#: icemac/ab/calendar/interfaces.py:78
+msgid "Person keyword"
+msgstr "Person keyword"
+
+#: icemac/ab/calendar/interfaces.py:79
+msgid ""
+"Only persons having the keyword assigned which is selected here will show up "
+"in the person list when editing an event. If no keyword is selected all "
+"persons will show up."
+msgstr ""
+"Only persons having this keyword assigned will show up in the person list "
+"when editing an event. If no keyword is selected all persons will show up."
+
+#: icemac/ab/calendar/interfaces.py:115 icemac/ab/calendar/interfaces.py:155
 #: icemac/ab/calendar/masterdata/category.py:18
 #: icemac/ab/calendar/masterdata/category.zcml:27
 #: icemac/ab/calexport/interfaces.py:59
 msgid "event category"
 msgstr "event category"
 
-#: icemac/ab/calendar/interfaces.py:143
+#: icemac/ab/calendar/interfaces.py:161
 msgid "alternative title to category"
 msgstr "alternative title overriding  category"
 
-#: icemac/ab/calendar/interfaces.py:145 icemac/ab/calendar/interfaces.py:147
+#: icemac/ab/calendar/interfaces.py:163 icemac/ab/calendar/interfaces.py:165
 #: icemac/ab/calendar/masterdata/event.py:26
 msgid "persons"
 msgstr "persons"
 
-#: icemac/ab/calendar/interfaces.py:150
+#: icemac/ab/calendar/interfaces.py:168
 msgid "other persons"
 msgstr "other persons"
 
-#: icemac/ab/calendar/interfaces.py:151
+#: icemac/ab/calendar/interfaces.py:169
 msgid "person name"
 msgstr "person name"
 
-#: icemac/ab/calendar/interfaces.py:152
+#: icemac/ab/calendar/interfaces.py:170
 #: icemac/ab/calendar/masterdata/event.py:89
 #: icemac/addressbook/browser/interfaces.py:27
-#: icemac/addressbook/browser/principals/principals.py:45
+#: icemac/addressbook/browser/principals/principals.py:60
 #: icemac/addressbook/browser/search/result/handler/delete.py:19
 #: icemac/addressbook/interfaces.py:216 icemac/addressbook/interfaces.py:409
-#: icemac/addressbook/principals/interfaces.py:41
+#: icemac/addressbook/principals/interfaces.py:45
 msgid "notes"
 msgstr "notes"
 
-#: icemac/ab/calendar/interfaces.py:206
+#: icemac/ab/calendar/interfaces.py:224
 #: icemac/ab/calendar/masterdata/event.py:15
 msgid "recurrence period"
 msgstr "recurrence period"
 
-#: icemac/ab/calendar/interfaces.py:212
+#: icemac/ab/calendar/interfaces.py:230
 msgid "recurrence end"
 msgstr "recurrence end"
 
@@ -420,7 +447,7 @@ msgstr "Import data"
 
 #: icemac/ab/importer/browser/configure.zcml:33
 #: icemac/addressbook/browser/file/configure.zcml:14
-#: icemac/addressbook/file/file.py:62 icemac/addressbook/file/interfaces.py:17
+#: icemac/addressbook/file/file.py:58 icemac/addressbook/file/interfaces.py:17
 msgid "file"
 msgstr "file"
 
@@ -643,7 +670,7 @@ msgstr "Address book"
 
 #: icemac/addressbook/browser/addressbook/configure.zcml:92
 #: icemac/addressbook/export/xls/simple.py:122 icemac/addressbook/person.py:41
-#: icemac/addressbook/principals/interfaces.py:32
+#: icemac/addressbook/principals/interfaces.py:36
 msgid "person"
 msgstr "person"
 
@@ -701,64 +728,64 @@ msgstr "Welcome to ${title}. Please select one of the tabs above."
 msgid "You have been logged out successfully."
 msgstr "You have been logged out successfully."
 
-#: icemac/addressbook/browser/authentication/session.py:17
+#: icemac/addressbook/browser/authentication/session.py:19
 msgid "To log-in enter your username and password and submit the form."
 msgstr "To log-in enter your username and password and submit the form."
 
-#: icemac/addressbook/browser/authentication/session.py:30
+#: icemac/addressbook/browser/authentication/session.py:32
 msgid "You have been logged-in successfully."
 msgstr "You have been logged-in successfully."
 
-#: icemac/addressbook/browser/authentication/session.py:33
+#: icemac/addressbook/browser/authentication/session.py:41
 msgid "Login failed. Username and/or password might be wrong."
 msgstr "Login failed. Username and/or password might be wrong."
 
-#: icemac/addressbook/browser/base.py:162
+#: icemac/addressbook/browser/base.py:153
 msgid "Add"
 msgstr "Add"
 
-#: icemac/addressbook/browser/base.py:166
+#: icemac/addressbook/browser/base.py:157
 msgid "\"${title}\" added."
 msgstr "“${title}“ added."
 
-#: icemac/addressbook/browser/base.py:171
-#: icemac/addressbook/browser/base.py:257
+#: icemac/addressbook/browser/base.py:162
+#: icemac/addressbook/browser/base.py:246
 msgid "Cancel"
 msgstr "Cancel"
 
-#: icemac/addressbook/browser/base.py:175
+#: icemac/addressbook/browser/base.py:166
 msgid "Addition canceled."
 msgstr "Addition canceled."
 
-#: icemac/addressbook/browser/base.py:310
+#: icemac/addressbook/browser/base.py:297
 msgid "No, cancel"
 msgstr "No, cancel"
 
-#: icemac/addressbook/browser/base.py:315
+#: icemac/addressbook/browser/base.py:302
 msgid "Yes"
 msgstr "Yes"
 
-#: icemac/addressbook/browser/base.py:326
+#: icemac/addressbook/browser/base.py:313
 msgid "Do you really want to delete this entry?"
 msgstr "Do you really want to delete this entry?"
 
-#: icemac/addressbook/browser/base.py:329
+#: icemac/addressbook/browser/base.py:316
 msgid "Deletion canceled."
 msgstr "Deletion canceled."
 
-#: icemac/addressbook/browser/base.py:334
+#: icemac/addressbook/browser/base.py:321
 msgid "\"${title}\" deleted."
 msgstr "“${title}“ deleted."
 
-#: icemac/addressbook/browser/base.py:380
+#: icemac/addressbook/browser/base.py:365
 msgid "Do you really want to clone this entry?"
 msgstr "Do you really want to clone this entry?"
 
-#: icemac/addressbook/browser/base.py:381
+#: icemac/addressbook/browser/base.py:366
 msgid "Cloning canceled."
 msgstr "Cloning canceled."
 
-#: icemac/addressbook/browser/base.py:393
+#: icemac/addressbook/browser/base.py:378
 msgid "\"${object}\" cloned."
 msgstr "“${object}“ cloned."
 
@@ -1081,40 +1108,44 @@ msgid "user"
 msgstr "user"
 
 #: icemac/addressbook/browser/principals/principals.py:27
+msgid "last login"
+msgstr "last login"
+
+#: icemac/addressbook/browser/principals/principals.py:40
 msgid "No users defined yet or you are not allowed to access any."
 msgstr "No users defined yet or you are not allowed to access any."
 
-#: icemac/addressbook/browser/principals/principals.py:37
-#: icemac/addressbook/principals/interfaces.py:36
+#: icemac/addressbook/browser/principals/principals.py:50
+#: icemac/addressbook/principals/interfaces.py:40
 msgid "login name"
 msgstr "login name"
 
-#: icemac/addressbook/browser/principals/principals.py:40
-#: icemac/addressbook/principals/interfaces.py:50
+#: icemac/addressbook/browser/principals/principals.py:53
+#: icemac/addressbook/principals/interfaces.py:54
 msgid "roles"
 msgstr "roles"
 
-#: icemac/addressbook/browser/principals/principals.py:71
+#: icemac/addressbook/browser/principals/principals.py:86
 msgid "Add new user"
 msgstr "Add new user"
 
-#: icemac/addressbook/browser/principals/principals.py:113
+#: icemac/addressbook/browser/principals/principals.py:128
 msgid "Edit user"
 msgstr "Edit user"
 
-#: icemac/addressbook/browser/principals/principals.py:140
+#: icemac/addressbook/browser/principals/principals.py:155
 msgid "Delete user"
 msgstr "Delete user"
 
-#: icemac/addressbook/browser/principals/principals.py:179
+#: icemac/addressbook/browser/principals/principals.py:194
 msgid "You changed the login name, please re-login."
 msgstr "You changed the login name, please login again."
 
-#: icemac/addressbook/browser/principals/principals.py:183
+#: icemac/addressbook/browser/principals/principals.py:198
 msgid "You changed the password, please re-login."
 msgstr "You changed the password, please login again."
 
-#: icemac/addressbook/browser/principals/principals.py:203
+#: icemac/addressbook/browser/principals/principals.py:218
 msgid "Do you really want to delete this user?"
 msgstr "Do you really want to delete this user?"
 
@@ -1699,15 +1730,15 @@ msgstr ""
 "The entry in the password field was not equal to the entry in password "
 "repetition field."
 
-#: icemac/addressbook/principals/interfaces.py:37
+#: icemac/addressbook/principals/interfaces.py:41
 msgid "The Login/Username of the user. This value can change."
 msgstr "The login name resp. username of the user. This value can change."
 
-#: icemac/addressbook/principals/interfaces.py:42
+#: icemac/addressbook/principals/interfaces.py:46
 msgid "Provides notes for the user."
 msgstr "Provide notes about the user."
 
-#: icemac/addressbook/principals/principals.py:137
+#: icemac/addressbook/principals/principals.py:141
 msgid "<no person>"
 msgstr "<no person>"
 

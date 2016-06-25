@@ -4,7 +4,7 @@ Change log
 2.11 (unreleased)
 -----------------
 
-- Nothing changed yet.
+- Add translations for messages new in  `icemac.ab.calendar` 1.9.
 
 
 2.10 (2016-06-25)
