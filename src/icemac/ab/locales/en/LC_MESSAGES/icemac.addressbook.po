@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: icemac.addressbook\n"
 "POT-Creation-Date: 2016-06-15 18:03+0200\n"
-"PO-Revision-Date: 2016-06-15 18:05+0200\n"
+"PO-Revision-Date: 2016-06-25 11:24+0200\n"
 "Last-Translator: Michael Howitz <mh@gocept.com>\n"
 "Language-Team: Michael Howitz <icemac@gmx.net>\n"
 "Language: en\n"
@@ -488,7 +488,7 @@ msgstr "${value} is no valid date."
 msgid ""
 "${value} is no valid datetime. Must match to format string \"${format}\"."
 msgstr ""
-"${value} is no valid date time. Must match to format string „${format}“."
+"${value} is no valid date time. Must match to format string “${format}“."
 
 #: icemac/ab/importer/browser/wizard/map.py:252
 msgid "${value} is not a valid integer number."
@@ -719,7 +719,7 @@ msgstr "Add"
 
 #: icemac/addressbook/browser/base.py:166
 msgid "\"${title}\" added."
-msgstr "„${title}“ added."
+msgstr "“${title}“ added."
 
 #: icemac/addressbook/browser/base.py:171
 #: icemac/addressbook/browser/base.py:257
@@ -748,7 +748,7 @@ msgstr "Deletion canceled."
 
 #: icemac/addressbook/browser/base.py:334
 msgid "\"${title}\" deleted."
-msgstr "„${title}“ deleted."
+msgstr "“${title}“ deleted."
 
 #: icemac/addressbook/browser/base.py:380
 msgid "Do you really want to clone this entry?"
@@ -760,7 +760,7 @@ msgstr "Cloning canceled."
 
 #: icemac/addressbook/browser/base.py:393
 msgid "\"${object}\" cloned."
-msgstr "„${object}“ cloned."
+msgstr "“${object}“ cloned."
 
 #: icemac/addressbook/browser/entities/configure.zcml:11
 msgid "Entities"
@@ -1007,7 +1007,7 @@ msgstr "Persons"
 #: icemac/addressbook/browser/person/list.py:16
 msgid ""
 "There are no persons entered yet, click on \"Add person\" to create one."
-msgstr "There are no persons entered yet, click on „Add person“ to create one."
+msgstr "There are no persons entered yet, click on “Add person“ to create one."
 
 #: icemac/addressbook/browser/person/person.py:72
 msgid "Add new person"
@@ -1127,7 +1127,7 @@ msgid ""
 "There are no address books created yet, click on \"Add address book\" to "
 "create one."
 msgstr ""
-"There are no address books created yet, click on „Add address book“ to "
+"There are no address books created yet, click on “Add address book“ to "
 "create one."
 
 #: icemac/addressbook/browser/search/base.py:52

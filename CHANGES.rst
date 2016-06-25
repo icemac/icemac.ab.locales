@@ -6,6 +6,7 @@ Change log
 
 - Improve some German translations for `icemac.addressbook`.
 
+- Fix usage of Quotations Marks in English translation.
 
 2.9 (2016-06-15)
 ----------------
