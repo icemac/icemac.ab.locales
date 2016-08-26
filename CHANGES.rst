@@ -4,7 +4,7 @@ Change log
 2.12 (unreleased)
 -----------------
 
-- Nothing changed yet.
+- Add translations for new messages in `icemac.ab.calexport` 1.2.
 
 
 2.11 (2016-06-25)

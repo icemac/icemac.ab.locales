@@ -14,8 +14,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: icemac.addressbook\n"
-"POT-Creation-Date: 2016-06-25 14:36+0200\n"
-"PO-Revision-Date: 2016-06-25 14:37+0200\n"
+"POT-Creation-Date: 2016-08-26 22:15+0200\n"
+"PO-Revision-Date: 2016-08-26 22:16+0200\n"
 "Last-Translator: Michael Howitz <mh@gocept.com>\n"
 "Language-Team: Michael Howitz <icemac@gmx.net>\n"
 "Language: en\n"
@@ -397,13 +397,21 @@ msgstr "Export only events having one of these categories"
 
 #: icemac/ab/calexport/interfaces.py:63
 msgid ""
-"Use this Boolean field to determine whether the event should be rendered "
-"with the `special` CSS class"
+"Use this user defined Boolean field to determine whether the event is a top "
+"event"
 msgstr ""
-"Use this Boolean field to determine whether the event should be rendered "
-"with the `special` CSS class"
+"This user defined Boolean field is used to determine whether the event is a "
+"top event"
 
-#: icemac/ab/calexport/interfaces.py:69
+#: icemac/ab/calexport/interfaces.py:65
+msgid ""
+"Top events are rendered with the CSS class `special` and show up in the "
+"forecast list below the calendar table."
+msgstr ""
+"Top events are rendered with the CSS class `special` and show up in the "
+"forecast list below the calendar."
+
+#: icemac/ab/calexport/interfaces.py:72
 msgid ""
 "Use this URL field to render an external link in the exported calender file"
 msgstr ""
@@ -1805,3 +1813,10 @@ msgstr "text area"
 #: icemac/addressbook/sources.py:54
 msgid "text line"
 msgstr "text line"
+
+#~ msgid ""
+#~ "Use this Boolean field to determine whether the event should be rendered "
+#~ "with the `special` CSS class"
+#~ msgstr ""
+#~ "Use this Boolean field to determine whether the event should be rendered "
+#~ "with the `special` CSS class"

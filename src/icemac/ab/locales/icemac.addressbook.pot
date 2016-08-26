@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Unknown\n"
-"POT-Creation-Date: Sat Jun 25 14:14:55 2016\n"
+"POT-Creation-Date: Fri Aug 26 22:11:15 2016\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -389,10 +389,14 @@ msgid "Export only events having one of these categories"
 msgstr ""
 
 #: icemac/ab/calexport/interfaces.py:63
-msgid "Use this Boolean field to determine whether the event should be rendered with the `special` CSS class"
+msgid "Use this user defined Boolean field to determine whether the event is a top event"
 msgstr ""
 
-#: icemac/ab/calexport/interfaces.py:69
+#: icemac/ab/calexport/interfaces.py:65
+msgid "Top events are rendered with the CSS class `special` and show up in the forecast list below the calendar table."
+msgstr ""
+
+#: icemac/ab/calexport/interfaces.py:72
 msgid "Use this URL field to render an external link in the exported calender file"
 msgstr ""
 
