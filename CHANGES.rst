@@ -1,7 +1,7 @@
 Change log
 ==========
 
-2.13 (unreleased)
+2.13 (2016-08-27)
 -----------------
 
 - Fix translations for `icemac.ab.calexport` 1.2.
@@ -39,16 +39,6 @@ Change log
   - `icemac.ab.calexport` 1.1
 
   - `icemac.addressbook` 2.7
-
-
-2.8 (2016-02-28)
-----------------
-
-- Add German translations for new features in `icemac.addressbook` 2.6.
-
-- Add German translations for `icemac.ab.calexport`.
-
-- Add German translations for `icemac.recurrence`.
 
 
 Previous changes
