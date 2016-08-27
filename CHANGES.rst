@@ -4,7 +4,7 @@ Change log
 2.13 (unreleased)
 -----------------
 
-- Nothing changed yet.
+- Fix translations for `icemac.ab.calexport` 1.2.
 
 
 2.12 (2016-08-27)

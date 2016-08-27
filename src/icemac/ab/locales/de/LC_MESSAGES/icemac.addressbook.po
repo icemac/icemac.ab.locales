@@ -14,8 +14,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: icemac.addressbook\n"
-"POT-Creation-Date: 2016-08-26 22:11+0200\n"
-"PO-Revision-Date: 2016-08-26 22:15+0200\n"
+"POT-Creation-Date: 2016-08-27 18:55+0200\n"
+"PO-Revision-Date: 2016-08-27 18:57+0200\n"
 "Last-Translator: Michael Howitz <mh@gocept.com>\n"
 "Language-Team: Michael Howitz <icemac@gmx.net>\n"
 "Language: de_DE\n"
@@ -413,8 +413,18 @@ msgstr ""
 
 #: icemac/ab/calexport/interfaces.py:72
 msgid ""
-"Use this URL field to render an external link in the exported calender file"
-msgstr "Dieses URL-Feld soll benutzt werden, um den Term als Link anzuzeigen"
+"Use this user defined URL field to determine whether the event should be "
+"rendered as a link event"
+msgstr ""
+"Benutzerdefiniertes Feld vom Typ URL, welches festlegt, ob ein Termin als "
+"Link angezeigt wird"
+
+#: icemac/ab/calexport/interfaces.py:74
+msgid ""
+"If a URL is entered in this field the event is rendered as a link to the URL."
+msgstr ""
+"Wenn eine URL in dieses Feld eingetragen ist, wird das Ereignis im Kalender "
+"als Link zu dieser URL angezeigt."
 
 #: icemac/ab/calexport/masterdata/configure.zcml:8
 msgid "Configure export"
@@ -1810,6 +1820,10 @@ msgstr "Textfeld"
 #: icemac/addressbook/sources.py:54
 msgid "text line"
 msgstr "Textzeile"
+
+#~ msgid ""
+#~ "Use this URL field to render an external link in the exported calender file"
+#~ msgstr "Benutzerdefiniertes Feld vom Typ URL, für Termine als Link"
 
 #~ msgid ""
 #~ "Use this Boolean field to determine whether the event should be rendered "

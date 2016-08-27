@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Unknown\n"
-"POT-Creation-Date: Fri Aug 26 22:11:15 2016\n"
+"POT-Creation-Date: Sat Aug 27 18:54:38 2016\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -397,7 +397,11 @@ msgid "Top events are rendered with the CSS class `special` and show up in the f
 msgstr ""
 
 #: icemac/ab/calexport/interfaces.py:72
-msgid "Use this URL field to render an external link in the exported calender file"
+msgid "Use this user defined URL field to determine whether the event should be rendered as a link event"
+msgstr ""
+
+#: icemac/ab/calexport/interfaces.py:74
+msgid "If a URL is entered in this field the event is rendered as a link to the URL."
 msgstr ""
 
 #: icemac/ab/calexport/masterdata/configure.zcml:8
