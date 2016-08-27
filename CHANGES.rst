@@ -1,7 +1,7 @@
 Change log
 ==========
 
-2.12 (unreleased)
+2.12 (2016-08-27)
 -----------------
 
 - Add translations for new messages in `icemac.ab.calexport` 1.2.
@@ -43,12 +43,6 @@ Change log
 - Add German translations for `icemac.ab.calexport`.
 
 - Add German translations for `icemac.recurrence`.
-
-
-2.7 (2014-12-16)
-----------------
-
-- Fix some German translations.
 
 
 Previous changes
