@@ -18,7 +18,7 @@ setuptools.setup(
     keywords='icemac addressbook address book locales translation i18n',
     author='Michael Howitz',
     author_email='icemac@gmx.net',
-    url='http://pypi.python.org/pypi/icemac.ab.locales',
+    url='https://pypi.org/project/icemac.ab.locales',
     license='ZPL 2.1',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
