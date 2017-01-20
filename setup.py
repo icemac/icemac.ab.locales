@@ -7,7 +7,7 @@ def read(*path_elements):
     """Read a file."""
     return file(os.path.join(*path_elements)).read()
 
-version = '2.14.dev0'
+version = '2.14'
 
 setuptools.setup(
     name='icemac.ab.locales',

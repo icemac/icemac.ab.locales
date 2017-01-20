@@ -1,7 +1,7 @@
 Change log
 ==========
 
-2.14 (unreleased)
+2.14 (2017-01-20)
 -----------------
 
 - Add translations for new messages in `icemac.addressbook` 2.10.
