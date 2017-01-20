@@ -14,8 +14,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: icemac.addressbook\n"
-"POT-Creation-Date: 2017-01-07 12:55+0100\n"
-"PO-Revision-Date: 2017-01-07 12:56+0100\n"
+"POT-Creation-Date: 2017-01-20 21:50+0100\n"
+"PO-Revision-Date: 2017-01-20 21:51+0100\n"
 "Last-Translator: Michael Howitz <mh@gocept.com>\n"
 "Language-Team: Michael Howitz <icemac@gmx.net>\n"
 "Language: en\n"
@@ -167,7 +167,7 @@ msgstr "Edit"
 msgid "Add new event for this day."
 msgstr "Add new event for this day."
 
-#: icemac/ab/calendar/category.py:34
+#: icemac/ab/calendar/category.py:32
 msgid "This category already exists."
 msgstr "This category already exists."
 
@@ -500,6 +500,7 @@ msgstr "Import"
 #: icemac/ab/importer/browser/readers.pt:8
 #: icemac/addressbook/browser/about/about.pt:25
 #: icemac/addressbook/browser/person/export.pt:19
+#: icemac/addressbook/browser/search/result/handler/checklist/list.pt:19
 #: icemac/addressbook/browser/search/result/handler/mailto/mailto.pt:9
 #: icemac/addressbook/browser/search/result/handler/names/list.pt:10
 msgid "Go back"
@@ -1234,6 +1235,19 @@ msgstr "Name search"
 msgid "Apply on selected persons"
 msgstr "Apply on selected persons"
 
+#: icemac/addressbook/browser/search/result/handler/checklist/configure.zcml:14
+msgid "Checklist (List of person names with check-boxes.)"
+msgstr "Checklist (List of person names with check-boxes.)"
+
+#: icemac/addressbook/browser/search/result/handler/checklist/list.pt:3
+msgid "Checklist of selected persons"
+msgstr "Checklist of selected persons"
+
+#: icemac/addressbook/browser/search/result/handler/checklist/list.pt:15
+#: icemac/addressbook/browser/search/result/handler/names/list.pt:6
+msgid "Number of persons: ${count}"
+msgstr "Number of persons: ${count}"
+
 #: icemac/addressbook/browser/search/result/handler/configure.zcml:24
 msgid "Deletion (Deletes selected persons.)"
 msgstr "Deletion (Delete the selected persons.)"
@@ -1295,10 +1309,6 @@ msgstr "Names (Comma separated list of person names.)"
 #: icemac/addressbook/browser/search/result/handler/names/list.pt:2
 msgid "Names of selected persons"
 msgstr "Names of selected persons"
-
-#: icemac/addressbook/browser/search/result/handler/names/list.pt:6
-msgid "Number of persons: ${count}"
-msgstr "Number of persons: ${count}"
 
 #: icemac/addressbook/browser/search/result/handler/update/base.py:20
 msgid "Update Wizard"

@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Unknown\n"
-"POT-Creation-Date: Sat Jan  7 12:54:52 2017\n"
+"POT-Creation-Date: Fri Jan 20 21:40:54 2017\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -161,7 +161,7 @@ msgstr ""
 msgid "Add new event for this day."
 msgstr ""
 
-#: icemac/ab/calendar/category.py:34
+#: icemac/ab/calendar/category.py:32
 msgid "This category already exists."
 msgstr ""
 
@@ -480,6 +480,7 @@ msgstr ""
 #: icemac/ab/importer/browser/readers.pt:8
 #: icemac/addressbook/browser/about/about.pt:25
 #: icemac/addressbook/browser/person/export.pt:19
+#: icemac/addressbook/browser/search/result/handler/checklist/list.pt:19
 #: icemac/addressbook/browser/search/result/handler/mailto/mailto.pt:9
 #: icemac/addressbook/browser/search/result/handler/names/list.pt:10
 msgid "Go back"
@@ -1178,6 +1179,19 @@ msgstr ""
 msgid "Apply on selected persons"
 msgstr ""
 
+#: icemac/addressbook/browser/search/result/handler/checklist/configure.zcml:14
+msgid "Checklist (List of person names with check-boxes.)"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/checklist/list.pt:3
+msgid "Checklist of selected persons"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/checklist/list.pt:15
+#: icemac/addressbook/browser/search/result/handler/names/list.pt:6
+msgid "Number of persons: ${count}"
+msgstr ""
+
 #: icemac/addressbook/browser/search/result/handler/configure.zcml:24
 msgid "Deletion (Deletes selected persons.)"
 msgstr ""
@@ -1228,10 +1242,6 @@ msgstr ""
 
 #: icemac/addressbook/browser/search/result/handler/names/list.pt:2
 msgid "Names of selected persons"
-msgstr ""
-
-#: icemac/addressbook/browser/search/result/handler/names/list.pt:6
-msgid "Number of persons: ${count}"
 msgstr ""
 
 #: icemac/addressbook/browser/search/result/handler/update/base.py:20
