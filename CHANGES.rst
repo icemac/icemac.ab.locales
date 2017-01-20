@@ -25,28 +25,6 @@ Change log
 - Add translations for messages new in  `icemac.ab.calendar` 1.9.
 
 
-2.10 (2016-06-25)
------------------
-
-- Improve some German translations for `icemac.addressbook`.
-
-- Fix usage of Quotations Marks in English translation.
-
-2.9 (2016-06-15)
-----------------
-
-- Add English translations for the i18n domains `icemac.addressbook` and
-  `icemac.recurrence` to streamline the English texts a bit.
-
-- Fix German translations for new features in `icemac.ab.calendar` 1.8.
-
-- Add translations for messages new in:
-
-  - `icemac.ab.calexport` 1.1
-
-  - `icemac.addressbook` 2.7
-
-
 Previous changes
 ----------------
 
