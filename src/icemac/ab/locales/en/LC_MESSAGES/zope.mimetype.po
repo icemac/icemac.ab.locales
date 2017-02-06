@@ -122,6 +122,19 @@ msgstr ""
 msgid "The MIME type parameters (such as charset)."
 msgstr ""
 
+#: zope/mimetype/interfaces.py:77
+msgid "Mime Type"
+msgstr "Document kind"
+
+#: zope/mimetype/interfaces.py:78
+msgid ""
+"The mime type explicitly specified for the object that this MIME information "
+"describes, if any.  May be None, or an ASCII MIME type string of the form "
+"major/minor."
+msgstr ""
+"The document kind is specified as MIME type of the form major/minor, e. g. "
+"text/plain or application/pdf."
+
 #: zope/mimetype/zcml.py:103
 msgid "The human-readable name for this codec."
 msgstr ""

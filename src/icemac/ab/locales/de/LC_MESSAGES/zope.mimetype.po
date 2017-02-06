@@ -104,7 +104,7 @@ msgstr "Dokumentart"
 
 #: zope/mimetype/interfaces.py:78
 msgid "The mime type explicitly specified for the object that this MIME information describes, if any.  May be None, or an ASCII MIME type string of the form major/minor."
-msgstr ""
+msgstr "Die Dokumentart wird als MIME-Typ in der Form „Haupttyp/Untertyp“ dargestellt, z. B. „text/plain“ oder „application/pdf“."
 
 #: zope/mimetype/zcml.py:103
 msgid "The human-readable name for this codec."

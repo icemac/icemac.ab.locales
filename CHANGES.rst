@@ -4,7 +4,7 @@ Change log
 2.15 (unreleased)
 -----------------
 
-- Nothing changed yet.
+- Add translations for domain `zope.mimetype`.
 
 
 2.14 (2017-01-20)
