@@ -1,7 +1,7 @@
 Change log
 ==========
 
-2.15 (unreleased)
+2.15 (2017-04-08)
 -----------------
 
 - Add translations for domain `zope.mimetype`.
@@ -25,12 +25,6 @@ Change log
 -----------------
 
 - Add translations for new messages in `icemac.ab.calexport` 1.2.
-
-
-2.11 (2016-06-25)
------------------
-
-- Add translations for messages new in  `icemac.ab.calendar` 1.9.
 
 
 Previous changes
