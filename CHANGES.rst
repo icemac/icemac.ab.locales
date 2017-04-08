@@ -6,6 +6,8 @@ Change log
 
 - Add translations for domain `zope.mimetype`.
 
+- Add translations for new messages in `icemac.ab.calendar` 2.1.
+
 
 2.14 (2017-01-20)
 -----------------

@@ -14,8 +14,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: icemac.addressbook\n"
-"POT-Creation-Date: 2017-01-20 21:50+0100\n"
-"PO-Revision-Date: 2017-01-20 21:51+0100\n"
+"POT-Creation-Date: 2017-04-08 18:13+0200\n"
+"PO-Revision-Date: 2017-04-08 18:14+0200\n"
 "Last-Translator: Michael Howitz <mh@gocept.com>\n"
 "Language-Team: Michael Howitz <icemac@gmx.net>\n"
 "Language: en\n"
@@ -23,39 +23,57 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: zope/app/locales/extract.py\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 2.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: icemac/ab/calendar/browser/calendar.pt:3
-#: icemac/addressbook/interfaces.py:135
+#: icemac/addressbook/interfaces.py:138
 #: icemac/addressbook/preferences/configure.zcml:28
 #: icemac/addressbook/preferences/interfaces.py:37
 msgid "Time zone"
 msgstr "Time zone"
 
-#: icemac/ab/calendar/browser/calendar.pt:21
-msgid "Month"
-msgstr "Month"
+#: icemac/ab/calendar/browser/calendar.pt:13
+msgid "switch to previous month"
+msgstr "switch to previous month"
 
-#: icemac/ab/calendar/browser/calendar.pt:26
-msgid "Year"
-msgstr "Year"
+#: icemac/ab/calendar/browser/calendar.pt:27
+msgid "switch to next month"
+msgstr "switch to next month"
 
-#: icemac/ab/calendar/browser/calendar.py:71
+#: icemac/ab/calendar/browser/calendar.pt:41
+#| msgid "Month"
+msgid "Month view"
+msgstr "single month"
+
+#: icemac/ab/calendar/browser/calendar.pt:41
+msgid "switch to the view for a single month"
+msgstr "switch to the view for a single month"
+
+#: icemac/ab/calendar/browser/calendar.pt:48
+#| msgid "Calendar view"
+msgid "Year view"
+msgstr "whole year"
+
+#: icemac/ab/calendar/browser/calendar.pt:48
+msgid "switch to the view for a whole year"
+msgstr "switch to the view for a whole year"
+
+#: icemac/ab/calendar/browser/calendar.py:73
 msgid "month"
 msgstr "month"
 
-#: icemac/ab/calendar/browser/calendar.py:72
-#: icemac/ab/calendar/browser/calendar.py:195
+#: icemac/ab/calendar/browser/calendar.py:74
+#: icemac/ab/calendar/browser/calendar.py:219
 msgid "year"
 msgstr "year"
 
-#: icemac/ab/calendar/browser/calendar.py:80
+#: icemac/ab/calendar/browser/calendar.py:82
 msgid "Month changed."
 msgstr "Month changed."
 
-#: icemac/ab/calendar/browser/calendar.py:203
+#: icemac/ab/calendar/browser/calendar.py:227
 msgid "Year changed."
 msgstr "Year changed."
 
@@ -117,7 +135,7 @@ msgstr "Edit recurred event"
 #: icemac/ab/calendar/browser/event.py:266
 #: icemac/addressbook/browser/addressbook/crud.py:42
 #: icemac/addressbook/browser/person/person.py:189
-#: icemac/addressbook/browser/principals/principals.py:146
+#: icemac/addressbook/browser/principals/principals.py:147
 #: icemac/addressbook/browser/search/result/base.py:35
 msgid "Apply"
 msgstr "Apply"
@@ -136,15 +154,15 @@ msgid "event"
 msgstr "event"
 
 #: icemac/ab/calendar/browser/interfaces.py:17
-#: icemac/ab/calendar/interfaces.py:158
+#: icemac/ab/calendar/interfaces.py:161
 msgid "whole day event?"
 msgstr "whole day event?"
 
-#: icemac/ab/calendar/browser/interfaces.py:18 icemac/addressbook/sources.py:49
+#: icemac/ab/calendar/browser/interfaces.py:18 icemac/addressbook/sources.py:51
 msgid "date"
 msgstr "date"
 
-#: icemac/ab/calendar/browser/interfaces.py:19 icemac/addressbook/sources.py:55
+#: icemac/ab/calendar/browser/interfaces.py:19 icemac/addressbook/sources.py:57
 msgid "time"
 msgstr "time"
 
@@ -153,8 +171,8 @@ msgid "Either enter a `time` or select `whole day event`!"
 msgstr "Either enter a `time` or select `whole day event`!"
 
 #: icemac/ab/calendar/browser/interfaces.py:34
-#: icemac/ab/calendar/interfaces.py:156
-#: icemac/ab/calendar/masterdata/event.py:40 icemac/addressbook/sources.py:50
+#: icemac/ab/calendar/interfaces.py:159
+#: icemac/ab/calendar/masterdata/event.py:40 icemac/addressbook/sources.py:52
 msgid "datetime"
 msgstr "date and time"
 
@@ -175,15 +193,15 @@ msgstr "This category already exists."
 msgid "recurring event"
 msgstr "recurring event"
 
-#: icemac/ab/calendar/interfaces.py:73
+#: icemac/ab/calendar/interfaces.py:74
 msgid "Additional event fields to be displayed in calendar"
 msgstr "Additional fields of events to be displayed in the calendar"
 
-#: icemac/ab/calendar/interfaces.py:78
+#: icemac/ab/calendar/interfaces.py:79
 msgid "Person keyword"
 msgstr "Person keyword"
 
-#: icemac/ab/calendar/interfaces.py:79
+#: icemac/ab/calendar/interfaces.py:80
 msgid ""
 "Only persons having the keyword assigned which is selected here will show up "
 "in the person list when editing an event. If no keyword is selected all "
@@ -192,46 +210,46 @@ msgstr ""
 "Only persons having this keyword assigned will show up in the person list "
 "when editing an event. If no keyword is selected all persons will show up."
 
-#: icemac/ab/calendar/interfaces.py:115 icemac/ab/calendar/interfaces.py:155
+#: icemac/ab/calendar/interfaces.py:116 icemac/ab/calendar/interfaces.py:158
 #: icemac/ab/calendar/masterdata/category.py:18
 #: icemac/ab/calendar/masterdata/category.zcml:27
-#: icemac/ab/calexport/interfaces.py:59
+#: icemac/ab/calexport/interfaces.py:60
 msgid "event category"
 msgstr "event category"
 
-#: icemac/ab/calendar/interfaces.py:161
+#: icemac/ab/calendar/interfaces.py:164
 msgid "alternative title to category"
 msgstr "alternative title overriding  category"
 
-#: icemac/ab/calendar/interfaces.py:163 icemac/ab/calendar/interfaces.py:165
+#: icemac/ab/calendar/interfaces.py:166 icemac/ab/calendar/interfaces.py:168
 #: icemac/ab/calendar/masterdata/event.py:26
 msgid "persons"
 msgstr "persons"
 
-#: icemac/ab/calendar/interfaces.py:168
+#: icemac/ab/calendar/interfaces.py:171
 msgid "other persons"
 msgstr "other persons"
 
-#: icemac/ab/calendar/interfaces.py:169
+#: icemac/ab/calendar/interfaces.py:172
 msgid "person name"
 msgstr "person name"
 
-#: icemac/ab/calendar/interfaces.py:170
+#: icemac/ab/calendar/interfaces.py:173
 #: icemac/ab/calendar/masterdata/event.py:89
 #: icemac/addressbook/browser/interfaces.py:27
 #: icemac/addressbook/browser/principals/principals.py:60
 #: icemac/addressbook/browser/search/result/handler/delete.py:19
-#: icemac/addressbook/interfaces.py:216 icemac/addressbook/interfaces.py:409
+#: icemac/addressbook/interfaces.py:220 icemac/addressbook/interfaces.py:413
 #: icemac/addressbook/principals/interfaces.py:45
 msgid "notes"
 msgstr "notes"
 
-#: icemac/ab/calendar/interfaces.py:224
+#: icemac/ab/calendar/interfaces.py:228
 #: icemac/ab/calendar/masterdata/event.py:15
 msgid "recurrence period"
 msgstr "recurrence period"
 
-#: icemac/ab/calendar/interfaces.py:230
+#: icemac/ab/calendar/interfaces.py:234
 msgid "recurrence end"
 msgstr "recurrence end"
 
@@ -379,23 +397,23 @@ msgstr "Role which allows to view the calendar."
 msgid "Export current month"
 msgstr "Export current month"
 
-#: icemac/ab/calexport/interfaces.py:41
+#: icemac/ab/calexport/interfaces.py:42
 msgid "HTML to be inserted above calendar in export file"
 msgstr "HTML to be inserted above calendar in export file"
 
-#: icemac/ab/calexport/interfaces.py:46
+#: icemac/ab/calexport/interfaces.py:47
 msgid "HTML to be inserted below calendar in export file"
 msgstr "HTML to be inserted below calendar in export file"
 
-#: icemac/ab/calexport/interfaces.py:51
+#: icemac/ab/calexport/interfaces.py:52
 msgid "Name for the generated file when downloading"
 msgstr "Name for the generated download file"
 
-#: icemac/ab/calexport/interfaces.py:56
+#: icemac/ab/calexport/interfaces.py:57
 msgid "Export only events having one of these categories"
 msgstr "Export only events having one of these categories"
 
-#: icemac/ab/calexport/interfaces.py:63
+#: icemac/ab/calexport/interfaces.py:64
 msgid ""
 "Use this user defined Boolean field to determine whether the event is a top "
 "event"
@@ -403,7 +421,7 @@ msgstr ""
 "This user defined Boolean field is used to determine whether the event is a "
 "top event"
 
-#: icemac/ab/calexport/interfaces.py:65
+#: icemac/ab/calexport/interfaces.py:66
 msgid ""
 "Top events are rendered with the CSS class `special` and show up in the "
 "forecast list below the calendar table."
@@ -411,7 +429,7 @@ msgstr ""
 "Top events are rendered with the CSS class `special` and show up in the "
 "forecast list below the calendar."
 
-#: icemac/ab/calexport/interfaces.py:72
+#: icemac/ab/calexport/interfaces.py:73
 msgid ""
 "Use this user defined URL field to determine whether the event should be "
 "rendered as a link event"
@@ -419,7 +437,7 @@ msgstr ""
 "Use this user defined URL field to determine whether the event should be "
 "rendered as a link event"
 
-#: icemac/ab/calexport/interfaces.py:74
+#: icemac/ab/calexport/interfaces.py:75
 msgid ""
 "If a URL is entered in this field the event is rendered as a link to the URL."
 msgstr ""
@@ -500,9 +518,9 @@ msgstr "Import"
 #: icemac/ab/importer/browser/readers.pt:8
 #: icemac/addressbook/browser/about/about.pt:25
 #: icemac/addressbook/browser/person/export.pt:19
-#: icemac/addressbook/browser/search/result/handler/checklist/list.pt:19
+#: icemac/addressbook/browser/search/result/handler/checklist/list.pt:21
 #: icemac/addressbook/browser/search/result/handler/mailto/mailto.pt:9
-#: icemac/addressbook/browser/search/result/handler/names/list.pt:10
+#: icemac/addressbook/browser/search/result/handler/names/list.pt:11
 msgid "Go back"
 msgstr "Go back"
 
@@ -522,59 +540,59 @@ msgstr "Complete"
 msgid "Edit import file"
 msgstr "Edit import file"
 
-#: icemac/ab/importer/browser/wizard/map.py:207
-#: icemac/ab/importer/browser/wizard/map.py:218
-#: icemac/ab/importer/browser/wizard/map.py:268
+#: icemac/ab/importer/browser/wizard/map.py:208
+#: icemac/ab/importer/browser/wizard/map.py:219
+#: icemac/ab/importer/browser/wizard/map.py:269
 msgid "Value ${value} is not allowed. Allowed values are: ${values}"
 msgstr "Value ${value} is not allowed. Allowed values are: ${values}"
 
-#: icemac/ab/importer/browser/wizard/map.py:228
+#: icemac/ab/importer/browser/wizard/map.py:229
 msgid "${value} is no valid date."
 msgstr "${value} is no valid date."
 
-#: icemac/ab/importer/browser/wizard/map.py:237
+#: icemac/ab/importer/browser/wizard/map.py:238
 msgid ""
 "${value} is no valid datetime. Must match to format string \"${format}\"."
 msgstr ""
 "${value} is no valid date time. Must match to format string “${format}“."
 
-#: icemac/ab/importer/browser/wizard/map.py:248
+#: icemac/ab/importer/browser/wizard/map.py:249
 msgid "${value} is not a valid integer number."
 msgstr "${value} is not a valid integer number."
 
-#: icemac/ab/importer/browser/wizard/map.py:258
+#: icemac/ab/importer/browser/wizard/map.py:259
 msgid "${value} is not a valid decimal number."
 msgstr "${value} is not a valid decimal number."
 
-#: icemac/ab/importer/browser/wizard/map.py:277
+#: icemac/ab/importer/browser/wizard/map.py:278
 msgid "Not enough data fields in row."
 msgstr "Not enough data fields in row."
 
-#: icemac/ab/importer/browser/wizard/map.py:286
+#: icemac/ab/importer/browser/wizard/map.py:287
 #: icemac/addressbook/browser/person/person.py:300
 #: icemac/addressbook/fieldsource.py:45
 msgid "${prefix} -- ${title}"
 msgstr "${prefix} -- ${title}"
 
-#: icemac/ab/importer/browser/wizard/map.py:298
+#: icemac/ab/importer/browser/wizard/map.py:299
 msgid "${title}: ${message}"
 msgstr "${title}: ${message}"
 
-#: icemac/ab/importer/browser/wizard/map.py:479
+#: icemac/ab/importer/browser/wizard/map.py:480
 msgid "Map fields"
 msgstr "Map fields"
 
-#: icemac/ab/importer/browser/wizard/map.py:494
+#: icemac/ab/importer/browser/wizard/map.py:495
 #: icemac/ab/importer/browser/wizard/review.py:121
 msgid "main"
 msgstr "main"
 
-#: icemac/ab/importer/browser/wizard/map.py:499
+#: icemac/ab/importer/browser/wizard/map.py:500
 #: icemac/ab/importer/browser/wizard/review.py:130
 msgid "other"
 msgstr "other"
 
-#: icemac/ab/importer/browser/wizard/map.py:500
+#: icemac/ab/importer/browser/wizard/map.py:501
 #: icemac/ab/importer/browser/wizard/review.py:131
 msgid "${prefix} ${title}"
 msgstr "${prefix} ${title}"
@@ -635,7 +653,7 @@ msgstr "none"
 
 #: icemac/addressbook/address.py:61
 #: icemac/addressbook/browser/person/configure.zcml:77
-#: icemac/addressbook/interfaces.py:245
+#: icemac/addressbook/interfaces.py:249
 msgid "e-mail address"
 msgstr "e-mail address"
 
@@ -881,7 +899,7 @@ msgstr ""
 "You can reorder the fields using drag'n'drop. To store a changed order use "
 "the `Save sortorder` button below."
 
-#: icemac/addressbook/browser/entities/fields_list.pt:33
+#: icemac/addressbook/browser/entities/fields_list.pt:34
 msgid "Save sortorder"
 msgstr "Save sortorder"
 
@@ -912,7 +930,7 @@ msgstr "number of persons"
 
 #: icemac/addressbook/browser/keyword/configure.zcml:17
 #: icemac/addressbook/browser/keyword/keyword.py:79
-#: icemac/addressbook/interfaces.py:161 icemac/addressbook/keyword.py:44
+#: icemac/addressbook/interfaces.py:164 icemac/addressbook/keyword.py:44
 msgid "keyword"
 msgstr "keyword"
 
@@ -961,11 +979,11 @@ msgstr "Add"
 msgid "metadata"
 msgstr "metadata"
 
-#: icemac/addressbook/browser/metadata.py:57
+#: icemac/addressbook/browser/metadata.py:58
 msgid "Modification Date (${timezone})"
 msgstr "Modification Date (${timezone})"
 
-#: icemac/addressbook/browser/metadata.py:61
+#: icemac/addressbook/browser/metadata.py:62
 msgid ""
 "The date and time that the object was last modified converted to the "
 "displayed time zone."
@@ -973,11 +991,11 @@ msgstr ""
 "The date and time that the object was last modified converted to the "
 "displayed time zone."
 
-#: icemac/addressbook/browser/metadata.py:66
+#: icemac/addressbook/browser/metadata.py:67
 msgid "Creation Date (${timezone})"
 msgstr "Creation Date (${timezone})"
 
-#: icemac/addressbook/browser/metadata.py:70
+#: icemac/addressbook/browser/metadata.py:71
 msgid ""
 "The date and time that the object was created converted to the displayed "
 "time zone."
@@ -1139,23 +1157,23 @@ msgstr "roles"
 msgid "Add new user"
 msgstr "Add new user"
 
-#: icemac/addressbook/browser/principals/principals.py:126
+#: icemac/addressbook/browser/principals/principals.py:127
 msgid "Edit user"
 msgstr "Edit user"
 
-#: icemac/addressbook/browser/principals/principals.py:153
+#: icemac/addressbook/browser/principals/principals.py:154
 msgid "Delete user"
 msgstr "Delete user"
 
-#: icemac/addressbook/browser/principals/principals.py:192
+#: icemac/addressbook/browser/principals/principals.py:193
 msgid "You changed the login name, please re-login."
 msgstr "You changed the login name, please login again."
 
-#: icemac/addressbook/browser/principals/principals.py:196
+#: icemac/addressbook/browser/principals/principals.py:197
 msgid "You changed the password, please re-login."
 msgstr "You changed the password, please login again."
 
-#: icemac/addressbook/browser/principals/principals.py:216
+#: icemac/addressbook/browser/principals/principals.py:217
 msgid "Do you really want to delete this user?"
 msgstr "Do you really want to delete this user?"
 
@@ -1199,7 +1217,7 @@ msgstr "search term concatenation"
 
 #: icemac/addressbook/browser/search/multi_keyword.py:37
 #: icemac/addressbook/browser/search/multi_keyword.py:39
-#: icemac/addressbook/interfaces.py:212 icemac/addressbook/interfaces.py:214
+#: icemac/addressbook/interfaces.py:216 icemac/addressbook/interfaces.py:218
 msgid "keywords"
 msgstr "keywords"
 
@@ -1243,8 +1261,8 @@ msgstr "Checklist (List of person names with check-boxes.)"
 msgid "Checklist of selected persons"
 msgstr "Checklist of selected persons"
 
-#: icemac/addressbook/browser/search/result/handler/checklist/list.pt:15
-#: icemac/addressbook/browser/search/result/handler/names/list.pt:6
+#: icemac/addressbook/browser/search/result/handler/checklist/list.pt:17
+#: icemac/addressbook/browser/search/result/handler/names/list.pt:7
 msgid "Number of persons: ${count}"
 msgstr "Number of persons: ${count}"
 
@@ -1489,19 +1507,19 @@ msgstr "Size"
 msgid "Size in bytes"
 msgstr "Size in bytes"
 
-#: icemac/addressbook/interfaces.py:124 icemac/addressbook/interfaces.py:405
+#: icemac/addressbook/interfaces.py:127 icemac/addressbook/interfaces.py:409
 msgid "title"
 msgstr "title"
 
-#: icemac/addressbook/interfaces.py:126
+#: icemac/addressbook/interfaces.py:129
 msgid "favicon"
 msgstr "favicon"
 
-#: icemac/addressbook/interfaces.py:130
+#: icemac/addressbook/interfaces.py:133
 msgid "start page after log-in"
 msgstr "start page after log-in"
 
-#: icemac/addressbook/interfaces.py:136
+#: icemac/addressbook/interfaces.py:139
 msgid ""
 "Fallback in case a user has not set up his personal time zone in the "
 "preferences."
@@ -1509,79 +1527,79 @@ msgstr ""
 "Fallback time zone for users who did not set up their personal time zone in "
 "the preferences."
 
-#: icemac/addressbook/interfaces.py:197
+#: icemac/addressbook/interfaces.py:201
 msgid "first name"
 msgstr "first name"
 
-#: icemac/addressbook/interfaces.py:198
+#: icemac/addressbook/interfaces.py:202
 msgid "last name"
 msgstr "last name"
 
-#: icemac/addressbook/interfaces.py:210
+#: icemac/addressbook/interfaces.py:214
 msgid "birth date"
 msgstr "birth date"
 
-#: icemac/addressbook/interfaces.py:231
+#: icemac/addressbook/interfaces.py:235
 msgid "address prefix"
 msgstr "address prefix"
 
-#: icemac/addressbook/interfaces.py:232
+#: icemac/addressbook/interfaces.py:236
 msgid "e. g. company name or c/o"
 msgstr "e. g. company name or c/o"
 
-#: icemac/addressbook/interfaces.py:233
+#: icemac/addressbook/interfaces.py:237
 msgid "street"
 msgstr "street"
 
-#: icemac/addressbook/interfaces.py:234
+#: icemac/addressbook/interfaces.py:238
 msgid "city"
 msgstr "city"
 
-#: icemac/addressbook/interfaces.py:235
+#: icemac/addressbook/interfaces.py:239
 msgid "zip"
 msgstr "zip"
 
-#: icemac/addressbook/interfaces.py:237
+#: icemac/addressbook/interfaces.py:241
 msgid "country"
 msgstr "country"
 
-#: icemac/addressbook/interfaces.py:253 icemac/addressbook/sources.py:56
+#: icemac/addressbook/interfaces.py:257 icemac/addressbook/sources.py:58
 msgid "URL"
 msgstr "URL"
 
-#: icemac/addressbook/interfaces.py:259
+#: icemac/addressbook/interfaces.py:263
 msgid "number"
 msgstr "number"
 
-#: icemac/addressbook/interfaces.py:266
+#: icemac/addressbook/interfaces.py:270
 msgid "main postal address"
 msgstr "main postal address"
 
-#: icemac/addressbook/interfaces.py:269
+#: icemac/addressbook/interfaces.py:273
 msgid "main phone number"
 msgstr "main phone number"
 
-#: icemac/addressbook/interfaces.py:272
+#: icemac/addressbook/interfaces.py:276
 msgid "main e-mail address"
 msgstr "main e-mail address"
 
-#: icemac/addressbook/interfaces.py:275
+#: icemac/addressbook/interfaces.py:279
 msgid "main home page address"
 msgstr "main home page address"
 
-#: icemac/addressbook/interfaces.py:403
+#: icemac/addressbook/interfaces.py:407
 msgid "type"
 msgstr "type"
 
-#: icemac/addressbook/interfaces.py:407
+#: icemac/addressbook/interfaces.py:411
 msgid "choice field values"
 msgstr "values of choice field"
 
-#: icemac/addressbook/interfaces.py:408
+#: icemac/addressbook/interfaces.py:412
 msgid "value"
 msgstr "value"
 
-#: icemac/addressbook/interfaces.py:415
+#: icemac/addressbook/interfaces.py:419
 msgid "type \"choice\" requires at least one field value."
 msgstr "The choice type requires at least one field value."
 
@@ -1797,37 +1815,40 @@ msgstr "yes"
 msgid "no"
 msgstr "no"
 
-#: icemac/addressbook/sources.py:39
+#: icemac/addressbook/sources.py:40
 msgid "ascending (A-->Z)"
 msgstr "ascending (A—>Z)"
 
-#: icemac/addressbook/sources.py:40
+#: icemac/addressbook/sources.py:41
 msgid "descending (Z-->A)"
 msgstr "descending (Z—>A)"
 
-#: icemac/addressbook/sources.py:47
+#: icemac/addressbook/sources.py:49
 msgid "bool"
 msgstr "bool"
 
-#: icemac/addressbook/sources.py:48
+#: icemac/addressbook/sources.py:50
 msgid "choice"
 msgstr "choice"
 
-#: icemac/addressbook/sources.py:51
+#: icemac/addressbook/sources.py:53
 msgid "decimal number"
 msgstr "decimal number"
 
-#: icemac/addressbook/sources.py:52
+#: icemac/addressbook/sources.py:54
 msgid "integer number"
 msgstr "integer number"
 
-#: icemac/addressbook/sources.py:53
+#: icemac/addressbook/sources.py:55
 msgid "text area"
 msgstr "text area"
 
-#: icemac/addressbook/sources.py:54
+#: icemac/addressbook/sources.py:56
 msgid "text line"
 msgstr "text line"
+
+#~ msgid "Year"
+#~ msgstr "Year"
 
 #~ msgid ""
 #~ "Use this URL field to render an external link in the exported calender "
