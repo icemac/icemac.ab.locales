@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: icemac.addressbook\n"
 "POT-Creation-Date: 2017-04-08 18:13+0200\n"
-"PO-Revision-Date: 2017-04-08 18:14+0200\n"
+"PO-Revision-Date: 2017-05-12 20:52+0200\n"
 "Last-Translator: Michael Howitz <mh@gocept.com>\n"
 "Language-Team: Michael Howitz <icemac@gmx.net>\n"
 "Language: en\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: zope/app/locales/extract.py\n"
-"X-Generator: Poedit 2.0\n"
+"X-Generator: Poedit 2.0.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
@@ -1493,7 +1493,7 @@ msgstr "ViewFile"
 
 #: icemac/addressbook/file/interfaces.py:13
 msgid "Name of the file."
-msgstr "Name of the file."
+msgstr "This filename is used when downloading the file."
 
 #: icemac/addressbook/file/interfaces.py:13
 msgid "file name"

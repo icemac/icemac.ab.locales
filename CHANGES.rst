@@ -4,7 +4,8 @@ Change log
 2.16 (unreleased)
 -----------------
 
-- Nothing changed yet.
+- Fix translations of message ids regarding the term `file` in German and
+  English.
 
 
 2.15 (2017-04-08)

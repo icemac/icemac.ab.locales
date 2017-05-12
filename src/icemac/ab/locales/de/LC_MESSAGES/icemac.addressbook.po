@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: icemac.addressbook\n"
 "POT-Creation-Date: 2017-04-08 18:11+0200\n"
-"PO-Revision-Date: 2017-04-08 18:13+0200\n"
+"PO-Revision-Date: 2017-05-12 20:52+0200\n"
 "Last-Translator: Michael Howitz <mh@gocept.com>\n"
 "Language-Team: Michael Howitz <icemac@gmx.net>\n"
 "Language: de_DE\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: zope/app/locales/extract.py\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 2.0\n"
+"X-Generator: Poedit 2.0.1\n"
 
 #: icemac/ab/calendar/browser/calendar.pt:3 icemac/addressbook/interfaces.py:138
 #: icemac/addressbook/preferences/configure.zcml:28
@@ -483,11 +483,11 @@ msgstr "Daten importieren"
 #: icemac/addressbook/browser/file/configure.zcml:14
 #: icemac/addressbook/file/file.py:58 icemac/addressbook/file/interfaces.py:17
 msgid "file"
-msgstr "Dokument"
+msgstr "Datei"
 
 #: icemac/ab/importer/browser/file.py:12
 msgid "Edit file"
-msgstr "Dokument bearbeiten"
+msgstr "Datei bearbeiten"
 
 #: icemac/ab/importer/browser/importer.pt:2
 msgid "Files for import"
@@ -496,11 +496,11 @@ msgstr "Importdokumente"
 #: icemac/ab/importer/browser/importer.pt:5
 #: icemac/ab/importer/browser/readers.pt:2
 msgid "Registered import file readers"
-msgstr "Benutzbare Leseeinheiten für Importdokumente"
+msgstr "Vorhandene Komponenten zum Import von Dateien"
 
 #: icemac/ab/importer/browser/importer.py:14
 msgid "No import files uploaded, yet."
-msgstr "Es wurden noch keine Importdokumente hochgeladen."
+msgstr "Es wurden noch keine Dateien hochgeladen."
 
 #: icemac/ab/importer/browser/importer.py:23
 msgid "MIME type"
@@ -537,7 +537,7 @@ msgstr "Abschluss"
 
 #: icemac/ab/importer/browser/wizard/edit.py:13
 msgid "Edit import file"
-msgstr "Importdokument bearbeiten"
+msgstr "Datei bearbeiten"
 
 #: icemac/ab/importer/browser/wizard/map.py:208
 #: icemac/ab/importer/browser/wizard/map.py:219
@@ -599,7 +599,7 @@ msgstr "${prefix} ${title}"
 
 #: icemac/ab/importer/browser/wizard/reader.py:13
 msgid "Import file reader"
-msgstr "Leseeinheit für Importdokument"
+msgstr "Importkomponente"
 
 #: icemac/ab/importer/browser/wizard/reader.py:17
 msgid "Number of e.g. phone numbers per person"
@@ -615,7 +615,7 @@ msgstr "Importierte Daten speichern?"
 
 #: icemac/ab/importer/browser/wizard/review.py:108
 msgid "There was nothing to import in the import file."
-msgstr "Im Importdokument wurde nichts gefunden, was importiert werden könnte."
+msgstr "In der Datei wurde nichts gefunden, was importiert werden konnte."
 
 #: icemac/ab/importer/browser/wizard/review.py:134
 msgid "<i>${prefix}</i><br />${title}"
@@ -636,11 +636,11 @@ msgstr "Importierte Daten durchsehen"
 #: icemac/ab/importer/reader/csv/csv.py:47
 msgid "CSV file (comma separated fields, ISO-dates, UTF-8 encoded)"
 msgstr ""
-"CSV-Dokument (kommagetrennte Felder, Datumsangaben nach ISO, in UTF-8 kodiert)"
+"CSV-Datei (kommagetrennte Felder, Datumsangaben nach ISO, in UTF-8 kodiert)"
 
 #: icemac/ab/importxls/xls.py:12
 msgid "Microsoft Excel file"
-msgstr "Microsoft Excel-Dokument"
+msgstr "Microsoft Excel-Datei"
 
 #: icemac/addressbook/address.py:26
 #: icemac/addressbook/browser/person/configure.zcml:55
@@ -913,15 +913,15 @@ msgstr "<kein Name>"
 
 #: icemac/addressbook/browser/file/file.py:70
 msgid "Add new file"
-msgstr "Neues Dokument hinzufügen"
+msgstr "Neue Datei hinzufügen"
 
 #: icemac/addressbook/browser/file/file.py:104
 msgid "Do you really want to delete this file?"
-msgstr "Wollen Sie dieses Dokument wirklich löschen?"
+msgstr "Wollen Sie diese Datei wirklich löschen?"
 
 #: icemac/addressbook/browser/file/widget.py:30
 msgid "Download file"
-msgstr "Dokument herunterladen"
+msgstr "Datei herunterladen"
 
 #: icemac/addressbook/browser/interfaces.py:26
 #: icemac/addressbook/browser/search/result/handler/delete.py:18
@@ -1498,11 +1498,11 @@ msgstr "ViewFile"
 
 #: icemac/addressbook/file/interfaces.py:13
 msgid "Name of the file."
-msgstr "Name des Dokuments."
+msgstr "Dieser Dateiname wird beim Herunterladen verwendet."
 
 #: icemac/addressbook/file/interfaces.py:13
 msgid "file name"
-msgstr "Name des Dokuments"
+msgstr "Dateiname"
 
 #: icemac/addressbook/file/interfaces.py:20
 msgid "Size"
