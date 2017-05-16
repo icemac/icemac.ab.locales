@@ -7,6 +7,8 @@ Change log
 - Fix translations of message ids regarding the term `file` in German and
   English.
 
+- Add translations for new message ids in `icemac.ab.calendar` 2.2.
+
 
 2.15 (2017-04-08)
 -----------------
