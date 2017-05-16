@@ -1,7 +1,7 @@
 Change log
 ==========
 
-2.16 (unreleased)
+2.16 (2017-05-16)
 -----------------
 
 - Fix translations of message ids regarding the term `file` in German and
@@ -28,12 +28,6 @@ Change log
 -----------------
 
 - Fix translations for `icemac.ab.calexport` 1.2.
-
-
-2.12 (2016-08-27)
------------------
-
-- Add translations for new messages in `icemac.ab.calexport` 1.2.
 
 
 Previous changes
