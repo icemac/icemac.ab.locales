@@ -456,7 +456,7 @@ msgstr "Export konfigurieren"
 
 #: icemac/ab/calexport/masterdata/export.py:17
 msgid "Configure the calendar html export"
-msgstr "Den HTML-Export des Kalenders konfigurieren"
+msgstr "HTML-Export des Kalenders konfigurieren"
 
 #: icemac/ab/calexport/permissions.zcml:4
 msgid "ExportCalendar"
@@ -921,7 +921,7 @@ msgstr "<kein Name>"
 
 #: icemac/addressbook/browser/file/file.py:70
 msgid "Add new file"
-msgstr "Neue Datei hinzufügen"
+msgstr "Datei hinzufügen"
 
 #: icemac/addressbook/browser/file/file.py:104
 msgid "Do you really want to delete this file?"

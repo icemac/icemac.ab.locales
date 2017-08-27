@@ -4,7 +4,7 @@ Change log
 2.17 (unreleased)
 -----------------
 
-- Nothing changed yet.
+- Fix some translations to match changes for breadcrumbs.
 
 
 2.16 (2017-05-16)

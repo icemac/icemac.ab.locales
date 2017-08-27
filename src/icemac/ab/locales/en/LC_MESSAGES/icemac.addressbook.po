@@ -461,7 +461,7 @@ msgstr "Configure export"
 
 #: icemac/ab/calexport/masterdata/export.py:17
 msgid "Configure the calendar html export"
-msgstr "Configure the calendar html export"
+msgstr "Configure the calendar's HTML export"
 
 #: icemac/ab/calexport/permissions.zcml:4
 msgid "ExportCalendar"
