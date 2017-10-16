@@ -1408,26 +1408,30 @@ msgstr "letztes Vorkommen des neuen Wertes im bestehenden Wert löschen"
 
 #: icemac/addressbook/browser/search/result/handler/update/enter.py:84
 msgid "append selected keywords to existing ones"
-msgstr "ausgewähltes Schlagwort zu bestehenden hinzufügen"
+msgstr "unter „neuer Wert“ ausgewählte Schlagwörter zu Schlagwörtern der "
+"Personen hinzufügen"
 
 #: icemac/addressbook/browser/search/result/handler/update/enter.py:85
 msgid "remove selected keywords from existing ones"
-msgstr "ausgewähltes Schlagwort aus bestehenden entfernen"
+msgstr "unter „neuer Wert“ ausgewählte Schlagwörter aus Schlagwörtern der "
+"Personen entfernen"
 
 #: icemac/addressbook/browser/search/result/handler/update/enter.py:86
 msgid ""
 "intersection (i. e. keywords which are in selected keywords and existing ones)"
 msgstr ""
-"Schnittmenge (d. h. nur die Schlagwörter behalten, die in neuen und "
-"bestehenden Schlagwörtern vorkommen) "
+"Schnittmenge (d. h. nur die Schlagwörter behalten, die sowohl unter „neuer "
+"Wert“ ausgewählt sind, als auch in den Schlagwörtern der Personen "
+"vorkommen) "
 
 #: icemac/addressbook/browser/search/result/handler/update/enter.py:89
 msgid ""
 "symmetric difference (i. e. keywords which are either in selected keywords or "
 "existing ones but not both)"
 msgstr ""
-"exklusives Oder (d. h. nur die Schlagwörter behalten, die in neuen oder "
-"bestehenden Schlagwörtern vorkommen, aber nicht in beiden)"
+"exklusives Oder (d. h. nur die Schlagwörter behalten, die entweder unter "
+"„neuer Wert“ ausgewählt sind oder die in den Schlagwörtern der Personen "
+"vorkommen, aber nicht in beiden)"
 
 #: icemac/addressbook/browser/search/result/handler/update/enter.py:103
 msgid "add new value to existing one"

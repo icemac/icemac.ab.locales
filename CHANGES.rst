@@ -6,6 +6,8 @@ Change log
 
 - Fix some translations to match changes for breadcrumbs.
 
+- Fix some German translations.
+
 
 2.16 (2017-05-16)
 -----------------
