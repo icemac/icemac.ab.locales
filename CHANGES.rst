@@ -4,6 +4,8 @@ Change log
 2.17 (unreleased)
 -----------------
 
+- Add translations for new messages needed for breadcrumbs.
+
 - Fix some translations to match changes for breadcrumbs.
 
 - Fix some German translations.
