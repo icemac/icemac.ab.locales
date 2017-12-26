@@ -23,9 +23,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: zope/app/locales/extract.py\n"
-"X-Generator: Poedit 2.0.2\n"
+"X-Generator: Poedit 2.0.5\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../../../../../../parts/omelette\n"
+"X-Poedit-SearchPath-0: .\n"
+
 
 #: icemac/ab/calendar/browser/calendar.pt:3
 #: icemac/addressbook/interfaces.py:138
