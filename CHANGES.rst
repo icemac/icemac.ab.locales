@@ -1,7 +1,7 @@
 Change log
 ==========
 
-2.17 (unreleased)
+2.17 (2017-12-26)
 -----------------
 
 - Add translations for new messages needed for breadcrumbs.
