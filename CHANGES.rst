@@ -4,7 +4,7 @@ Change log
 2.18 (unreleased)
 -----------------
 
-- Nothing changed yet.
+- Also release as wheel.
 
 
 2.17 (2017-12-26)
