@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: icemac.addressbook\n"
 "POT-Creation-Date: Sat Dec 23 07:50:30 2017\n"
-"PO-Revision-Date: 2017-12-24 08:07+0100\n"
+"PO-Revision-Date: 2018-01-02 11:39+0100\n"
 "Last-Translator: Michael Howitz <mh@gocept.com>\n"
 "Language-Team: Michael Howitz <icemac@gmx.net>\n"
 "Language: de_DE\n"
@@ -809,7 +809,7 @@ msgstr "Zum Anmelden bitte Anmeldenamen und Passwort eingeben."
 
 #: icemac/addressbook/browser/authentication/session.py:28
 msgid "Login"
-msgstr "Login"
+msgstr "Anmeldung"
 
 #: icemac/addressbook/browser/authentication/session.py:33
 msgid "You have been logged-in successfully."
