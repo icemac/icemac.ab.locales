@@ -208,7 +208,7 @@ msgstr "﻿Neues Ereignis für diesen Tag hinzufügen."
 
 #: icemac/ab/calendar/category.py:31
 msgid "This category already exists."
-msgstr "Dieses Ereigniskategorie existiert bereits."
+msgstr "Diese Ereigniskategorie existiert bereits."
 
 #: icemac/ab/calendar/event.py:157 icemac/ab/calendar/masterdata/event.zcml:27
 msgid "recurring event"
