@@ -4,6 +4,8 @@ Change log
 2.18 (unreleased)
 -----------------
 
+- Add German and English translations for new features.
+
 - Also release as wheel.
 
 
