@@ -1,7 +1,7 @@
 Change log
 ==========
 
-2.18 (unreleased)
+2.18 (2018-03-16)
 -----------------
 
 - Add German and English translations for new features.
