@@ -14,8 +14,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: icemac.addressbook\n"
-"POT-Creation-Date: Fri Mar 16 20:07:17 2018\n"
-"PO-Revision-Date: 2018-03-16 21:49+0100\n"
+"POT-Creation-Date: Fri Aug  3 11:31:58 2018\n"
+"PO-Revision-Date: 2018-08-03 11:34+0200\n"
 "Last-Translator: Michael Howitz <mh@gocept.com>\n"
 "Language-Team: Michael Howitz <icemac@gmx.net>\n"
 "Language: de_DE\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: zope/app/locales/extract.py\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.1.1\n"
 "X-Poedit-Basepath: ../../../../../../parts/omelette\n"
 "X-Poedit-SearchPath-0: .\n"
 
@@ -382,12 +382,10 @@ msgid "This title is already used for an event view configuration."
 msgstr "Dieser Titel wird bereits für eine andere Listenansicht verwendet."
 
 #: icemac/ab/calendar/eventview/model.zcml:6
-#| msgid "calendar:ViewRecurringEventContainer"
 msgid "ViewEventViewContainer"
 msgstr "ViewEventViewContainer"
 
 #: icemac/ab/calendar/eventview/model.zcml:10
-#| msgid "calendar:EditRecurringEventContainer"
 msgid "EditEventViewContainer"
 msgstr "EditEventViewContainer"
 
@@ -914,7 +912,7 @@ msgstr "Lizenz:"
 msgid "Icons from:"
 msgstr "Piktogramme von:"
 
-#: icemac/addressbook/browser/about/about.py:13
+#: icemac/addressbook/browser/about/about.py:14
 msgid "About icemac.addressbook"
 msgstr "Über icemac.addressbook"
 
@@ -1073,6 +1071,22 @@ msgstr "Einstellungen"
 #: icemac/addressbook/browser/breadcrumb.py:231
 msgid "Not Found"
 msgstr "Nicht gefunden"
+
+#: icemac/addressbook/browser/cookieconsent.py:30
+msgid ""
+"This web application uses a session cookie to store the log-in status. It "
+"gets deleted when closing the browser."
+msgstr ""
+"Diese Web-Anwendung verwendet ein Session-Cookie, um den Login-Status zu "
+"speichern. Es wird beim Schließen des Browsers gelöscht."
+
+#: icemac/addressbook/browser/cookieconsent.py:33
+msgid "I understand!"
+msgstr "Ich verstehe!"
+
+#: icemac/addressbook/browser/cookieconsent.py:41
+msgid "Read more."
+msgstr "Weiterlesen."
 
 #: icemac/addressbook/browser/entities/configure.zcml:11
 #: icemac/addressbook/browser/entities/entities.py:27
@@ -1781,7 +1795,7 @@ msgstr "Ein unerwarteter Fehler ist aufgetreten: ${klass}: ${text}"
 msgid "No person found."
 msgstr "Keine Personen gefunden."
 
-#: icemac/addressbook/browser/search/search.pt:2
+#: icemac/addressbook/browser/search/search.pt:3
 msgid "Please choose a search."
 msgstr "Bitte wählen Sie eine Suche aus."
 

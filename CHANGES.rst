@@ -6,6 +6,8 @@ Change log
 
 - Change license from ZPL to MIT.
 
+- Add translations for cookie consent.
+
 
 2.18 (2018-03-16)
 -----------------

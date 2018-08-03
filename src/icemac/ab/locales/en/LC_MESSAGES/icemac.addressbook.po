@@ -14,8 +14,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: icemac.addressbook\n"
-"POT-Creation-Date: Fri Mar 16 20:07:17 2018\n"
-"PO-Revision-Date: 2018-03-16 20:28+0100\n"
+"POT-Creation-Date: Fri Aug  3 11:31:58 2018\n"
+"PO-Revision-Date: 2018-08-03 11:35+0200\n"
 "Last-Translator: Michael Howitz <mh@gocept.com>\n"
 "Language-Team: Michael Howitz <icemac@gmx.net>\n"
 "Language: en\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: zope/app/locales/extract.py\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.1.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ../../../../../../parts/omelette\n"
@@ -63,14 +63,12 @@ msgid "Year tabular view"
 msgstr "Year tabular view"
 
 #: icemac/ab/calendar/browser/calendar.pt:24
-#| msgid "switch to the list view for a single month"
 msgid "switch to the event views"
 msgstr "switch to the list views"
 
 #: icemac/ab/calendar/browser/calendar.pt:24
 #: icemac/ab/calendar/eventview/masterdata.py:23
 #: icemac/ab/calendar/eventview/masterdata.zcml:8
-#| msgid "Event categories"
 msgid "Event views"
 msgstr "List views"
 
@@ -257,7 +255,6 @@ msgid "1 day in past"
 msgstr "1 day in past"
 
 #: icemac/ab/calendar/eventview/interfaces.py:26
-#| msgid "recurrence end"
 msgid "current day"
 msgstr "current day"
 
@@ -311,7 +308,6 @@ msgid "Shown on the event views page in the drop down."
 msgstr "Shown on the list views page in the drop down."
 
 #: icemac/ab/calendar/eventview/interfaces.py:61
-#| msgid "birth date"
 msgid "start date"
 msgstr "start date"
 
@@ -324,7 +320,6 @@ msgstr ""
 "by the chosen period of time."
 
 #: icemac/ab/calendar/eventview/interfaces.py:69
-#| msgid "operation"
 msgid "duration"
 msgstr "duration"
 
@@ -333,12 +328,10 @@ msgid "This number of days is shown in the view."
 msgstr "This number of weeks will be shown in the list view."
 
 #: icemac/ab/calendar/eventview/interfaces.py:75
-#| msgid "Event categories"
 msgid "categories"
 msgstr "event categories"
 
 #: icemac/ab/calendar/eventview/interfaces.py:76
-#| msgid "Export only events having one of these categories"
 msgid "Show in the view only events having one of these categories."
 msgstr ""
 "The list view will only show events having one of the selected categories."
@@ -356,27 +349,22 @@ msgid "show fields"
 msgstr "fields"
 
 #: icemac/ab/calendar/eventview/interfaces.py:85
-#| msgid "Additional event fields to be displayed in calendar"
 msgid "Additional event fields to be shown in the view."
 msgstr "Additional event fields to be shown in the list view."
 
 #: icemac/ab/calendar/eventview/masterdata.py:36
-#| msgid "No event categories defined yet."
 msgid "No event views defined yet."
 msgstr "No list views defined yet."
 
 #: icemac/ab/calendar/eventview/masterdata.py:53
-#| msgid "Add new event category"
 msgid "Add new event view configuration"
 msgstr "Add new list view"
 
 #: icemac/ab/calendar/eventview/masterdata.py:62
-#| msgid "Edit event category"
 msgid "Edit event view configuration"
 msgstr "Edit list view"
 
 #: icemac/ab/calendar/eventview/masterdata.py:87
-#| msgid "Delete event category"
 msgid "Delete event view configuration"
 msgstr "Delete list view"
 
@@ -393,12 +381,10 @@ msgid "This title is already used for an event view configuration."
 msgstr "This title is already used for an list view configuration."
 
 #: icemac/ab/calendar/eventview/model.zcml:6
-#| msgid "calendar:ViewRecurringEventContainer"
 msgid "ViewEventViewContainer"
 msgstr "ViewEventViewContainer"
 
 #: icemac/ab/calendar/eventview/model.zcml:10
-#| msgid "calendar:EditRecurringEventContainer"
 msgid "EditEventViewContainer"
 msgstr "EditEventViewContainer"
 
@@ -920,8 +906,7 @@ msgstr "License:"
 msgid "Icons from:"
 msgstr "Icons from:"
 
-#: icemac/addressbook/browser/about/about.py:13
-#| msgid "Information about icemac.addressbook"
+#: icemac/addressbook/browser/about/about.py:14
 msgid "About icemac.addressbook"
 msgstr "About icemac.addressbook"
 
@@ -1001,7 +986,6 @@ msgid "You have been logged out successfully."
 msgstr "You have been logged out successfully."
 
 #: icemac/addressbook/browser/authentication/authviewlet.py:24
-#| msgid "sort direction"
 msgid "redirect"
 msgstr "redirect"
 
@@ -1082,6 +1066,22 @@ msgstr "Preferences"
 #: icemac/addressbook/browser/breadcrumb.py:231
 msgid "Not Found"
 msgstr "Not Found"
+
+#: icemac/addressbook/browser/cookieconsent.py:30
+msgid ""
+"This web application uses a session cookie to store the log-in status. It "
+"gets deleted when closing the browser."
+msgstr ""
+"This web application uses a session cookie to store the log-in status. It "
+"gets deleted when closing the browser."
+
+#: icemac/addressbook/browser/cookieconsent.py:33
+msgid "I understand!"
+msgstr "I understand!"
+
+#: icemac/addressbook/browser/cookieconsent.py:41
+msgid "Read more."
+msgstr "Read more."
 
 #: icemac/addressbook/browser/entities/configure.zcml:11
 #: icemac/addressbook/browser/entities/entities.py:27
@@ -1779,7 +1779,7 @@ msgstr "Unexpected error occurred: ${klass}: ${text}"
 msgid "No person found."
 msgstr "No person found."
 
-#: icemac/addressbook/browser/search/search.pt:2
+#: icemac/addressbook/browser/search/search.pt:3
 msgid "Please choose a search."
 msgstr "Please choose a search."
 

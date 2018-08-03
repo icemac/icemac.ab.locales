@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Unknown\n"
-"POT-Creation-Date: Fri Mar 16 20:07:17 2018\n"
+"POT-Creation-Date: Fri Aug  3 11:31:58 2018\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -879,7 +879,7 @@ msgstr ""
 msgid "Icons from:"
 msgstr ""
 
-#: icemac/addressbook/browser/about/about.py:13
+#: icemac/addressbook/browser/about/about.py:14
 msgid "About icemac.addressbook"
 msgstr ""
 
@@ -1039,6 +1039,18 @@ msgstr ""
 
 #: icemac/addressbook/browser/breadcrumb.py:231
 msgid "Not Found"
+msgstr ""
+
+#: icemac/addressbook/browser/cookieconsent.py:30
+msgid "This web application uses a session cookie to store the log-in status. It gets deleted when closing the browser."
+msgstr ""
+
+#: icemac/addressbook/browser/cookieconsent.py:33
+msgid "I understand!"
+msgstr ""
+
+#: icemac/addressbook/browser/cookieconsent.py:41
+msgid "Read more."
 msgstr ""
 
 #: icemac/addressbook/browser/entities/configure.zcml:11
@@ -1677,7 +1689,7 @@ msgstr ""
 msgid "No person found."
 msgstr ""
 
-#: icemac/addressbook/browser/search/search.pt:2
+#: icemac/addressbook/browser/search/search.pt:3
 msgid "Please choose a search."
 msgstr ""
 
