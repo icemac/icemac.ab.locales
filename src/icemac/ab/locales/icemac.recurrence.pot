@@ -1,6 +1,6 @@
 ##############################################################################
 #
-# Copyright (c) 2003-2004 Zope Foundation and Contributors.
+# Copyright (c) 2003-2017 Zope Foundation and Contributors.
 # All Rights Reserved.
 #
 # This software is subject to the provisions of the Zope Public License,
@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Unknown\n"
-"POT-Creation-Date: Fri Feb 19 21:57:12 2016\n"
+"POT-Creation-Date: Fri Aug  3 11:35:30 2018\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -31,69 +31,69 @@ msgstr ""
 msgid "each day"
 msgstr ""
 
-#: icemac/recurrence/monthly.py:64
+#: icemac/recurrence/monthly.py:65
 msgid "1st"
 msgstr ""
 
-#: icemac/recurrence/monthly.py:65
+#: icemac/recurrence/monthly.py:66
 msgid "2nd"
 msgstr ""
 
-#: icemac/recurrence/monthly.py:66
+#: icemac/recurrence/monthly.py:67
 msgid "3rd"
 msgstr ""
 
-#: icemac/recurrence/monthly.py:67
+#: icemac/recurrence/monthly.py:68
 msgid "4th"
 msgstr ""
 
-#: icemac/recurrence/monthly.py:68
+#: icemac/recurrence/monthly.py:69
 msgid "5th"
 msgstr ""
 
-#: icemac/recurrence/monthly.py:89
+#: icemac/recurrence/monthly.py:90
 msgid "monthly, same weekday (e. g. each 3rd Sunday)"
 msgstr ""
 
-#: icemac/recurrence/monthly.py:91
-#: icemac/recurrence/monthly.py:151
+#: icemac/recurrence/monthly.py:92
+#: icemac/recurrence/monthly.py:152
 msgid "${recurrence} ${weekday} every month"
 msgstr ""
 
-#: icemac/recurrence/monthly.py:102
+#: icemac/recurrence/monthly.py:103
 msgid "every other month, same weekday (e. g. each 3rd Sunday in other month)"
 msgstr ""
 
-#: icemac/recurrence/monthly.py:105
-#: icemac/recurrence/monthly.py:165
+#: icemac/recurrence/monthly.py:106
+#: icemac/recurrence/monthly.py:166
 msgid "${recurrence} ${weekday} every other month"
 msgstr ""
 
-#: icemac/recurrence/monthly.py:116
+#: icemac/recurrence/monthly.py:117
 msgid "last"
 msgstr ""
 
-#: icemac/recurrence/monthly.py:117
+#: icemac/recurrence/monthly.py:118
 msgid "last but one"
 msgstr ""
 
-#: icemac/recurrence/monthly.py:118
+#: icemac/recurrence/monthly.py:119
 msgid "last but two"
 msgstr ""
 
-#: icemac/recurrence/monthly.py:119
+#: icemac/recurrence/monthly.py:120
 msgid "last but three"
 msgstr ""
 
-#: icemac/recurrence/monthly.py:120
+#: icemac/recurrence/monthly.py:121
 msgid "last but four"
 msgstr ""
 
-#: icemac/recurrence/monthly.py:148
+#: icemac/recurrence/monthly.py:149
 msgid "monthly, same weekday counted from the end of the month (e. g. each last but one Sunday)"
 msgstr ""
 
-#: icemac/recurrence/monthly.py:162
+#: icemac/recurrence/monthly.py:163
 msgid "every other month on same weekday counted from the end of the month (e. g. each last but one Sunday every other month)"
 msgstr ""
 
@@ -109,7 +109,7 @@ msgstr ""
 msgid "every other week, same weekday (e. g. each second Friday)"
 msgstr ""
 
-#: icemac/recurrence/weekly.py:44
+#: icemac/recurrence/weekly.py:61
 msgid "${weekday} every other week"
 msgstr ""
 

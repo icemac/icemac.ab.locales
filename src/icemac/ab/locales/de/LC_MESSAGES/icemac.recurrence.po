@@ -14,8 +14,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: icemac.recurrence\n"
-"POT-Creation-Date: 2016-02-19 21:57+0100\n"
-"PO-Revision-Date: 2016-03-25 13:36+0100\n"
+"POT-Creation-Date: Fri Aug  3 11:35:30 2018\n"
+"PO-Revision-Date: 2018-08-03 11:36+0200\n"
 "Last-Translator: Michael Howitz <mh@gocept.com>\n"
 "Language-Team: Michael Howitz <icemac@gmx.net>\n"
 "Language: de_DE\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: zope/app/locales/extract.py\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 2.1.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: icemac/recurrence/daily.py:12
@@ -35,65 +35,65 @@ msgstr "täglich"
 msgid "each day"
 msgstr "jeden Tag"
 
-#: icemac/recurrence/monthly.py:66
+#: icemac/recurrence/monthly.py:65
 msgid "1st"
 msgstr "ersten"
 
-#: icemac/recurrence/monthly.py:67
+#: icemac/recurrence/monthly.py:66
 msgid "2nd"
 msgstr "zweiten"
 
-#: icemac/recurrence/monthly.py:68
+#: icemac/recurrence/monthly.py:67
 msgid "3rd"
 msgstr "dritten"
 
-#: icemac/recurrence/monthly.py:69
+#: icemac/recurrence/monthly.py:68
 msgid "4th"
 msgstr "vierten"
 
-#: icemac/recurrence/monthly.py:70
+#: icemac/recurrence/monthly.py:69
 msgid "5th"
 msgstr "fünften"
 
-#: icemac/recurrence/monthly.py:91
+#: icemac/recurrence/monthly.py:90
 msgid "monthly, same weekday (e. g. each 3rd Sunday)"
 msgstr "monatlich, gleicher Wochentag (z. B. jeden dritten Sonntag im Monat)"
 
-#: icemac/recurrence/monthly.py:93 icemac/recurrence/monthly.py:154
+#: icemac/recurrence/monthly.py:92 icemac/recurrence/monthly.py:152
 msgid "${recurrence} ${weekday} every month"
 msgstr "jeden ${recurrence} ${weekday} im Monat"
 
-#: icemac/recurrence/monthly.py:105
+#: icemac/recurrence/monthly.py:103
 msgid "every other month, same weekday (e. g. each 3rd Sunday in other month)"
 msgstr ""
 "zweimonatlich, gleicher Wochentag (z. B. jeden dritten Sonntag aller zwei "
 "Monate)"
 
-#: icemac/recurrence/monthly.py:108 icemac/recurrence/monthly.py:168
+#: icemac/recurrence/monthly.py:106 icemac/recurrence/monthly.py:166
 msgid "${recurrence} ${weekday} every other month"
 msgstr "jeden ${recurrence} ${weekday} aller zwei Monate"
 
-#: icemac/recurrence/monthly.py:119
+#: icemac/recurrence/monthly.py:117
 msgid "last"
 msgstr "letzten"
 
-#: icemac/recurrence/monthly.py:120
+#: icemac/recurrence/monthly.py:118
 msgid "last but one"
 msgstr "vorletzten"
 
-#: icemac/recurrence/monthly.py:121
+#: icemac/recurrence/monthly.py:119
 msgid "last but two"
 msgstr "drittletzten"
 
-#: icemac/recurrence/monthly.py:122
+#: icemac/recurrence/monthly.py:120
 msgid "last but three"
 msgstr "viertletzten"
 
-#: icemac/recurrence/monthly.py:123
+#: icemac/recurrence/monthly.py:121
 msgid "last but four"
 msgstr "fünftletzten"
 
-#: icemac/recurrence/monthly.py:151
+#: icemac/recurrence/monthly.py:149
 msgid ""
 "monthly, same weekday counted from the end of the month (e. g. each last but "
 "one Sunday)"
@@ -101,7 +101,7 @@ msgstr ""
 "monatlich, gleicher Wochentag vom Ende des Monats gezählt (z. B. jeden "
 "vorletzten Sonntag im Monat)"
 
-#: icemac/recurrence/monthly.py:165
+#: icemac/recurrence/monthly.py:163
 msgid ""
 "every other month on same weekday counted from the end of the month (e. g. "
 "each last but one Sunday every other month)"
@@ -121,7 +121,7 @@ msgstr "jeden ${weekday}"
 msgid "every other week, same weekday (e. g. each second Friday)"
 msgstr "﻿jede zweite Woche, gleicher Wochentag (z. B. jeden zweiten Freitag)"
 
-#: icemac/recurrence/weekly.py:44
+#: icemac/recurrence/weekly.py:61
 msgid "${weekday} every other week"
 msgstr "jeden zweiten ${weekday}"
 
