@@ -1,7 +1,7 @@
 Change log
 ==========
 
-2.19 (unreleased)
+2.19 (2018-08-03)
 -----------------
 
 - Change license from ZPL to MIT.
