@@ -11,3 +11,4 @@ buildout.cfg
 coverage
 develop-eggs
 parts
+sources/icemac.recurrence
