@@ -4,7 +4,7 @@ Change log
 2.20 (unreleased)
 -----------------
 
-- Nothing changed yet.
+- Update to message ids in `icemac.addressbook >= 8.0`.
 
 
 2.19 (2018-08-03)

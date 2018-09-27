@@ -14,8 +14,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: icemac.addressbook\n"
-"POT-Creation-Date: Fri Aug  3 11:31:58 2018\n"
-"PO-Revision-Date: 2018-08-03 11:35+0200\n"
+"POT-Creation-Date: Thu Sep 27 19:52:28 2018\n"
+"PO-Revision-Date: 2018-09-27 20:00+0200\n"
 "Last-Translator: Michael Howitz <mh@gocept.com>\n"
 "Language-Team: Michael Howitz <icemac@gmx.net>\n"
 "Language: en\n"
@@ -125,18 +125,9 @@ msgid "Clone event"
 msgstr "Clone event"
 
 #: icemac/ab/calendar/browser/event.py:190
-#: icemac/ab/calendar/browser/event.py:271
-#: icemac/ab/calendar/eventview/masterdata.py:78
-#: icemac/ab/calendar/masterdata/category.py:77
-#: icemac/ab/calendar/masterdata/event.py:140
-#: icemac/addressbook/browser/entities/fields_list.pt:17
-#: icemac/addressbook/browser/keyword/keyword.py:54
-#: icemac/addressbook/browser/rootfolder/rootfolder.pt:9
-#: icemac/addressbook/browser/table.py:109
-msgid "Delete"
-msgstr "Delete"
-
 #: icemac/ab/calendar/browser/event.py:199
+#: icemac/ab/calendar/browser/event.py:271
+#: icemac/ab/calendar/masterdata/event.py:140
 msgid "Delete event"
 msgstr "Delete event"
 
@@ -154,11 +145,11 @@ msgstr "Edit recurred event"
 
 #: icemac/ab/calendar/browser/event.py:267
 #: icemac/addressbook/browser/addressbook/crud.py:43
+#: icemac/addressbook/browser/base.py:213
 #: icemac/addressbook/browser/person/person.py:186
 #: icemac/addressbook/browser/principals/principals.py:157
-#: icemac/addressbook/browser/search/result/base.py:35
-msgid "Apply"
-msgstr "Apply"
+msgid "Save"
+msgstr "Save"
 
 #: icemac/ab/calendar/browser/event.py:288
 msgid "View recurred event"
@@ -201,6 +192,7 @@ msgid "datetime"
 msgstr "date and time"
 
 #: icemac/ab/calendar/browser/renderer/table.py:38
+#: icemac/ab/calendar/masterdata/event.py:124
 #: icemac/addressbook/browser/entities/fields_list.pt:20
 msgid "Edit"
 msgstr "Edit"
@@ -364,6 +356,15 @@ msgstr "Add new list view"
 msgid "Edit event view configuration"
 msgstr "Edit list view"
 
+#: icemac/ab/calendar/eventview/masterdata.py:78
+#: icemac/ab/calendar/masterdata/category.py:77
+#: icemac/addressbook/browser/entities/fields_list.pt:17
+#: icemac/addressbook/browser/keyword/keyword.py:54
+#: icemac/addressbook/browser/rootfolder/rootfolder.pt:9
+#: icemac/addressbook/browser/table.py:109
+msgid "Delete"
+msgstr "Delete"
+
 #: icemac/ab/calendar/eventview/masterdata.py:87
 msgid "Delete event view configuration"
 msgstr "Delete list view"
@@ -502,10 +503,6 @@ msgstr "to"
 #: icemac/ab/calendar/masterdata/event.py:115
 msgid "Add new recurring event"
 msgstr "Add new recurring event"
-
-#: icemac/ab/calendar/masterdata/event.py:124
-msgid "Edit recurring event"
-msgstr "Edit recurring event"
 
 #: icemac/ab/calendar/masterdata/event.py:149
 msgid "Delete recurring event"
@@ -694,8 +691,9 @@ msgstr "Edit file"
 
 #: icemac/ab/importer/browser/importer.pt:4
 #: icemac/ab/importer/browser/readers.py:11
-msgid "Registered import file readers"
-msgstr "Registered import file readers"
+#| msgid "Registered import file readers"
+msgid "Supported import file formats"
+msgstr "Supported import file formats"
 
 #: icemac/ab/importer/browser/importer.py:21
 msgid "Importer"
@@ -805,16 +803,31 @@ msgid "${prefix} ${title}"
 msgstr "${prefix} ${title}"
 
 #: icemac/ab/importer/browser/wizard/reader.py:13
-msgid "Import file reader"
-msgstr "Import file reader"
+#| msgid "Import file reader"
+msgid "Import file format"
+msgstr "Import file format"
 
-#: icemac/ab/importer/browser/wizard/reader.py:17
-msgid "Number of e.g. phone numbers per person"
-msgstr "Number of e.g. phone numbers per person"
+#: icemac/ab/importer/browser/wizard/reader.py:14
+msgid "If the drop-down is empty the file's format is not supported."
+msgstr "If the drop-down is empty the file's format is not supported."
 
-#: icemac/ab/importer/browser/wizard/reader.py:26
-msgid "Reader settings"
-msgstr "Reader settings"
+#: icemac/ab/importer/browser/wizard/reader.py:19
+#| msgid "person name"
+msgid "person sub-entities"
+msgstr "person sub-entities"
+
+#: icemac/ab/importer/browser/wizard/reader.py:20
+msgid ""
+"This is the maximum number per person of postal addresses, phone numbers, e-"
+"mail addresses resp. homepage addresses the import file contains."
+msgstr ""
+"This is the maximum number per person of postal addresses, phone numbers, e-"
+"mail addresses resp. homepage addresses the import file contains."
+
+#: icemac/ab/importer/browser/wizard/reader.py:32
+#| msgid "Edit settings"
+msgid "File format settings"
+msgstr "File format settings"
 
 #: icemac/ab/importer/browser/wizard/review.py:100
 msgid "Keep imported data?"
@@ -840,7 +853,7 @@ msgstr "Errors:"
 msgid "Review imported data"
 msgstr "Review imported data"
 
-#: icemac/ab/importer/reader/csv/csv.py:43
+#: icemac/ab/importer/reader/csv/csv.py:45
 msgid "CSV file (comma separated fields, ISO-dates, UTF-8 encoded)"
 msgstr "CSV file (comma separated fields, ISO-dates, UTF-8 encoded)"
 
@@ -1018,7 +1031,7 @@ msgid "\"${title}\" added."
 msgstr "“${title}“ added."
 
 #: icemac/addressbook/browser/base.py:149
-#: icemac/addressbook/browser/base.py:225
+#: icemac/addressbook/browser/base.py:229
 msgid "Cancel"
 msgstr "Cancel"
 
@@ -1026,35 +1039,39 @@ msgstr "Cancel"
 msgid "Addition canceled."
 msgstr "Addition canceled."
 
-#: icemac/addressbook/browser/base.py:276
+#: icemac/addressbook/browser/base.py:283
 msgid "No, cancel"
 msgstr "No, cancel"
 
-#: icemac/addressbook/browser/base.py:281
-msgid "Yes"
-msgstr "Yes"
-
-#: icemac/addressbook/browser/base.py:289
+#: icemac/addressbook/browser/base.py:292
 msgid "Do you really want to delete this entry?"
 msgstr "Do you really want to delete this entry?"
 
-#: icemac/addressbook/browser/base.py:292
+#: icemac/addressbook/browser/base.py:295
 msgid "Deletion canceled."
 msgstr "Deletion canceled."
 
-#: icemac/addressbook/browser/base.py:297
+#: icemac/addressbook/browser/base.py:298
+msgid "Yes, delete"
+msgstr "Yes, delete"
+
+#: icemac/addressbook/browser/base.py:305
 msgid "\"${title}\" deleted."
 msgstr "“${title}“ deleted."
 
-#: icemac/addressbook/browser/base.py:341
+#: icemac/addressbook/browser/base.py:349
 msgid "Do you really want to clone this entry?"
 msgstr "Do you really want to clone this entry?"
 
-#: icemac/addressbook/browser/base.py:342
+#: icemac/addressbook/browser/base.py:350
 msgid "Cloning canceled."
 msgstr "Cloning canceled."
 
-#: icemac/addressbook/browser/base.py:354
+#: icemac/addressbook/browser/base.py:353
+msgid "Yes, clone"
+msgstr "Yes, clone"
+
+#: icemac/addressbook/browser/base.py:367
 msgid "\"${object}\" cloned."
 msgstr "“${object}“ cloned."
 
@@ -1560,6 +1577,10 @@ msgstr ""
 #: icemac/addressbook/browser/search/result/base.py:16
 msgid "Apply on selected persons"
 msgstr "Apply on selected persons"
+
+#: icemac/addressbook/browser/search/result/base.py:35
+msgid "Apply"
+msgstr "Apply"
 
 #: icemac/addressbook/browser/search/result/handler/checklist/__init__.py:11
 msgid "Check list"
@@ -2161,6 +2182,18 @@ msgstr "text area"
 #: icemac/addressbook/sources.py:53
 msgid "text line"
 msgstr "text line"
+
+#~ msgid "Edit recurring event"
+#~ msgstr "Edit recurring event"
+
+#~ msgid "Number of e.g. phone numbers per person"
+#~ msgstr "Number of e.g. phone numbers per person"
+
+#~ msgid "Reader settings"
+#~ msgstr "Reader settings"
+
+#~ msgid "Yes"
+#~ msgstr "Yes"
 
 #~ msgid "Month list view"
 #~ msgstr "Month list view"
