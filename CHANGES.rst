@@ -1,7 +1,7 @@
 Change log
 ==========
 
-2.20 (unreleased)
+2.20 (2018-10-12)
 -----------------
 
 - Update to message ids in `icemac.addressbook >= 8.0`.
@@ -21,16 +21,6 @@ Change log
 - Add German and English translations for new features.
 
 - Also release as wheel.
-
-
-2.17 (2017-12-26)
------------------
-
-- Add translations for new messages needed for breadcrumbs.
-
-- Fix some translations to match changes for breadcrumbs.
-
-- Fix some German translations.
 
 
 Previous changes
