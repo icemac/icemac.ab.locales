@@ -4,7 +4,7 @@ Change log
 2.21 (unreleased)
 -----------------
 
-- Nothing changed yet.
+- Improve German translation of message ids containing `main`.
 
 
 2.20 (2018-10-12)

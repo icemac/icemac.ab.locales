@@ -794,7 +794,7 @@ msgstr "Felder zuweisen"
 #: icemac/ab/importer/browser/wizard/map.py:495
 #: icemac/ab/importer/browser/wizard/review.py:121
 msgid "main"
-msgstr "wichtigste"
+msgstr "bevorzugte"
 
 #: icemac/ab/importer/browser/wizard/map.py:500
 #: icemac/ab/importer/browser/wizard/review.py:130
@@ -1394,7 +1394,7 @@ msgstr "Personendaten bearbeiten"
 #: icemac/addressbook/browser/person/person.py:174
 #: icemac/addressbook/export/xls/simple.py:166
 msgid "main ${address}"
-msgstr "wichtigste ${address}"
+msgstr "bevorzugte ${address}"
 
 #: icemac/addressbook/browser/person/person.py:176
 #: icemac/addressbook/export/xls/simple.py:182
@@ -1634,7 +1634,7 @@ msgstr "Ausgewählte Personen gelöscht: ${num}"
 msgid ""
 "XLS export main (Exports person data and main addresses resp. phone numbers.)"
 msgstr ""
-"XLS-Export „wichtigste“ (Exportiert die Personendaten und die wichtigsten "
+"XLS-Export „bevorzugte“ (Exportiert die Personendaten und die bevorzugten "
 "Einträge.)"
 
 #: icemac/addressbook/browser/search/result/handler/export/configure.zcml:33
@@ -1924,19 +1924,19 @@ msgstr "Nummer"
 
 #: icemac/addressbook/interfaces.py:281
 msgid "main postal address"
-msgstr "wichtigste Anschrift"
+msgstr "bevorzugte Anschrift"
 
 #: icemac/addressbook/interfaces.py:284
 msgid "main phone number"
-msgstr "wichtigste Telefonnummer"
+msgstr "bevorzugte Telefonnummer"
 
 #: icemac/addressbook/interfaces.py:287
 msgid "main e-mail address"
-msgstr "wichtigste E-Mail-Adresse"
+msgstr "bevorzugte E-Mail-Adresse"
 
 #: icemac/addressbook/interfaces.py:290
 msgid "main home page address"
-msgstr "wichtigste Homepage-Adresse"
+msgstr "bevorzugte Homepage-Adresse"
 
 #: icemac/addressbook/interfaces.py:418
 msgid "type"
@@ -2018,7 +2018,7 @@ msgstr "View the name of the person belonging to the current user."
 
 #: icemac/addressbook/person.py:92
 msgid "main adresses and numbers"
-msgstr "wichtigste Adressen und Nummern"
+msgstr "bevorzugte Adressen und Nummern"
 
 #: icemac/addressbook/preferences/configure.zcml:7
 msgid "Address Book Preferences"
@@ -2354,7 +2354,7 @@ msgstr "Textzeile"
 #~ msgstr "${title} (${desc})"
 
 #~ msgid "XLS main"
-#~ msgstr "XLS (wichtigste)"
+#~ msgstr "XLS (bevorzugte)"
 
 #~ msgid "XLS complete"
 #~ msgstr "XLS (vollständig)"
@@ -2366,7 +2366,7 @@ msgstr "Textzeile"
 #~ msgstr "Informationen über die letzte Bearbeitung"
 
 #~ msgid "main "
-#~ msgstr "wichtigste"
+#~ msgstr "bevorzugte"
 
 #~ msgid "other "
 #~ msgstr "weitere"
