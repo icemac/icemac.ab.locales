@@ -1,7 +1,7 @@
 Change log
 ==========
 
-2.21 (unreleased)
+2.21 (2019-04-22)
 -----------------
 
 - Improve German translation of message ids containing `main`.
