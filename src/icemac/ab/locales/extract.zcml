@@ -3,7 +3,6 @@
     i18n_domain="icemac.addressbook">
 
   <include package="icemac.addressbook" />
-  <include package="icemac.addressbook" file="base.zcml"/>
   <include package="icemac.ab.importer" />
   <include package="icemac.ab.calendar" />
   <include package="icemac.ab.calexport" />
