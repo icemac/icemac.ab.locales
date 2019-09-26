@@ -4,11 +4,14 @@ syntax: glob
 *.mo
 *.pyc
 .DS_Store
+.Python
 .installed.cfg
 .mr.developer.cfg
 bin
 buildout.cfg
 coverage
 develop-eggs
+include/
+lib/
 parts
 sources/icemac.recurrence
