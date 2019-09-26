@@ -1,7 +1,7 @@
 Change log
 ==========
 
-2.22 (unreleased)
+2.22 (2019-09-26)
 -----------------
 
 - Update configuration to `icemac.addressbook >= 9`.
