@@ -14,8 +14,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: icemac.addressbook\n"
-"POT-Creation-Date: Thu Sep 27 19:52:28 2018\n"
-"PO-Revision-Date: 2018-09-27 19:59+0200\n"
+"POT-Creation-Date: Thu Sep 26 21:21:33 2019\n"
+"PO-Revision-Date: 2019-09-26 21:30+0200\n"
 "Last-Translator: Michael Howitz <mh@gocept.com>\n"
 "Language-Team: Michael Howitz <icemac@gmx.net>\n"
 "Language: de_DE\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: zope/app/locales/extract.py\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2.3\n"
 "X-Poedit-Basepath: ../../../../../../parts/omelette\n"
 "X-Poedit-SearchPath-0: .\n"
 
@@ -36,7 +36,7 @@ msgstr ""
 msgid "Calendar"
 msgstr "Kalender"
 
-#: icemac/ab/calendar/browser/calendar.pt:3 icemac/addressbook/interfaces.py:137
+#: icemac/ab/calendar/browser/calendar.pt:3 icemac/addressbook/interfaces.py:151
 #: icemac/addressbook/preferences/configure.zcml:28
 #: icemac/addressbook/preferences/interfaces.py:37
 msgid "Time zone"
@@ -144,8 +144,8 @@ msgstr "Wiedergekehrtes Ereignis bearbeiten"
 
 #: icemac/ab/calendar/browser/event.py:267
 #: icemac/addressbook/browser/addressbook/crud.py:43
-#: icemac/addressbook/browser/base.py:213
-#: icemac/addressbook/browser/person/person.py:186
+#: icemac/addressbook/browser/base.py:214
+#: icemac/addressbook/browser/person/person.py:206
 #: icemac/addressbook/browser/principals/principals.py:157
 msgid "Save"
 msgstr "Speichern"
@@ -162,13 +162,13 @@ msgstr "Wiedergekehrtes Ereignis löschen"
 msgid "Do you really want to delete this recurred event?"
 msgstr "Wollen Sie dieses wiedergekehrte Ereignis wirklich löschen?"
 
-#: icemac/ab/calendar/browser/event.zcml:45 icemac/ab/calendar/event.py:86
-#: icemac/ab/calendar/event.py:97
+#: icemac/ab/calendar/browser/event.zcml:45 icemac/ab/calendar/event.py:87
+#: icemac/ab/calendar/event.py:98
 msgid "event"
 msgstr "Ereignis"
 
 #: icemac/ab/calendar/browser/interfaces.py:15
-#: icemac/ab/calendar/interfaces.py:180
+#: icemac/ab/calendar/interfaces.py:182
 msgid "whole day event?"
 msgstr "Ganztagestermin?"
 
@@ -185,14 +185,14 @@ msgid "Either enter a `time` or select `whole day event`!"
 msgstr "Tragen Sie eine Uhrzeit ein oder wählen sie Ganztagestermin aus."
 
 #: icemac/ab/calendar/browser/interfaces.py:31
-#: icemac/ab/calendar/interfaces.py:178
+#: icemac/ab/calendar/interfaces.py:180
 #: icemac/ab/calendar/masterdata/event.py:54 icemac/addressbook/sources.py:49
 msgid "datetime"
 msgstr "Datum und Uhrzeit"
 
 #: icemac/ab/calendar/browser/renderer/table.py:38
 #: icemac/ab/calendar/masterdata/event.py:124
-#: icemac/addressbook/browser/entities/fields_list.pt:20
+#: icemac/addressbook/browser/entities/fields_list.pt:22
 msgid "Edit"
 msgstr "Bearbeiten"
 
@@ -204,7 +204,7 @@ msgstr "﻿Neues Ereignis für diesen Tag hinzufügen."
 msgid "This category already exists."
 msgstr "Diese Ereigniskategorie existiert bereits."
 
-#: icemac/ab/calendar/event.py:175 icemac/ab/calendar/masterdata/event.zcml:27
+#: icemac/ab/calendar/event.py:176 icemac/ab/calendar/masterdata/event.zcml:27
 msgid "recurring event"
 msgstr "Wiederkehrendes Ereignis"
 
@@ -291,7 +291,8 @@ msgid "4 weeks"
 msgstr "4 Wochen"
 
 #: icemac/ab/calendar/eventview/interfaces.py:57
-#: icemac/addressbook/interfaces.py:126 icemac/addressbook/interfaces.py:420
+#: icemac/addressbook/browser/entities/fields.py:47
+#: icemac/addressbook/interfaces.py:129 icemac/addressbook/interfaces.py:467
 msgid "title"
 msgstr "Bezeichnung"
 
@@ -330,7 +331,7 @@ msgstr ""
 "ausgewählten Kategorien gehören."
 
 #: icemac/ab/calendar/eventview/interfaces.py:80
-#: icemac/ab/calendar/interfaces.py:135 icemac/ab/calendar/interfaces.py:177
+#: icemac/ab/calendar/interfaces.py:137 icemac/ab/calendar/interfaces.py:179
 #: icemac/ab/calendar/masterdata/category.py:33
 #: icemac/ab/calendar/masterdata/category.zcml:27
 #: icemac/ab/calexport/interfaces.py:60
@@ -359,7 +360,7 @@ msgstr "Listenansicht bearbeiten"
 
 #: icemac/ab/calendar/eventview/masterdata.py:78
 #: icemac/ab/calendar/masterdata/category.py:77
-#: icemac/addressbook/browser/entities/fields_list.pt:17
+#: icemac/addressbook/browser/entities/fields_list.pt:19
 #: icemac/addressbook/browser/keyword/keyword.py:54
 #: icemac/addressbook/browser/rootfolder/rootfolder.pt:9
 #: icemac/addressbook/browser/table.py:109
@@ -402,15 +403,15 @@ msgstr "EditEventViewConfiguration"
 msgid "AddEventViewConfiguration"
 msgstr "AddEventViewConfiguration"
 
-#: icemac/ab/calendar/interfaces.py:92
+#: icemac/ab/calendar/interfaces.py:94
 msgid "Additional event fields to be displayed in calendar"
 msgstr "Zusätzliche Felder, die in der Kalender-Ansicht angezeigt werden sollen"
 
-#: icemac/ab/calendar/interfaces.py:97
+#: icemac/ab/calendar/interfaces.py:99
 msgid "Person keyword"
 msgstr "Personen-Schlagwort"
 
-#: icemac/ab/calendar/interfaces.py:98
+#: icemac/ab/calendar/interfaces.py:100
 msgid ""
 "Only persons having the keyword assigned which is selected here will show up "
 "in the person list when editing an event. If no keyword is selected all "
@@ -420,39 +421,40 @@ msgstr ""
 "werden. Wenn kein Schlagwort ausgewählt ist, können alle Personen des "
 "Adressbuchs Ereignissen zugeordnet werden."
 
-#: icemac/ab/calendar/interfaces.py:183
+#: icemac/ab/calendar/interfaces.py:185
 msgid "alternative title to category"
 msgstr "Alternativer Titel (überschreibt Kategorie)"
 
-#: icemac/ab/calendar/interfaces.py:185 icemac/ab/calendar/interfaces.py:187
+#: icemac/ab/calendar/interfaces.py:187 icemac/ab/calendar/interfaces.py:189
 #: icemac/ab/calendar/masterdata/event.py:40
 msgid "persons"
 msgstr "Personen"
 
-#: icemac/ab/calendar/interfaces.py:190
+#: icemac/ab/calendar/interfaces.py:192
 msgid "other persons"
 msgstr "weitere Personen"
 
-#: icemac/ab/calendar/interfaces.py:191
+#: icemac/ab/calendar/interfaces.py:193
 msgid "person name"
 msgstr "Name"
 
-#: icemac/ab/calendar/interfaces.py:192
+#: icemac/ab/calendar/interfaces.py:194
 #: icemac/ab/calendar/masterdata/event.py:104
-#: icemac/addressbook/browser/interfaces.py:25
+#: icemac/addressbook/browser/interfaces.py:27
 #: icemac/addressbook/browser/principals/principals.py:71
-#: icemac/addressbook/browser/search/result/handler/delete.py:20
-#: icemac/addressbook/interfaces.py:231 icemac/addressbook/interfaces.py:424
+#: icemac/addressbook/browser/search/result/handler/archive.py:22
+#: icemac/addressbook/browser/search/result/handler/delete.py:18
+#: icemac/addressbook/interfaces.py:245 icemac/addressbook/interfaces.py:471
 #: icemac/addressbook/principals/interfaces.py:45
 msgid "notes"
 msgstr "Anmerkungen"
 
-#: icemac/ab/calendar/interfaces.py:250
+#: icemac/ab/calendar/interfaces.py:252
 #: icemac/ab/calendar/masterdata/event.py:29
 msgid "recurrence period"
 msgstr "Wiederholung"
 
-#: icemac/ab/calendar/interfaces.py:256
+#: icemac/ab/calendar/interfaces.py:258
 msgid "recurrence end"
 msgstr "endet (leer für nie)"
 
@@ -590,11 +592,11 @@ msgstr "Kalender lesen und schreiben"
 msgid "Role which allows to edit the calendar."
 msgstr "Role which allows to edit the calendar."
 
-#: icemac/ab/calendar/roles.zcml:46
+#: icemac/ab/calendar/roles.zcml:40
 msgid "Calendar visitor"
 msgstr "Kalender lesen"
 
-#: icemac/ab/calendar/roles.zcml:46
+#: icemac/ab/calendar/roles.zcml:40
 msgid "Role which allows to visit the calendar."
 msgstr "Role which allows to visit the calendar."
 
@@ -671,11 +673,11 @@ msgid "Role which allows to edit masterdata of the calendar export."
 msgstr ""
 "Rolle, die es erlaubt die Stammdaten des Kalender-Exports zu bearbeiten."
 
-#: icemac/ab/calexport/roles.zcml:36
+#: icemac/ab/calexport/roles.zcml:30
 msgid "Calendar exporter"
 msgstr "Kalender exportieren"
 
-#: icemac/ab/calexport/roles.zcml:36
+#: icemac/ab/calexport/roles.zcml:30
 msgid "Role which allows to export the calendar data."
 msgstr "Rolle, die es erlaubt den Kalender zu exportieren."
 
@@ -685,7 +687,7 @@ msgstr "Daten importieren"
 
 #: icemac/ab/importer/browser/configure.zcml:41
 #: icemac/addressbook/browser/file/configure.zcml:14
-#: icemac/addressbook/file/file.py:62 icemac/addressbook/file/interfaces.py:16
+#: icemac/addressbook/file/file.py:65 icemac/addressbook/file/interfaces.py:16
 msgid "file"
 msgstr "Datei"
 
@@ -726,6 +728,7 @@ msgstr "Importieren"
 #: icemac/ab/importer/browser/readers.pt:7
 #: icemac/addressbook/browser/about/about.pt:25
 #: icemac/addressbook/browser/person/export.pt:18
+#: icemac/addressbook/browser/search/result/handler/birthday/list.pt:29
 #: icemac/addressbook/browser/search/result/handler/checklist/list.pt:21
 #: icemac/addressbook/browser/search/result/handler/mailto/mailto.pt:8
 #: icemac/addressbook/browser/search/result/handler/names/list.pt:11
@@ -778,8 +781,8 @@ msgid "Not enough data fields in row."
 msgstr "In der Zeile befinden sich nicht genügend Daten."
 
 #: icemac/ab/importer/browser/wizard/map.py:287
-#: icemac/addressbook/browser/person/person.py:301
-#: icemac/addressbook/fieldsource.py:41
+#: icemac/addressbook/browser/person/person.py:362
+#: icemac/addressbook/fieldsource.py:42
 msgid "${prefix} -- ${title}"
 msgstr "${prefix} – ${title}"
 
@@ -787,22 +790,22 @@ msgstr "${prefix} – ${title}"
 msgid "${title}: ${message}"
 msgstr "${title}: ${message}"
 
-#: icemac/ab/importer/browser/wizard/map.py:480
+#: icemac/ab/importer/browser/wizard/map.py:485
 msgid "Map fields"
 msgstr "Felder zuweisen"
 
-#: icemac/ab/importer/browser/wizard/map.py:495
-#: icemac/ab/importer/browser/wizard/review.py:121
+#: icemac/ab/importer/browser/wizard/map.py:500
+#: icemac/ab/importer/browser/wizard/review.py:125
 msgid "main"
 msgstr "bevorzugte"
 
-#: icemac/ab/importer/browser/wizard/map.py:500
-#: icemac/ab/importer/browser/wizard/review.py:130
+#: icemac/ab/importer/browser/wizard/map.py:505
+#: icemac/ab/importer/browser/wizard/review.py:135
 msgid "other"
 msgstr "weitere"
 
-#: icemac/ab/importer/browser/wizard/map.py:501
-#: icemac/ab/importer/browser/wizard/review.py:131
+#: icemac/ab/importer/browser/wizard/map.py:506
+#: icemac/ab/importer/browser/wizard/review.py:136
 msgid "${prefix} ${title}"
 msgstr "${prefix} ${title}"
 
@@ -840,19 +843,19 @@ msgstr "Importierte Daten speichern?"
 msgid "There was nothing to import in the import file."
 msgstr "In der Datei wurde nichts gefunden, was importiert werden konnte."
 
-#: icemac/ab/importer/browser/wizard/review.py:134
+#: icemac/ab/importer/browser/wizard/review.py:139
 msgid "<i>${prefix}</i><br />${title}"
 msgstr "<i>${prefix}</i><br />${title}"
 
-#: icemac/ab/importer/browser/wizard/review.py:139
+#: icemac/ab/importer/browser/wizard/review.py:144
 msgid "<br />${title}"
 msgstr "<br />${title}"
 
-#: icemac/ab/importer/browser/wizard/review.py:173
+#: icemac/ab/importer/browser/wizard/review.py:178
 msgid "Errors:"
 msgstr "Fehler:"
 
-#: icemac/ab/importer/browser/wizard/review.py:200
+#: icemac/ab/importer/browser/wizard/review.py:205
 msgid "Review imported data"
 msgstr "Importierte Daten durchsehen"
 
@@ -865,28 +868,28 @@ msgstr ""
 msgid "Microsoft Excel file"
 msgstr "Microsoft Excel-Datei"
 
-#: icemac/addressbook/address.py:25
-#: icemac/addressbook/browser/person/configure.zcml:55
+#: icemac/addressbook/address.py:29
+#: icemac/addressbook/browser/person/configure.zcml:63
 msgid "postal address"
 msgstr "Anschrift"
 
-#: icemac/addressbook/address.py:33 icemac/addressbook/address.py:69
-#: icemac/addressbook/address.py:104 icemac/addressbook/address.py:131
+#: icemac/addressbook/address.py:37 icemac/addressbook/address.py:72
+#: icemac/addressbook/address.py:109 icemac/addressbook/address.py:138
 msgid "none"
 msgstr "keine"
 
-#: icemac/addressbook/address.py:61
-#: icemac/addressbook/browser/person/configure.zcml:77
-#: icemac/addressbook/interfaces.py:260
+#: icemac/addressbook/address.py:64
+#: icemac/addressbook/browser/person/configure.zcml:85
+#: icemac/addressbook/interfaces.py:307
 msgid "e-mail address"
 msgstr "E-Mail-Adresse"
 
-#: icemac/addressbook/address.py:96
+#: icemac/addressbook/address.py:101
 msgid "home page address"
 msgstr "Homepage-Adresse"
 
-#: icemac/addressbook/address.py:123
-#: icemac/addressbook/browser/person/configure.zcml:66
+#: icemac/addressbook/address.py:130
+#: icemac/addressbook/browser/person/configure.zcml:74
 msgid "phone number"
 msgstr "Telefonnummer"
 
@@ -932,7 +935,7 @@ msgid "Address book"
 msgstr "Adressbuch"
 
 #: icemac/addressbook/browser/addressbook/configure.zcml:93
-#: icemac/addressbook/export/xls/simple.py:117 icemac/addressbook/person.py:48
+#: icemac/addressbook/export/xls/simple.py:119 icemac/addressbook/person.py:158
 #: icemac/addressbook/principals/interfaces.py:36
 msgid "person"
 msgstr "Person"
@@ -978,7 +981,7 @@ msgid "Welcome page"
 msgstr "Begrüßungsseite"
 
 #: icemac/addressbook/browser/addressbook/startpage.py:31
-#: icemac/addressbook/browser/person/configure.zcml:194
+#: icemac/addressbook/browser/person/configure.zcml:202
 #: icemac/addressbook/browser/person/list.py:16
 msgid "Person list"
 msgstr "Personen"
@@ -993,6 +996,58 @@ msgstr "Suchen"
 #: icemac/addressbook/browser/addressbook/welcome.pt:4
 msgid "Welcome to ${title}. Please select one of the tabs above."
 msgstr "Willkommen bei ${title}. Bitte wählen Sie einen der obigen Reiter aus."
+
+#: icemac/addressbook/browser/archive/breadcrumb.py:14
+#: icemac/addressbook/browser/archive/configure.zcml:19
+msgid "Archive"
+msgstr "Archiv"
+
+#: icemac/addressbook/browser/archive/list.py:10
+msgid "Archived persons"
+msgstr "Archivierte Personen"
+
+#: icemac/addressbook/browser/archive/list.py:11
+msgid ""
+"There are no persons in the archive yet. You can archive persons via the "
+"person edit view or as a search result action."
+msgstr ""
+"Es gibt noch keine archivierten Personen. Sie können eine Person in ihrer "
+"Bearbeitungsansicht oder über die Suchfunktion archivieren."
+
+#: icemac/addressbook/browser/archive/person.pt:27
+#: icemac/addressbook/browser/metadata.py:14
+msgid "metadata"
+msgstr "Metadaten"
+
+#: icemac/addressbook/browser/archive/person.pt:50
+#: icemac/addressbook/browser/archive/person.py:62
+msgid "Unarchive person"
+msgstr "Person wiederherstellen"
+
+#: icemac/addressbook/browser/archive/person.py:12
+msgid "Archival data"
+msgstr "Archivierungsdaten"
+
+#: icemac/addressbook/browser/archive/person.py:63
+msgid ""
+"Do you really want to unarchive this person? Afterwards the person is no "
+"longer in the archive. Editing and finding using searches is possible again."
+msgstr ""
+"Wollen Sie diese Person wirklich wiederherstellen? Danach ist die Person "
+"nicht länger im Archiv. Ihre Daten können wieder bearbeitet werden und sie "
+"kann auch wieder über die Suche gefunden werden."
+
+#: icemac/addressbook/browser/archive/person.py:66
+msgid "Unarchiving canceled."
+msgstr "Wiederherstellen abgebrochen."
+
+#: icemac/addressbook/browser/archive/person.py:72
+msgid "Yes, unarchive"
+msgstr "Ja, wiederherstellen."
+
+#: icemac/addressbook/browser/archive/person.py:74
+msgid "\"${title}\" unarchived."
+msgstr "„${title}“ wiederhergestellt."
 
 #: icemac/addressbook/browser/authentication/authviewlet.py:11
 msgid "logout"
@@ -1010,80 +1065,85 @@ msgstr "weiterleiten"
 msgid "successful"
 msgstr "erfolgreich"
 
-#: icemac/addressbook/browser/authentication/session.py:18
+#: icemac/addressbook/browser/authentication/session.py:22
 msgid "To log-in enter your username and password and submit the form."
 msgstr "Zum Anmelden bitte Anmeldenamen und Passwort eingeben."
 
-#: icemac/addressbook/browser/authentication/session.py:28
+#: icemac/addressbook/browser/authentication/session.py:32
+#: icemac/addressbook/browser/authentication/session.py:57
 msgid "Login"
 msgstr "Anmeldung"
 
-#: icemac/addressbook/browser/authentication/session.py:33
+#: icemac/addressbook/browser/authentication/session.py:37
 msgid "You have been logged-in successfully."
 msgstr "Erfolgreich angemeldet."
 
-#: icemac/addressbook/browser/authentication/session.py:42
+#: icemac/addressbook/browser/authentication/session.py:46
 msgid "Login failed. Username and/or password might be wrong."
 msgstr "Anmeldung fehlgeschlagen. Anmeldename und/oder Passwort sind falsch."
 
-#: icemac/addressbook/browser/base.py:140
+#: icemac/addressbook/browser/authentication/session.py:68
+msgid "Login failed"
+msgstr "Anmeldung fehlgeschlagen"
+
+#: icemac/addressbook/browser/base.py:141
 msgid "Add"
 msgstr "Hinzufügen"
 
-#: icemac/addressbook/browser/base.py:144
+#: icemac/addressbook/browser/base.py:145
 msgid "\"${title}\" added."
 msgstr "„${title}“ hinzugefügt."
 
-#: icemac/addressbook/browser/base.py:149 icemac/addressbook/browser/base.py:229
+#: icemac/addressbook/browser/base.py:150 icemac/addressbook/browser/base.py:230
 msgid "Cancel"
 msgstr "Abbrechen"
 
-#: icemac/addressbook/browser/base.py:153
+#: icemac/addressbook/browser/base.py:154
 msgid "Addition canceled."
 msgstr "Hinzufügen abgebrochen."
 
-#: icemac/addressbook/browser/base.py:283
+#: icemac/addressbook/browser/base.py:284
 msgid "No, cancel"
 msgstr "Nein, abbrechen."
 
-#: icemac/addressbook/browser/base.py:292
+#: icemac/addressbook/browser/base.py:293
 msgid "Do you really want to delete this entry?"
 msgstr "Wollen Sie diesen Eintrag wirklich löschen?"
 
-#: icemac/addressbook/browser/base.py:295
+#: icemac/addressbook/browser/base.py:296
 msgid "Deletion canceled."
 msgstr "Löschen abgebrochen."
 
-#: icemac/addressbook/browser/base.py:298
+#: icemac/addressbook/browser/base.py:299
 msgid "Yes, delete"
 msgstr "Ja, löschen."
 
-#: icemac/addressbook/browser/base.py:305
+#: icemac/addressbook/browser/base.py:310
 msgid "\"${title}\" deleted."
 msgstr "„${title}“ gelöscht."
 
-#: icemac/addressbook/browser/base.py:349
+#: icemac/addressbook/browser/base.py:368
 msgid "Do you really want to clone this entry?"
 msgstr "Wollen Sie diesen Eintrag wirklich kopieren?"
 
-#: icemac/addressbook/browser/base.py:350
+#: icemac/addressbook/browser/base.py:369
 msgid "Cloning canceled."
 msgstr "Kopieren abgebrochen."
 
-#: icemac/addressbook/browser/base.py:353
+#: icemac/addressbook/browser/base.py:372
 msgid "Yes, clone"
 msgstr "Ja, kopieren."
 
-#: icemac/addressbook/browser/base.py:367
+#: icemac/addressbook/browser/base.py:386
 msgid "\"${object}\" cloned."
 msgstr "„${object}“ kopiert."
 
-#: icemac/addressbook/browser/breadcrumb.py:167
+#: icemac/addressbook/browser/breadcrumb.py:177
 #: icemac/addressbook/preferences/configure.zcml:35
 msgid "Preferences"
 msgstr "Einstellungen"
 
-#: icemac/addressbook/browser/breadcrumb.py:231
+#: icemac/addressbook/browser/breadcrumb.py:241
 msgid "Not Found"
 msgstr "Nicht gefunden"
 
@@ -1103,12 +1163,12 @@ msgstr "Ich verstehe!"
 msgid "Read more."
 msgstr "Weiterlesen."
 
-#: icemac/addressbook/browser/entities/configure.zcml:11
+#: icemac/addressbook/browser/entities/configure.zcml:19
 #: icemac/addressbook/browser/entities/entities.py:27
 msgid "Entities"
 msgstr "Entitäten"
 
-#: icemac/addressbook/browser/entities/configure.zcml:70
+#: icemac/addressbook/browser/entities/configure.zcml:78
 msgid "field"
 msgstr "Feld"
 
@@ -1133,7 +1193,7 @@ msgid "move-down-table-cell"
 msgstr "unten"
 
 #: icemac/addressbook/browser/entities/entities.py:63
-#: icemac/addressbook/browser/entities/fields.py:70
+#: icemac/addressbook/browser/entities/fields.py:164
 msgid "Edit fields"
 msgstr "Felder bearbeiten"
 
@@ -1149,23 +1209,34 @@ msgstr "Entität „${entity}“ nach oben bewegt."
 msgid "Moved ${entity} down."
 msgstr "Entität „${entity}“ nach unten bewegt."
 
-#: icemac/addressbook/browser/entities/fields.py:116
+#: icemac/addressbook/browser/entities/fields.py:48
+#: icemac/addressbook/browser/entities/fields.py:55
+msgid "Delete the value and submit the form to reset to the default value."
+msgstr ""
+"Löschen Sie den Wert des Feldes und Speichern Sie das Formular, um zum "
+"voreingestellten Wert zurückzukehren."
+
+#: icemac/addressbook/browser/entities/fields.py:54
+msgid "description"
+msgstr "Beschreibung"
+
+#: icemac/addressbook/browser/entities/fields.py:229
 msgid "Saved sortorder."
 msgstr "Reihenfolge gespeichert."
 
-#: icemac/addressbook/browser/entities/fields.py:123
+#: icemac/addressbook/browser/entities/fields.py:236
 msgid "Add new field"
 msgstr "Neues Feld hinzufügen"
 
-#: icemac/addressbook/browser/entities/fields.py:143
+#: icemac/addressbook/browser/entities/fields.py:256
 msgid "Edit field"
 msgstr "Feld bearbeiten"
 
-#: icemac/addressbook/browser/entities/fields.py:151
+#: icemac/addressbook/browser/entities/fields.py:264
 msgid "Delete field"
 msgstr "Feld löschen"
 
-#: icemac/addressbook/browser/entities/fields.py:152
+#: icemac/addressbook/browser/entities/fields.py:265
 msgid ""
 "Caution: When you delete this field, possibly data will get lost. Namely the "
 "data which was entered into this field when it was displayed in a form of an "
@@ -1175,11 +1246,19 @@ msgstr ""
 "Und zwar die Daten, die in dieses Feld eingegeben wurden, als es in einem "
 "Formular eines Objekts angezeigt wurde."
 
+#: icemac/addressbook/browser/entities/fields.py:383
+msgid "Rename field"
+msgstr "Feld umbenennen"
+
 #: icemac/addressbook/browser/entities/fields_list.pt:7
 msgid "Field"
 msgstr "Feld"
 
-#: icemac/addressbook/browser/entities/fields_list.pt:27
+#: icemac/addressbook/browser/entities/fields_list.pt:8
+msgid "Type"
+msgstr "Feldtyp"
+
+#: icemac/addressbook/browser/entities/fields_list.pt:29
 msgid ""
 "You can reorder the fields using drag'n'drop. To store a changed order use "
 "the `Save sortorder` button below."
@@ -1187,7 +1266,7 @@ msgstr ""
 "Sie können die Felder mittels Drag & Drop umsortieren. Benutzen danach Sie "
 "die Schaltfläche „Reihenfolge speichern”."
 
-#: icemac/addressbook/browser/entities/fields_list.pt:34
+#: icemac/addressbook/browser/entities/fields_list.pt:36
 msgid "Save sortorder"
 msgstr "Reihenfolge speichern"
 
@@ -1215,14 +1294,14 @@ msgstr "Wollen Sie diese Datei wirklich löschen?"
 msgid "Download file"
 msgstr "Datei herunterladen"
 
-#: icemac/addressbook/browser/interfaces.py:24
-#: icemac/addressbook/browser/search/result/handler/delete.py:19
+#: icemac/addressbook/browser/interfaces.py:26
+#: icemac/addressbook/browser/search/result/handler/base.py:48
 msgid "number of persons"
 msgstr "Anzahl der Personen"
 
 #: icemac/addressbook/browser/keyword/configure.zcml:17
 #: icemac/addressbook/browser/keyword/keyword.py:93
-#: icemac/addressbook/interfaces.py:163 icemac/addressbook/keyword.py:43
+#: icemac/addressbook/interfaces.py:177 icemac/addressbook/keyword.py:43
 msgid "keyword"
 msgstr "Schlagwort"
 
@@ -1251,11 +1330,11 @@ msgstr "Wollen Sie dieses Schlagwort wirklich löschen?"
 msgid "No keywords defined yet."
 msgstr "Es sind noch keine Schlagwörter definiert."
 
-#: icemac/addressbook/browser/layout.pt:21
+#: icemac/addressbook/browser/layout.pt:23
 msgid "Information about icemac.addressbook"
 msgstr "Informationen über icemac.addressbook"
 
-#: icemac/addressbook/browser/layout.pt:21
+#: icemac/addressbook/browser/layout.pt:23
 msgid "info-i"
 msgstr "Informationen"
 
@@ -1276,10 +1355,6 @@ msgstr "Stammdaten"
 #: icemac/addressbook/browser/menus/add-menu.pt:5
 msgid "Add-menu-Add"
 msgstr "Hinzufügen:"
-
-#: icemac/addressbook/browser/metadata.py:14
-msgid "metadata"
-msgstr "Metadaten"
 
 #: icemac/addressbook/browser/metadata.py:55
 msgid "Modification Date (${timezone})"
@@ -1351,7 +1426,7 @@ msgstr "Homepage-Adresse löschen"
 msgid "Do you really want to delete this home page address?"
 msgstr "Wollen Sie diese Homepage-Adresse wirklich löschen?"
 
-#: icemac/addressbook/browser/person/configure.zcml:88
+#: icemac/addressbook/browser/person/configure.zcml:96
 msgid "home page"
 msgstr "Homepage-Adresse"
 
@@ -1373,61 +1448,96 @@ msgstr "Personendaten exportieren"
 msgid "iCalendar export of birth date (.ics file)"
 msgstr "iCalendar-Export des Geburtsdatums als .ics-Datei"
 
-#: icemac/addressbook/browser/person/list.pt:2
+#: icemac/addressbook/browser/person/list.py:17
 msgid "Persons"
 msgstr "Personen"
 
-#: icemac/addressbook/browser/person/list.py:17
+#: icemac/addressbook/browser/person/list.py:18
 msgid "There are no persons entered yet, click on \"Add person\" to create one."
 msgstr ""
 "Es sind keine Personen in diesem Adressbuch erfasst. Wählen Sie „Hinzufügen: "
 "Person“ aus, um eine Person zu erfassen."
 
-#: icemac/addressbook/browser/person/person.py:70
+#: icemac/addressbook/browser/person/person.py:90
 msgid "Add new person"
 msgstr "Neue Person hinzufügen"
 
-#: icemac/addressbook/browser/person/person.py:121
+#: icemac/addressbook/browser/person/person.py:141
 msgid "Edit person data"
 msgstr "Personendaten bearbeiten"
 
-#: icemac/addressbook/browser/person/person.py:174
-#: icemac/addressbook/export/xls/simple.py:166
+#: icemac/addressbook/browser/person/person.py:194
+#: icemac/addressbook/export/xls/simple.py:168
 msgid "main ${address}"
 msgstr "bevorzugte ${address}"
 
-#: icemac/addressbook/browser/person/person.py:176
-#: icemac/addressbook/export/xls/simple.py:182
+#: icemac/addressbook/browser/person/person.py:196
+#: icemac/addressbook/export/xls/simple.py:184
 msgid "other ${address}"
 msgstr "weitere ${address}"
 
-#: icemac/addressbook/browser/person/person.py:198
-#: icemac/addressbook/browser/person/person.py:279
+#: icemac/addressbook/browser/person/person.py:218
+#: icemac/addressbook/browser/person/person.py:340
 msgid "Clone person"
 msgstr "Person kopieren"
 
-#: icemac/addressbook/browser/person/person.py:204
+#: icemac/addressbook/browser/person/person.py:224
+#: icemac/addressbook/browser/person/person.py:289
+msgid "Archive person"
+msgstr "Archivieren"
+
+#: icemac/addressbook/browser/person/person.py:233
 msgid "Delete whole person"
 msgstr "ganze Person löschen"
 
-#: icemac/addressbook/browser/person/person.py:212
-#: icemac/addressbook/browser/person/person.py:318
+#: icemac/addressbook/browser/person/person.py:241
+#: icemac/addressbook/browser/person/person.py:379
 msgid "Delete single entry"
 msgstr "einzelnen Eintrag löschen"
 
-#: icemac/addressbook/browser/person/person.py:219
+#: icemac/addressbook/browser/person/person.py:248
 msgid "Export"
 msgstr "Exportieren"
 
-#: icemac/addressbook/browser/person/person.py:259
+#: icemac/addressbook/browser/person/person.py:290
+msgid ""
+"Do you really want to archive this person? Afterwards the person can only be "
+"found in the archive, neither be edited nor found using searches."
+msgstr ""
+"Wollen Sie diese Person wirklich archivieren? Danach befindet sie sich im "
+"Archiv und kann weder bearbeitet noch durch die Suchfunktion gefunden werden."
+
+#: icemac/addressbook/browser/person/person.py:293
+#: icemac/addressbook/browser/search/result/handler/archive.py:64
+msgid "Archiving canceled."
+msgstr "Archivieren abgebrochen."
+
+#: icemac/addressbook/browser/person/person.py:299
+#: icemac/addressbook/browser/search/result/handler/archive.py:71
+msgid "Yes, archive"
+msgstr "Ja, archivieren."
+
+#: icemac/addressbook/browser/person/person.py:306
+msgid ""
+"Failed to archive person: This person is referenced. To archive this person, "
+"remove the reference before."
+msgstr ""
+"Person konnte nicht archiviert werden: Diese Person ist referenziert. Damit "
+"diese Person archiviert werden kann, muss erst die Referenz entfernt werden."
+
+#: icemac/addressbook/browser/person/person.py:310
+msgid "\"${title}\" archived."
+msgstr "„${title}“ archiviert."
+
+#: icemac/addressbook/browser/person/person.py:319
 msgid "Delete person"
 msgstr "Person löschen"
 
-#: icemac/addressbook/browser/person/person.py:260
+#: icemac/addressbook/browser/person/person.py:320
 msgid "Do you really want to delete this person?"
 msgstr "Wollen Sie diese Person und alle ihre Daten wirklich löschen?"
 
-#: icemac/addressbook/browser/person/person.py:270
+#: icemac/addressbook/browser/person/person.py:330
 msgid ""
 "Failed to delete person: This person is referenced. To delete this person, "
 "remove the reference before."
@@ -1435,19 +1545,19 @@ msgstr ""
 "Person konnte nicht gelöscht werden: Diese Person ist referenziert. Damit "
 "diese Person gelöscht werden kann, muss erst die Referenz entfernt werden."
 
-#: icemac/addressbook/browser/person/person.py:280
+#: icemac/addressbook/browser/person/person.py:341
 msgid "Do you really want to clone this person?"
 msgstr "Wollen Sie wirklich diese Person kopieren?"
 
-#: icemac/addressbook/browser/person/person.py:312
+#: icemac/addressbook/browser/person/person.py:373
 msgid "Entries"
 msgstr "Einträge"
 
-#: icemac/addressbook/browser/person/person.py:319
+#: icemac/addressbook/browser/person/person.py:380
 msgid "Please choose an entry for deletion:"
 msgstr "Bitte wählen Sie einen Eintrag zum Löschen aus:"
 
-#: icemac/addressbook/browser/person/person.py:324
+#: icemac/addressbook/browser/person/person.py:385
 msgid "Delete entry"
 msgstr "Eintrag löschen"
 
@@ -1551,7 +1661,7 @@ msgstr "Suchbegriffe verknüpfen"
 
 #: icemac/addressbook/browser/search/multi_keyword.py:38
 #: icemac/addressbook/browser/search/multi_keyword.py:40
-#: icemac/addressbook/interfaces.py:227 icemac/addressbook/interfaces.py:229
+#: icemac/addressbook/interfaces.py:241 icemac/addressbook/interfaces.py:243
 msgid "keywords"
 msgstr "Schlagwörter"
 
@@ -1589,6 +1699,57 @@ msgstr "Auf ausgewählte Personen anwenden"
 msgid "Apply"
 msgstr "Anwenden"
 
+#: icemac/addressbook/browser/search/result/handler/archive.py:32
+msgid ""
+"You are not able to archive a person who is referenced. You have to remove "
+"the reference before."
+msgstr ""
+"Sie können referenzierte Personen nicht archvieren. Entfernen sie dazu zuerst "
+"die Referenz."
+
+#: icemac/addressbook/browser/search/result/handler/archive.py:60
+msgid "Archive persons"
+msgstr "Personen archivieren"
+
+#: icemac/addressbook/browser/search/result/handler/archive.py:61
+msgid ""
+"Do you really want to archive the selected persons? Afterwards these persons "
+"can only be found in the archive, neither be edited nor found using searches."
+msgstr ""
+"Wollen Sie die ausgewählten Person wirklich archivieren? Danach befinden sie "
+"sich im Archiv und können weder bearbeitet noch durch die Suchfunktion "
+"gefunden werden."
+
+#: icemac/addressbook/browser/search/result/handler/archive.py:78
+msgid "Selected persons archived: ${num}"
+msgstr "Ausgewählte Personen archiviert: ${num}"
+
+#: icemac/addressbook/browser/search/result/handler/birthday/__init__.py:12
+#: icemac/addressbook/browser/search/result/handler/birthday/list.pt:2
+msgid "Birthday list"
+msgstr "Geburtstagsliste"
+
+#: icemac/addressbook/browser/search/result/handler/birthday/configure.zcml:14
+msgid "Birthday list (Person names sorted by birthday.)"
+msgstr ""
+"Geburtstagsliste (Namen und Geburtsdatum der Personen nach Geburtstag "
+"sortiert)"
+
+#: icemac/addressbook/browser/search/result/handler/birthday/list.pt:7
+#: icemac/addressbook/browser/table.py:94
+msgid "Name"
+msgstr "Name"
+
+#: icemac/addressbook/browser/search/result/handler/birthday/list.pt:10
+msgid "Birthday"
+msgstr "Geburtsdatum"
+
+#: icemac/addressbook/browser/search/result/handler/birthday/list.pt:25
+#: icemac/addressbook/browser/search/result/handler/checklist/list.pt:17
+#: icemac/addressbook/browser/search/result/handler/names/list.pt:7
+msgid "Number of persons: ${count}"
+msgstr "Anzahl der Personen: ${count}"
+
 #: icemac/addressbook/browser/search/result/handler/checklist/__init__.py:11
 msgid "Check list"
 msgstr "Ankreuzliste"
@@ -1601,32 +1762,31 @@ msgstr "Ankreuzliste (Liste von Personennamen mit Ankreuzfeldern.)"
 msgid "Checklist of selected persons"
 msgstr "Liste ausgewählter Personen"
 
-#: icemac/addressbook/browser/search/result/handler/checklist/list.pt:17
-#: icemac/addressbook/browser/search/result/handler/names/list.pt:7
-msgid "Number of persons: ${count}"
-msgstr "Anzahl der Personen: ${count}"
-
-#: icemac/addressbook/browser/search/result/handler/configure.zcml:24
+#: icemac/addressbook/browser/search/result/handler/configure.zcml:22
 msgid "Deletion (Deletes selected persons.)"
 msgstr "Löschung (Löscht ausgewählte Personen.)"
 
-#: icemac/addressbook/browser/search/result/handler/delete.py:38
+#: icemac/addressbook/browser/search/result/handler/configure.zcml:46
+msgid "Archive (Archives the selected persons.)"
+msgstr "Archivieren (Verschiebt die ausgewählten Personen ins Archiv.)"
+
+#: icemac/addressbook/browser/search/result/handler/delete.py:28
 msgid ""
-"You are not able to delete a person which is referenced. You have to remove "
-"the reference before."
+"You are not able to delete a person who is referenced. You have to remove the "
+"reference before."
 msgstr ""
-"Sie können referenzierte Personen nicht löschen. Entfernen sie dazu zuerst "
+"Sie können eine referenzierte Person nicht löschen. Entfernen sie dazu zuerst "
 "die Referenz."
 
-#: icemac/addressbook/browser/search/result/handler/delete.py:49
+#: icemac/addressbook/browser/search/result/handler/delete.py:39
 msgid "Delete persons"
 msgstr "Personen löschen"
 
-#: icemac/addressbook/browser/search/result/handler/delete.py:50
+#: icemac/addressbook/browser/search/result/handler/delete.py:40
 msgid "Do you really want to delete the selected persons?"
 msgstr "Wollen Sie die ausgewählten Personen wirklich löschen?"
 
-#: icemac/addressbook/browser/search/result/handler/delete.py:59
+#: icemac/addressbook/browser/search/result/handler/delete.py:49
 msgid "Selected persons deleted: ${num}"
 msgstr "Ausgewählte Personen gelöscht: ${num}"
 
@@ -1818,10 +1978,6 @@ msgstr "Keine Personen gefunden."
 msgid "Please choose a search."
 msgstr "Bitte wählen Sie eine Suche aus."
 
-#: icemac/addressbook/browser/table.py:94
-msgid "Name"
-msgstr "Name"
-
 #: icemac/addressbook/browser/wizard-step.pt:9
 msgid "Steps:"
 msgstr "Schritte:"
@@ -1830,7 +1986,7 @@ msgstr "Schritte:"
 msgid "Current step:"
 msgstr "Derzeitiger Schritt:"
 
-#: icemac/addressbook/export/xls/simple.py:70
+#: icemac/addressbook/export/xls/simple.py:67
 msgid "Address book - Export"
 msgstr "Adressbuch - Export"
 
@@ -1862,15 +2018,28 @@ msgstr "Größe"
 msgid "Size in bytes"
 msgstr "Größe in Byte"
 
-#: icemac/addressbook/interfaces.py:128
+#: icemac/addressbook/interfaces.py:131
 msgid "favicon"
 msgstr "Favicon"
 
-#: icemac/addressbook/interfaces.py:132
+#: icemac/addressbook/interfaces.py:136 icemac/addressbook/interfaces.py:142
+msgid "Deselected tabs"
+msgstr "abgewählte Tabs"
+
+#: icemac/addressbook/interfaces.py:137
+msgid ""
+"The tabs selected here are not shown in the navigation. Deselecting a tab can "
+"mean to disable the whole feature."
+msgstr ""
+"Die hier ausgewählten Tabs werden nicht in der Navigation angezeigt. Wenn ein "
+"Tag hier ausgewählt wird, kann das bedeuten, dass die gesamte Funktion "
+"deaktiviert wird."
+
+#: icemac/addressbook/interfaces.py:146
 msgid "start page after log-in"
 msgstr "Startseite nach dem Anmelden"
 
-#: icemac/addressbook/interfaces.py:138
+#: icemac/addressbook/interfaces.py:152
 msgid ""
 "Fallback in case a user has not set up his personal time zone in the "
 "preferences."
@@ -1878,79 +2047,91 @@ msgstr ""
 "Alternativ-Zeitzone für Nutzer, die keine eigene Zeitzone in den "
 "Einstellungen festgelegt haben."
 
-#: icemac/addressbook/interfaces.py:212
+#: icemac/addressbook/interfaces.py:226
 msgid "first name"
 msgstr "Vorname"
 
-#: icemac/addressbook/interfaces.py:213
+#: icemac/addressbook/interfaces.py:227
 msgid "last name"
 msgstr "Familienname"
 
-#: icemac/addressbook/interfaces.py:225
+#: icemac/addressbook/interfaces.py:239
 msgid "birth date"
 msgstr "Geburtsdatum"
 
-#: icemac/addressbook/interfaces.py:246
+#: icemac/addressbook/interfaces.py:270
+msgid "archival date"
+msgstr "Datum"
+
+#: icemac/addressbook/interfaces.py:271
+msgid "Date when the person was archived."
+msgstr "Zeitpunkt zu dem die Person archiviert wurde."
+
+#: icemac/addressbook/interfaces.py:274
+msgid "archived by"
+msgstr "archiviert durch"
+
+#: icemac/addressbook/interfaces.py:293
 msgid "address prefix"
 msgstr "Adresszusatz"
 
-#: icemac/addressbook/interfaces.py:247
+#: icemac/addressbook/interfaces.py:294
 msgid "e. g. company name or c/o"
 msgstr "z. B. Firmenname oder c/o"
 
-#: icemac/addressbook/interfaces.py:248
+#: icemac/addressbook/interfaces.py:295
 msgid "street"
 msgstr "Straße"
 
-#: icemac/addressbook/interfaces.py:249
+#: icemac/addressbook/interfaces.py:296
 msgid "city"
 msgstr "Ort"
 
-#: icemac/addressbook/interfaces.py:250
+#: icemac/addressbook/interfaces.py:297
 msgid "zip"
 msgstr "PLZ"
 
-#: icemac/addressbook/interfaces.py:252
+#: icemac/addressbook/interfaces.py:299
 msgid "country"
 msgstr "Land"
 
-#: icemac/addressbook/interfaces.py:268 icemac/addressbook/sources.py:55
+#: icemac/addressbook/interfaces.py:315 icemac/addressbook/sources.py:55
 msgid "URL"
 msgstr "URL"
 
-#: icemac/addressbook/interfaces.py:274
+#: icemac/addressbook/interfaces.py:321
 msgid "number"
 msgstr "Nummer"
 
-#: icemac/addressbook/interfaces.py:281
+#: icemac/addressbook/interfaces.py:328
 msgid "main postal address"
 msgstr "bevorzugte Anschrift"
 
-#: icemac/addressbook/interfaces.py:284
+#: icemac/addressbook/interfaces.py:331
 msgid "main phone number"
 msgstr "bevorzugte Telefonnummer"
 
-#: icemac/addressbook/interfaces.py:287
+#: icemac/addressbook/interfaces.py:334
 msgid "main e-mail address"
 msgstr "bevorzugte E-Mail-Adresse"
 
-#: icemac/addressbook/interfaces.py:290
+#: icemac/addressbook/interfaces.py:337
 msgid "main home page address"
 msgstr "bevorzugte Homepage-Adresse"
 
-#: icemac/addressbook/interfaces.py:418
+#: icemac/addressbook/interfaces.py:465
 msgid "type"
 msgstr "Art"
 
-#: icemac/addressbook/interfaces.py:422
+#: icemac/addressbook/interfaces.py:469
 msgid "choice field values"
 msgstr "mögliche Werte des Auswahlfelds"
 
-#: icemac/addressbook/interfaces.py:423
+#: icemac/addressbook/interfaces.py:470
 msgid "value"
 msgstr "Wert"
 
-#: icemac/addressbook/interfaces.py:430
+#: icemac/addressbook/interfaces.py:477
 msgid "type \"choice\" requires at least one field value."
 msgstr "Ein Auswahlfeld benötigt mindestens einen möglichen Wert."
 
@@ -1988,23 +2169,28 @@ msgstr "ViewAddressBook"
 
 #: icemac/addressbook/permissions.zcml:33 icemac/addressbook/permissions.zcml:38
 #: icemac/addressbook/permissions.zcml:48 icemac/addressbook/permissions.zcml:58
-#: icemac/addressbook/permissions.zcml:64 icemac/addressbook/permissions.zcml:69
-#: icemac/addressbook/permissions.zcml:74 icemac/addressbook/permissions.zcml:80
-#: icemac/addressbook/permissions.zcml:85 icemac/addressbook/permissions.zcml:90
-#: icemac/addressbook/permissions.zcml:96
-#: icemac/addressbook/permissions.zcml:101
+#: icemac/addressbook/permissions.zcml:74 icemac/addressbook/permissions.zcml:79
+#: icemac/addressbook/permissions.zcml:84 icemac/addressbook/permissions.zcml:90
+#: icemac/addressbook/permissions.zcml:95
+#: icemac/addressbook/permissions.zcml:100
 #: icemac/addressbook/permissions.zcml:106
-#: icemac/addressbook/permissions.zcml:112
-#: icemac/addressbook/permissions.zcml:117
+#: icemac/addressbook/permissions.zcml:111
+#: icemac/addressbook/permissions.zcml:116
 #: icemac/addressbook/permissions.zcml:122
-#: icemac/addressbook/permissions.zcml:128
-#: icemac/addressbook/permissions.zcml:133
+#: icemac/addressbook/permissions.zcml:127
+#: icemac/addressbook/permissions.zcml:132
 #: icemac/addressbook/permissions.zcml:138
-#: icemac/addressbook/permissions.zcml:144
-#: icemac/addressbook/permissions.zcml:149
+#: icemac/addressbook/permissions.zcml:143
+#: icemac/addressbook/permissions.zcml:148
 #: icemac/addressbook/permissions.zcml:154
-#: icemac/addressbook/permissions.zcml:160
-#: icemac/addressbook/permissions.zcml:166
+#: icemac/addressbook/permissions.zcml:159
+#: icemac/addressbook/permissions.zcml:164
+#: icemac/addressbook/permissions.zcml:170
+#: icemac/addressbook/permissions.zcml:176
+#: icemac/addressbook/permissions.zcml:182
+#: icemac/addressbook/permissions.zcml:187
+#: icemac/addressbook/permissions.zcml:192
+#: icemac/addressbook/permissions.zcml:197
 msgid "XXX"
 msgstr "XXX"
 
@@ -2016,7 +2202,15 @@ msgstr "Edit person contents"
 msgid "View the name of the person belonging to the current user."
 msgstr "View the name of the person belonging to the current user."
 
-#: icemac/addressbook/person.py:92
+#: icemac/addressbook/permissions.zcml:63
+msgid "Export a person and its data."
+msgstr "Export a person and its data."
+
+#: icemac/addressbook/permissions.zcml:68
+msgid "List the persons in the address book or search for them."
+msgstr "List the persons in the address book or search for them."
+
+#: icemac/addressbook/person.py:202
 msgid "main adresses and numbers"
 msgstr "bevorzugte Adressen und Nummern"
 
@@ -2126,27 +2320,43 @@ msgstr "Anmerkungen zum Benutzer."
 msgid "<no person>"
 msgstr "<keine Person>"
 
-#: icemac/addressbook/roles.zcml:6
+#: icemac/addressbook/roles.zcml:40
 msgid "Editor"
 msgstr "Adressbuch lesen und schreiben"
 
-#: icemac/addressbook/roles.zcml:6
+#: icemac/addressbook/roles.zcml:40
 msgid "Role which allows global editing of data"
 msgstr "Role which allows global editing of data"
 
-#: icemac/addressbook/roles.zcml:51
+#: icemac/addressbook/roles.zcml:82
 msgid "Role which allows global visiting of data"
 msgstr "Role which allows global visiting of data"
 
-#: icemac/addressbook/roles.zcml:51
+#: icemac/addressbook/roles.zcml:82
 msgid "Visitor"
 msgstr "Adressbuch lesen"
 
-#: icemac/addressbook/roles.zcml:77
+#: icemac/addressbook/roles.zcml:104
+msgid "Archivist"
+msgstr "Archivar"
+
+#: icemac/addressbook/roles.zcml:104
+msgid "Role which can manage the archive."
+msgstr "Rolle, die es erlaubt, das Archiv zu betreuen."
+
+#: icemac/addressbook/roles.zcml:121
+msgid "Archive Visitor"
+msgstr "Archivbesucher"
+
+#: icemac/addressbook/roles.zcml:121
+msgid "Role which can access the archive (read only)."
+msgstr "Rolle mit der man im Archiv lesenden Zugriff hat."
+
+#: icemac/addressbook/roles.zcml:137
 msgid "Administrator"
 msgstr "Verwalten"
 
-#: icemac/addressbook/roles.zcml:77
+#: icemac/addressbook/roles.zcml:137
 msgid "Administrator for the Addressbook"
 msgstr "Verwalter des Adressbuchs"
 
@@ -2189,6 +2399,9 @@ msgstr "Textfeld"
 #: icemac/addressbook/sources.py:53
 msgid "text line"
 msgstr "Textzeile"
+
+#~ msgid "Archival canceled."
+#~ msgstr "Archivieren abgebrochen."
 
 #~ msgid "Edit recurring event"
 #~ msgstr "Wiederkehrendes Ereignis bearbeiten"

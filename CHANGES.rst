@@ -6,6 +6,8 @@ Change log
 
 - Update configuration to `icemac.addressbook >= 9`.
 
+- Add translations for new message ids in `icemac.addressbook >= 9`.
+
 
 2.21 (2019-04-22)
 -----------------
@@ -25,14 +27,6 @@ Change log
 - Change license from ZPL to MIT.
 
 - Add translations for cookie consent.
-
-
-2.18 (2018-03-16)
------------------
-
-- Add German and English translations for new features.
-
-- Also release as wheel.
 
 
 Previous changes
