@@ -1,7 +1,7 @@
 Change log
 ==========
 
-2.23 (unreleased)
+2.23 (2019-10-06)
 -----------------
 
 - Add translations for new message ids in `icemac.addressbook 9.1`.
