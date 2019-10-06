@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Unknown\n"
-"POT-Creation-Date: Thu Sep 26 21:21:33 2019\n"
+"POT-Creation-Date: Sun Oct  6 20:08:16 2019\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -1718,15 +1718,19 @@ msgstr ""
 msgid "Update Wizard"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/handler/update/check.py:52
-msgid "name"
+#: icemac/addressbook/browser/search/result/handler/update/check.py:29
+msgid "previous value"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/handler/update/check.py:56
+#: icemac/addressbook/browser/search/result/handler/update/check.py:39
 msgid "errors"
 msgstr ""
 
-#: icemac/addressbook/browser/search/result/handler/update/check.py:68
+#: icemac/addressbook/browser/search/result/handler/update/check.py:64
+msgid "name"
+msgstr ""
+
+#: icemac/addressbook/browser/search/result/handler/update/check.py:82
 msgid "Check result"
 msgstr ""
 

@@ -14,8 +14,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: icemac.addressbook\n"
-"POT-Creation-Date: Thu Sep 26 21:21:33 2019\n"
-"PO-Revision-Date: 2019-09-26 21:30+0200\n"
+"POT-Creation-Date: Sun Oct  6 20:08:16 2019\n"
+"PO-Revision-Date: 2019-10-06 20:09+0200\n"
 "Last-Translator: Michael Howitz <mh@gocept.com>\n"
 "Language-Team: Michael Howitz <icemac@gmx.net>\n"
 "Language: en\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: zope/app/locales/extract.py\n"
-"X-Generator: Poedit 2.2.3\n"
+"X-Generator: Poedit 2.2.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ../../../../../../parts/omelette\n"
@@ -1823,15 +1823,19 @@ msgstr "Names of selected persons"
 msgid "Update Wizard"
 msgstr "Update Wizard"
 
-#: icemac/addressbook/browser/search/result/handler/update/check.py:52
-msgid "name"
-msgstr "name"
+#: icemac/addressbook/browser/search/result/handler/update/check.py:29
+msgid "previous value"
+msgstr "previous value"
 
-#: icemac/addressbook/browser/search/result/handler/update/check.py:56
+#: icemac/addressbook/browser/search/result/handler/update/check.py:39
 msgid "errors"
 msgstr "errors"
 
-#: icemac/addressbook/browser/search/result/handler/update/check.py:68
+#: icemac/addressbook/browser/search/result/handler/update/check.py:64
+msgid "name"
+msgstr "name"
+
+#: icemac/addressbook/browser/search/result/handler/update/check.py:82
 msgid "Check result"
 msgstr "Check result"
 

@@ -4,7 +4,7 @@ Change log
 2.23 (unreleased)
 -----------------
 
-- Nothing changed yet.
+- Add translations for new message ids in `icemac.addressbook 9.1`.
 
 
 2.22 (2019-09-26)
@@ -25,14 +25,6 @@ Change log
 -----------------
 
 - Update to message ids in `icemac.addressbook >= 8.0`.
-
-
-2.19 (2018-08-03)
------------------
-
-- Change license from ZPL to MIT.
-
-- Add translations for cookie consent.
 
 
 Previous changes
