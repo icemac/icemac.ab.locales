@@ -1,7 +1,7 @@
 Change log
 ==========
 
-2.24 (unreleased)
+2.24 (2019-12-30)
 -----------------
 
 - Adapt translations to `icemac.addressbook 9.2`.
