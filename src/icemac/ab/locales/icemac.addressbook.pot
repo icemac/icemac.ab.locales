@@ -1,6 +1,6 @@
 ##############################################################################
 #
-# Copyright (c) 2003-2017 Zope Foundation and Contributors.
+# Copyright (c) 2003-2019 Zope Foundation and Contributors.
 # All Rights Reserved.
 #
 # This software is subject to the provisions of the Zope Public License,
@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Unknown\n"
-"POT-Creation-Date: Sun Oct  6 20:08:16 2019\n"
+"POT-Creation-Date: Mon Dec 30 21:16:08 2019\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
@@ -38,39 +38,39 @@ msgstr ""
 msgid "Time zone"
 msgstr ""
 
-#: icemac/ab/calendar/browser/calendar.pt:12
+#: icemac/ab/calendar/browser/calendar.pt:18
 msgid "switch to the tabular view for a single month"
 msgstr ""
 
-#: icemac/ab/calendar/browser/calendar.pt:12
+#: icemac/ab/calendar/browser/calendar.pt:18
 #: icemac/ab/calendar/browser/calendar.py:175
 msgid "Month tabular view"
 msgstr ""
 
-#: icemac/ab/calendar/browser/calendar.pt:18
+#: icemac/ab/calendar/browser/calendar.pt:24
 msgid "switch to the tabular view for a whole year"
 msgstr ""
 
-#: icemac/ab/calendar/browser/calendar.pt:18
+#: icemac/ab/calendar/browser/calendar.pt:24
 #: icemac/ab/calendar/browser/calendar.py:249
 msgid "Year tabular view"
 msgstr ""
 
-#: icemac/ab/calendar/browser/calendar.pt:24
+#: icemac/ab/calendar/browser/calendar.pt:30
 msgid "switch to the event views"
 msgstr ""
 
-#: icemac/ab/calendar/browser/calendar.pt:24
+#: icemac/ab/calendar/browser/calendar.pt:30
 #: icemac/ab/calendar/eventview/masterdata.py:23
 #: icemac/ab/calendar/eventview/masterdata.zcml:8
 msgid "Event views"
 msgstr ""
 
-#: icemac/ab/calendar/browser/calendar.pt:33
+#: icemac/ab/calendar/browser/calendar.pt:40
 msgid "switch to previous month"
 msgstr ""
 
-#: icemac/ab/calendar/browser/calendar.pt:47
+#: icemac/ab/calendar/browser/calendar.pt:54
 msgid "switch to next month"
 msgstr ""
 
@@ -285,7 +285,7 @@ msgstr ""
 #: icemac/ab/calendar/eventview/interfaces.py:57
 #: icemac/addressbook/browser/entities/fields.py:47
 #: icemac/addressbook/interfaces.py:129
-#: icemac/addressbook/interfaces.py:467
+#: icemac/addressbook/interfaces.py:468
 msgid "title"
 msgstr ""
 
@@ -428,7 +428,7 @@ msgstr ""
 #: icemac/addressbook/browser/search/result/handler/archive.py:22
 #: icemac/addressbook/browser/search/result/handler/delete.py:18
 #: icemac/addressbook/interfaces.py:245
-#: icemac/addressbook/interfaces.py:471
+#: icemac/addressbook/interfaces.py:472
 #: icemac/addressbook/principals/interfaces.py:45
 msgid "notes"
 msgstr ""
@@ -761,17 +761,17 @@ msgid "Map fields"
 msgstr ""
 
 #: icemac/ab/importer/browser/wizard/map.py:500
-#: icemac/ab/importer/browser/wizard/review.py:125
+#: icemac/ab/importer/browser/wizard/review.py:126
 msgid "main"
 msgstr ""
 
 #: icemac/ab/importer/browser/wizard/map.py:505
-#: icemac/ab/importer/browser/wizard/review.py:135
+#: icemac/ab/importer/browser/wizard/review.py:136
 msgid "other"
 msgstr ""
 
 #: icemac/ab/importer/browser/wizard/map.py:506
-#: icemac/ab/importer/browser/wizard/review.py:136
+#: icemac/ab/importer/browser/wizard/review.py:137
 msgid "${prefix} ${title}"
 msgstr ""
 
@@ -795,27 +795,27 @@ msgstr ""
 msgid "File format settings"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/review.py:100
+#: icemac/ab/importer/browser/wizard/review.py:101
 msgid "Keep imported data?"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/review.py:108
+#: icemac/ab/importer/browser/wizard/review.py:109
 msgid "There was nothing to import in the import file."
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/review.py:139
+#: icemac/ab/importer/browser/wizard/review.py:140
 msgid "<i>${prefix}</i><br />${title}"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/review.py:144
+#: icemac/ab/importer/browser/wizard/review.py:145
 msgid "<br />${title}"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/review.py:178
+#: icemac/ab/importer/browser/wizard/review.py:179
 msgid "Errors:"
 msgstr ""
 
-#: icemac/ab/importer/browser/wizard/review.py:205
+#: icemac/ab/importer/browser/wizard/review.py:226
 msgid "Review imported data"
 msgstr ""
 
@@ -891,6 +891,10 @@ msgstr ""
 msgid "About icemac.addressbook"
 msgstr ""
 
+#: icemac/addressbook/browser/about/configure.zcml:17
+msgid "About"
+msgstr ""
+
 #: icemac/addressbook/browser/addressbook/configure.zcml:66
 msgid "Address book"
 msgstr ""
@@ -956,7 +960,15 @@ msgid "Search"
 msgstr ""
 
 #: icemac/addressbook/browser/addressbook/welcome.pt:4
-msgid "Welcome to ${title}. Please select one of the tabs above."
+msgid "Welcome to ${title}."
+msgstr ""
+
+#: icemac/addressbook/browser/addressbook/welcome.pt:7
+msgid "Please select one of the tabs above."
+msgstr ""
+
+#: icemac/addressbook/browser/addressbook/welcome.pt:9
+msgid "Please select an item from the burger menu on the left."
 msgstr ""
 
 #: icemac/addressbook/browser/archive/breadcrumb.py:14
@@ -1076,19 +1088,19 @@ msgstr ""
 msgid "\"${title}\" deleted."
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:368
+#: icemac/addressbook/browser/base.py:369
 msgid "Do you really want to clone this entry?"
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:369
+#: icemac/addressbook/browser/base.py:370
 msgid "Cloning canceled."
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:372
+#: icemac/addressbook/browser/base.py:373
 msgid "Yes, clone"
 msgstr ""
 
-#: icemac/addressbook/browser/base.py:386
+#: icemac/addressbook/browser/base.py:387
 msgid "\"${object}\" cloned."
 msgstr ""
 
@@ -1269,14 +1281,6 @@ msgstr ""
 msgid "No keywords defined yet."
 msgstr ""
 
-#: icemac/addressbook/browser/layout.pt:23
-msgid "Information about icemac.addressbook"
-msgstr ""
-
-#: icemac/addressbook/browser/layout.pt:23
-msgid "info-i"
-msgstr ""
-
 #: icemac/addressbook/browser/layout.py:46
 msgid "logged in as \"${username}\" -"
 msgstr ""
@@ -1290,7 +1294,7 @@ msgstr ""
 msgid "Master data"
 msgstr ""
 
-#: icemac/addressbook/browser/menus/add-menu.pt:5
+#: icemac/addressbook/browser/menus/add-menu.pt:7
 #. Default: "Add"
 msgid "Add-menu-Add"
 msgstr ""
@@ -1949,44 +1953,44 @@ msgstr ""
 msgid "country"
 msgstr ""
 
-#: icemac/addressbook/interfaces.py:315
+#: icemac/addressbook/interfaces.py:316
 #: icemac/addressbook/sources.py:55
 msgid "URL"
 msgstr ""
 
-#: icemac/addressbook/interfaces.py:321
+#: icemac/addressbook/interfaces.py:322
 msgid "number"
 msgstr ""
 
-#: icemac/addressbook/interfaces.py:328
+#: icemac/addressbook/interfaces.py:329
 msgid "main postal address"
 msgstr ""
 
-#: icemac/addressbook/interfaces.py:331
+#: icemac/addressbook/interfaces.py:332
 msgid "main phone number"
 msgstr ""
 
-#: icemac/addressbook/interfaces.py:334
+#: icemac/addressbook/interfaces.py:335
 msgid "main e-mail address"
 msgstr ""
 
-#: icemac/addressbook/interfaces.py:337
+#: icemac/addressbook/interfaces.py:338
 msgid "main home page address"
 msgstr ""
 
-#: icemac/addressbook/interfaces.py:465
+#: icemac/addressbook/interfaces.py:466
 msgid "type"
 msgstr ""
 
-#: icemac/addressbook/interfaces.py:469
+#: icemac/addressbook/interfaces.py:470
 msgid "choice field values"
 msgstr ""
 
-#: icemac/addressbook/interfaces.py:470
+#: icemac/addressbook/interfaces.py:471
 msgid "value"
 msgstr ""
 
-#: icemac/addressbook/interfaces.py:477
+#: icemac/addressbook/interfaces.py:478
 msgid "type \"choice\" requires at least one field value."
 msgstr ""
 
