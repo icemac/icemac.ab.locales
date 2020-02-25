@@ -4,7 +4,7 @@ Change log
 2.25 (unreleased)
 -----------------
 
-- Nothing changed yet.
+- Move code repository to https://github.com/icemac/icemac.ab.locales.
 
 
 2.24 (2019-12-30)

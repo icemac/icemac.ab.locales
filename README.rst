@@ -6,4 +6,4 @@ the `icemac.ab.*` packages.
 Hacking
 =======
 
-Fork me on: https://bitbucket.org/icemac/icemac.ab.locales
+Fork me at: https://github.com/icemac/icemac.ab.locales
