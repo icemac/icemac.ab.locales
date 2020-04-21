@@ -14,8 +14,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: icemac.addressbook\n"
-"POT-Creation-Date: Mon Dec 30 21:16:08 2019\n"
-"PO-Revision-Date: 2019-12-30 21:19+0100\n"
+"POT-Creation-Date: Tue Apr 21 21:03:10 2020\n"
+"PO-Revision-Date: 2020-04-21 21:05+0200\n"
 "Last-Translator: Michael Howitz <mh@gocept.com>\n"
 "Language-Team: Michael Howitz <icemac@gmx.net>\n"
 "Language: de_DE\n"
@@ -24,19 +24,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: zope/app/locales/extract.py\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 2.3\n"
 "X-Poedit-Basepath: ../../../../../../parts/omelette\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: icemac/ab/calendar/browser/breadcrumb.py:14
 #: icemac/ab/calendar/browser/configure.zcml:33
 #: icemac/ab/calendar/browser/startpage.py:6
-#: icemac/ab/calendar/masterdata/calendar.py:27
+#: icemac/ab/calendar/masterdata/calendar.py:30
 #: icemac/ab/calendar/masterdata/configure.zcml:8
 msgid "Calendar"
 msgstr "Kalender"
 
-#: icemac/ab/calendar/browser/calendar.pt:3 icemac/addressbook/interfaces.py:151
+#: icemac/ab/calendar/browser/calendar.pt:3 icemac/addressbook/interfaces.py:153
 #: icemac/addressbook/preferences/configure.zcml:28
 #: icemac/addressbook/preferences/interfaces.py:37
 msgid "Time zone"
@@ -84,6 +84,7 @@ msgstr "Monat"
 
 #: icemac/ab/calendar/browser/calendar.py:80
 #: icemac/ab/calendar/browser/calendar.py:231
+#: icemac/ab/calendar/masterdata/calendar.py:93
 msgid "year"
 msgstr "Jahr"
 
@@ -144,7 +145,7 @@ msgstr "Wiedergekehrtes Ereignis bearbeiten"
 
 #: icemac/ab/calendar/browser/event.py:267
 #: icemac/addressbook/browser/addressbook/crud.py:43
-#: icemac/addressbook/browser/base.py:214
+#: icemac/addressbook/browser/base.py:218
 #: icemac/addressbook/browser/person/person.py:206
 #: icemac/addressbook/browser/principals/principals.py:157
 msgid "Save"
@@ -163,29 +164,29 @@ msgid "Do you really want to delete this recurred event?"
 msgstr "Wollen Sie dieses wiedergekehrte Ereignis wirklich löschen?"
 
 #: icemac/ab/calendar/browser/event.zcml:45 icemac/ab/calendar/event.py:87
-#: icemac/ab/calendar/event.py:98
+#: icemac/ab/calendar/event.py:98 icemac/ab/calendar/masterdata/calendar.py:109
 msgid "event"
 msgstr "Ereignis"
 
-#: icemac/ab/calendar/browser/interfaces.py:15
-#: icemac/ab/calendar/interfaces.py:182
+#: icemac/ab/calendar/browser/interfaces.py:16
+#: icemac/ab/calendar/interfaces.py:189
 msgid "whole day event?"
 msgstr "Ganztagestermin?"
 
-#: icemac/ab/calendar/browser/interfaces.py:16 icemac/addressbook/sources.py:48
+#: icemac/ab/calendar/browser/interfaces.py:18 icemac/addressbook/sources.py:48
 msgid "date"
 msgstr "Datum"
 
-#: icemac/ab/calendar/browser/interfaces.py:17 icemac/addressbook/sources.py:54
+#: icemac/ab/calendar/browser/interfaces.py:19 icemac/addressbook/sources.py:54
 msgid "time"
 msgstr "Uhrzeit"
 
-#: icemac/ab/calendar/browser/interfaces.py:25
+#: icemac/ab/calendar/browser/interfaces.py:27
 msgid "Either enter a `time` or select `whole day event`!"
 msgstr "Tragen Sie eine Uhrzeit ein oder wählen sie Ganztagestermin aus."
 
-#: icemac/ab/calendar/browser/interfaces.py:31
-#: icemac/ab/calendar/interfaces.py:180
+#: icemac/ab/calendar/browser/interfaces.py:33
+#: icemac/ab/calendar/interfaces.py:186
 #: icemac/ab/calendar/masterdata/event.py:54 icemac/addressbook/sources.py:49
 msgid "datetime"
 msgstr "Datum und Uhrzeit"
@@ -204,7 +205,8 @@ msgstr "﻿Neues Ereignis für diesen Tag hinzufügen."
 msgid "This category already exists."
 msgstr "Diese Ereigniskategorie existiert bereits."
 
-#: icemac/ab/calendar/event.py:176 icemac/ab/calendar/masterdata/event.zcml:27
+#: icemac/ab/calendar/event.py:176 icemac/ab/calendar/masterdata/calendar.py:119
+#: icemac/ab/calendar/masterdata/event.zcml:27
 msgid "recurring event"
 msgstr "Wiederkehrendes Ereignis"
 
@@ -292,7 +294,7 @@ msgstr "4 Wochen"
 
 #: icemac/ab/calendar/eventview/interfaces.py:57
 #: icemac/addressbook/browser/entities/fields.py:47
-#: icemac/addressbook/interfaces.py:129 icemac/addressbook/interfaces.py:468
+#: icemac/addressbook/interfaces.py:131 icemac/addressbook/interfaces.py:471
 msgid "title"
 msgstr "Bezeichnung"
 
@@ -331,7 +333,7 @@ msgstr ""
 "ausgewählten Kategorien gehören."
 
 #: icemac/ab/calendar/eventview/interfaces.py:80
-#: icemac/ab/calendar/interfaces.py:137 icemac/ab/calendar/interfaces.py:179
+#: icemac/ab/calendar/interfaces.py:142 icemac/ab/calendar/interfaces.py:184
 #: icemac/ab/calendar/masterdata/category.py:33
 #: icemac/ab/calendar/masterdata/category.zcml:27
 #: icemac/ab/calexport/interfaces.py:60
@@ -403,15 +405,15 @@ msgstr "EditEventViewConfiguration"
 msgid "AddEventViewConfiguration"
 msgstr "AddEventViewConfiguration"
 
-#: icemac/ab/calendar/interfaces.py:94
+#: icemac/ab/calendar/interfaces.py:99
 msgid "Additional event fields to be displayed in calendar"
 msgstr "Zusätzliche Felder, die in der Kalender-Ansicht angezeigt werden sollen"
 
-#: icemac/ab/calendar/interfaces.py:99
+#: icemac/ab/calendar/interfaces.py:104
 msgid "Person keyword"
 msgstr "Personen-Schlagwort"
 
-#: icemac/ab/calendar/interfaces.py:100
+#: icemac/ab/calendar/interfaces.py:105
 msgid ""
 "Only persons having the keyword assigned which is selected here will show up "
 "in the person list when editing an event. If no keyword is selected all "
@@ -421,46 +423,67 @@ msgstr ""
 "werden. Wenn kein Schlagwort ausgewählt ist, können alle Personen des "
 "Adressbuchs Ereignissen zugeordnet werden."
 
-#: icemac/ab/calendar/interfaces.py:185
+#: icemac/ab/calendar/interfaces.py:192
 msgid "alternative title to category"
 msgstr "Alternativer Titel (überschreibt Kategorie)"
 
-#: icemac/ab/calendar/interfaces.py:187 icemac/ab/calendar/interfaces.py:189
+#: icemac/ab/calendar/interfaces.py:194 icemac/ab/calendar/interfaces.py:196
 #: icemac/ab/calendar/masterdata/event.py:40
 msgid "persons"
 msgstr "Personen"
 
-#: icemac/ab/calendar/interfaces.py:192
+#: icemac/ab/calendar/interfaces.py:199
 msgid "other persons"
 msgstr "weitere Personen"
 
-#: icemac/ab/calendar/interfaces.py:193
+#: icemac/ab/calendar/interfaces.py:200
 msgid "person name"
 msgstr "Name"
 
-#: icemac/ab/calendar/interfaces.py:194
+#: icemac/ab/calendar/interfaces.py:201
 #: icemac/ab/calendar/masterdata/event.py:104
 #: icemac/addressbook/browser/interfaces.py:27
 #: icemac/addressbook/browser/principals/principals.py:71
 #: icemac/addressbook/browser/search/result/handler/archive.py:22
 #: icemac/addressbook/browser/search/result/handler/delete.py:18
-#: icemac/addressbook/interfaces.py:245 icemac/addressbook/interfaces.py:472
+#: icemac/addressbook/interfaces.py:248 icemac/addressbook/interfaces.py:475
 #: icemac/addressbook/principals/interfaces.py:45
 msgid "notes"
 msgstr "Anmerkungen"
 
-#: icemac/ab/calendar/interfaces.py:252
+#: icemac/ab/calendar/interfaces.py:259
 #: icemac/ab/calendar/masterdata/event.py:29
 msgid "recurrence period"
 msgstr "Wiederholung"
 
-#: icemac/ab/calendar/interfaces.py:258
+#: icemac/ab/calendar/interfaces.py:266
 msgid "recurrence end"
 msgstr "endet (leer für nie)"
 
-#: icemac/ab/calendar/masterdata/calendar.py:59
+#: icemac/ab/calendar/masterdata/calendar.py:62
 msgid "Edit settings"
 msgstr "Einstellungen bearbeiten"
+
+#: icemac/ab/calendar/masterdata/calendar.py:83
+msgid "Counts of events per year"
+msgstr "Anzahl von Ereignissen im Jahr"
+
+#: icemac/ab/calendar/masterdata/calendar.py:84
+msgid "No event events created in any year."
+msgstr "Es wurde bisher in keinem Jahr ein Ereignis erstellt."
+
+#: icemac/ab/calendar/masterdata/calendar.py:90
+#: icemac/addressbook/interfaces.py:469
+msgid "type"
+msgstr "Art"
+
+#: icemac/ab/calendar/masterdata/calendar.py:96
+msgid "count"
+msgstr "Anzahl"
+
+#: icemac/ab/calendar/masterdata/calendar.py:120
+msgid "(all years)"
+msgstr "(alle Jahre)"
 
 #: icemac/ab/calendar/masterdata/category.py:21
 #: icemac/ab/calendar/masterdata/category.zcml:9
@@ -490,6 +513,10 @@ msgstr "Wollen Sie diese Ereigniskategorie wirklich löschen?"
 #: icemac/ab/calendar/masterdata/configure.zcml:43
 msgid "Calendar view"
 msgstr "Einstellungen"
+
+#: icemac/ab/calendar/masterdata/configure.zcml:60
+msgid "Event counts"
+msgstr "Ereignisanzahlen"
 
 #: icemac/ab/calendar/masterdata/event.py:23
 #: icemac/ab/calendar/masterdata/event.zcml:9
@@ -880,7 +907,7 @@ msgstr "keine"
 
 #: icemac/addressbook/address.py:64
 #: icemac/addressbook/browser/person/configure.zcml:85
-#: icemac/addressbook/interfaces.py:307
+#: icemac/addressbook/interfaces.py:310
 msgid "e-mail address"
 msgstr "E-Mail-Adresse"
 
@@ -893,7 +920,7 @@ msgstr "Homepage-Adresse"
 msgid "phone number"
 msgstr "Telefonnummer"
 
-#: icemac/addressbook/addressbook.py:75
+#: icemac/addressbook/addressbook.py:79
 #: icemac/addressbook/browser/rootfolder/configure.zcml:17
 msgid "address book"
 msgstr "Adressbuch"
@@ -1100,55 +1127,55 @@ msgstr "Anmeldung fehlgeschlagen. Anmeldename und/oder Passwort sind falsch."
 msgid "Login failed"
 msgstr "Anmeldung fehlgeschlagen"
 
-#: icemac/addressbook/browser/base.py:141
+#: icemac/addressbook/browser/base.py:145
 msgid "Add"
 msgstr "Hinzufügen"
 
-#: icemac/addressbook/browser/base.py:145
+#: icemac/addressbook/browser/base.py:149
 msgid "\"${title}\" added."
 msgstr "„${title}“ hinzugefügt."
 
-#: icemac/addressbook/browser/base.py:150 icemac/addressbook/browser/base.py:230
+#: icemac/addressbook/browser/base.py:154 icemac/addressbook/browser/base.py:234
 msgid "Cancel"
 msgstr "Abbrechen"
 
-#: icemac/addressbook/browser/base.py:154
+#: icemac/addressbook/browser/base.py:158
 msgid "Addition canceled."
 msgstr "Hinzufügen abgebrochen."
 
-#: icemac/addressbook/browser/base.py:284
+#: icemac/addressbook/browser/base.py:288
 msgid "No, cancel"
 msgstr "Nein, abbrechen."
 
-#: icemac/addressbook/browser/base.py:293
+#: icemac/addressbook/browser/base.py:297
 msgid "Do you really want to delete this entry?"
 msgstr "Wollen Sie diesen Eintrag wirklich löschen?"
 
-#: icemac/addressbook/browser/base.py:296
+#: icemac/addressbook/browser/base.py:300
 msgid "Deletion canceled."
 msgstr "Löschen abgebrochen."
 
-#: icemac/addressbook/browser/base.py:299
+#: icemac/addressbook/browser/base.py:303
 msgid "Yes, delete"
 msgstr "Ja, löschen."
 
-#: icemac/addressbook/browser/base.py:310
+#: icemac/addressbook/browser/base.py:314
 msgid "\"${title}\" deleted."
 msgstr "„${title}“ gelöscht."
 
-#: icemac/addressbook/browser/base.py:369
+#: icemac/addressbook/browser/base.py:373
 msgid "Do you really want to clone this entry?"
 msgstr "Wollen Sie diesen Eintrag wirklich kopieren?"
 
-#: icemac/addressbook/browser/base.py:370
+#: icemac/addressbook/browser/base.py:374
 msgid "Cloning canceled."
 msgstr "Kopieren abgebrochen."
 
-#: icemac/addressbook/browser/base.py:373
+#: icemac/addressbook/browser/base.py:377
 msgid "Yes, clone"
 msgstr "Ja, kopieren."
 
-#: icemac/addressbook/browser/base.py:387
+#: icemac/addressbook/browser/base.py:391
 msgid "\"${object}\" cloned."
 msgstr "„${object}“ kopiert."
 
@@ -1309,13 +1336,13 @@ msgid "Download file"
 msgstr "Datei herunterladen"
 
 #: icemac/addressbook/browser/interfaces.py:26
-#: icemac/addressbook/browser/search/result/handler/base.py:48
+#: icemac/addressbook/browser/search/result/handler/base.py:47
 msgid "number of persons"
 msgstr "Anzahl der Personen"
 
 #: icemac/addressbook/browser/keyword/configure.zcml:17
 #: icemac/addressbook/browser/keyword/keyword.py:93
-#: icemac/addressbook/interfaces.py:177 icemac/addressbook/keyword.py:43
+#: icemac/addressbook/interfaces.py:179 icemac/addressbook/keyword.py:43
 msgid "keyword"
 msgstr "Schlagwort"
 
@@ -1667,7 +1694,7 @@ msgstr "Suchbegriffe verknüpfen"
 
 #: icemac/addressbook/browser/search/multi_keyword.py:38
 #: icemac/addressbook/browser/search/multi_keyword.py:40
-#: icemac/addressbook/interfaces.py:241 icemac/addressbook/interfaces.py:243
+#: icemac/addressbook/interfaces.py:244 icemac/addressbook/interfaces.py:246
 msgid "keywords"
 msgstr "Schlagwörter"
 
@@ -2028,15 +2055,15 @@ msgstr "Größe"
 msgid "Size in bytes"
 msgstr "Größe in Byte"
 
-#: icemac/addressbook/interfaces.py:131
+#: icemac/addressbook/interfaces.py:133
 msgid "favicon"
 msgstr "Favicon"
 
-#: icemac/addressbook/interfaces.py:136 icemac/addressbook/interfaces.py:142
+#: icemac/addressbook/interfaces.py:138 icemac/addressbook/interfaces.py:144
 msgid "Deselected tabs"
 msgstr "abgewählte Tabs"
 
-#: icemac/addressbook/interfaces.py:137
+#: icemac/addressbook/interfaces.py:139
 msgid ""
 "The tabs selected here are not shown in the navigation. Deselecting a tab can "
 "mean to disable the whole feature."
@@ -2045,11 +2072,11 @@ msgstr ""
 "Tag hier ausgewählt wird, kann das bedeuten, dass die gesamte Funktion "
 "deaktiviert wird."
 
-#: icemac/addressbook/interfaces.py:146
+#: icemac/addressbook/interfaces.py:148
 msgid "start page after log-in"
 msgstr "Startseite nach dem Anmelden"
 
-#: icemac/addressbook/interfaces.py:152
+#: icemac/addressbook/interfaces.py:154
 msgid ""
 "Fallback in case a user has not set up his personal time zone in the "
 "preferences."
@@ -2057,91 +2084,87 @@ msgstr ""
 "Alternativ-Zeitzone für Nutzer, die keine eigene Zeitzone in den "
 "Einstellungen festgelegt haben."
 
-#: icemac/addressbook/interfaces.py:226
+#: icemac/addressbook/interfaces.py:228
 msgid "first name"
 msgstr "Vorname"
 
-#: icemac/addressbook/interfaces.py:227
+#: icemac/addressbook/interfaces.py:229
 msgid "last name"
 msgstr "Familienname"
 
-#: icemac/addressbook/interfaces.py:239
+#: icemac/addressbook/interfaces.py:242
 msgid "birth date"
 msgstr "Geburtsdatum"
 
-#: icemac/addressbook/interfaces.py:270
+#: icemac/addressbook/interfaces.py:273
 msgid "archival date"
 msgstr "Datum"
 
-#: icemac/addressbook/interfaces.py:271
+#: icemac/addressbook/interfaces.py:274
 msgid "Date when the person was archived."
 msgstr "Zeitpunkt zu dem die Person archiviert wurde."
 
-#: icemac/addressbook/interfaces.py:274
+#: icemac/addressbook/interfaces.py:277
 msgid "archived by"
 msgstr "archiviert durch"
 
-#: icemac/addressbook/interfaces.py:293
+#: icemac/addressbook/interfaces.py:296
 msgid "address prefix"
 msgstr "Adresszusatz"
 
-#: icemac/addressbook/interfaces.py:294
+#: icemac/addressbook/interfaces.py:297
 msgid "e. g. company name or c/o"
 msgstr "z. B. Firmenname oder c/o"
 
-#: icemac/addressbook/interfaces.py:295
+#: icemac/addressbook/interfaces.py:298
 msgid "street"
 msgstr "Straße"
 
-#: icemac/addressbook/interfaces.py:296
+#: icemac/addressbook/interfaces.py:299
 msgid "city"
 msgstr "Ort"
 
-#: icemac/addressbook/interfaces.py:297
+#: icemac/addressbook/interfaces.py:300
 msgid "zip"
 msgstr "PLZ"
 
-#: icemac/addressbook/interfaces.py:299
+#: icemac/addressbook/interfaces.py:302
 msgid "country"
 msgstr "Land"
 
-#: icemac/addressbook/interfaces.py:316 icemac/addressbook/sources.py:55
+#: icemac/addressbook/interfaces.py:319 icemac/addressbook/sources.py:55
 msgid "URL"
 msgstr "URL"
 
-#: icemac/addressbook/interfaces.py:322
+#: icemac/addressbook/interfaces.py:325
 msgid "number"
 msgstr "Nummer"
 
-#: icemac/addressbook/interfaces.py:329
+#: icemac/addressbook/interfaces.py:332
 msgid "main postal address"
 msgstr "bevorzugte Anschrift"
 
-#: icemac/addressbook/interfaces.py:332
+#: icemac/addressbook/interfaces.py:335
 msgid "main phone number"
 msgstr "bevorzugte Telefonnummer"
 
-#: icemac/addressbook/interfaces.py:335
+#: icemac/addressbook/interfaces.py:338
 msgid "main e-mail address"
 msgstr "bevorzugte E-Mail-Adresse"
 
-#: icemac/addressbook/interfaces.py:338
+#: icemac/addressbook/interfaces.py:341
 msgid "main home page address"
 msgstr "bevorzugte Homepage-Adresse"
 
-#: icemac/addressbook/interfaces.py:466
-msgid "type"
-msgstr "Art"
-
-#: icemac/addressbook/interfaces.py:470
+#: icemac/addressbook/interfaces.py:473
 msgid "choice field values"
 msgstr "mögliche Werte des Auswahlfelds"
 
-#: icemac/addressbook/interfaces.py:471
+#: icemac/addressbook/interfaces.py:474
 msgid "value"
 msgstr "Wert"
 
-#: icemac/addressbook/interfaces.py:478
+#: icemac/addressbook/interfaces.py:481
 msgid "type \"choice\" requires at least one field value."
 msgstr "Ein Auswahlfeld benötigt mindestens einen möglichen Wert."
 

@@ -6,6 +6,8 @@ Change log
 
 - Move code repository to https://github.com/icemac/icemac.ab.locales.
 
+- Adapt translations to `icemac.ab.calendar 3.6`.
+
 
 2.24 (2019-12-30)
 -----------------
@@ -31,12 +33,6 @@ Change log
 -----------------
 
 - Improve German translation of message ids containing `main`.
-
-
-2.20 (2018-10-12)
------------------
-
-- Update to message ids in `icemac.addressbook >= 8.0`.
 
 
 Previous changes
